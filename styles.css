@@ -59,7 +59,7 @@ a.nav-link {
 }
 
 a.nav-link:hover {
-  font-weight: bold;
+  font-weight: 300;
 }
 
 div.bookframe {
@@ -114,4 +114,23 @@ div.footer li {
 
 #whyswitch a.nav-link {
   color: #21172E;
+}
+
+div.two-col-text-block div.row {
+  margin-bottom: 47px;
+}
+
+#flowchart {
+  background-image: url('images/flow_bg.svg');
+  background-size: 200% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#flowchart .anchor {
+  background-color: #fff;
+  height: 90vh;
+  width: 90vh;
+  border-radius: 45vh;
+  margin: 5vh auto 0 auto;
 }
