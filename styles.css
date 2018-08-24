@@ -1,256 +1,60 @@
 body {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
+  box-sizing: border-box;
 }
 
-div#home {
-  text-align: center;
-  min-height: 50%;
-  background-color: #fff;
-  padding-top: 100px;
-  padding-bottom: 100px;
+#home {
+  padding: 40px 53px 40px 53px;
+  background-color: #21172E;
 }
 
-img.logo-icon {
-  height: 150px;
+#home a.nav-link {
+  color: #CECAD1;
 }
 
-div#home h1.custom {
-  font-size: 4em;
-}
-
-div#home p {
-  font-size: 2em;
-}
-
-div.section {
-  clear: both;
-}
-
-div#problemstatement .gridcontainer p {
-  color: #000;
-  line-height: 1.25;
-}
-
-p.tagline {
-  font-weight: bold;
-}
-
-#founders {
-  background-color: rgb(63,153,144);
+#whyswitch {
+  padding: 40px 53px 40px 53px;
   background-color: #fff;
 }
 
-#hihead {
+#whyswitch a.nav-link {
+  color: #21172E;
 }
 
-#hihead h2 {
-  margin-bottom: 0;
-}
-
-div#hederisis {
-  text-align: center;
-  background-color: #ADD3C6;
-  background-color: #76B6A0;
-  background-color: #3B876D;
-  background-color: #fff;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-div#hederisis h2 {
-  color: #000;
-}
-
-div#hederisis p {
-  color: #000;
+a.nav-link {
   font-weight: normal;
-  font-size: 1.1em;
 }
 
-p.role, p.email {
-  margin: 0;
-  padding: 0;
-  font-style: italic;
-}
-
-p.email {
-  margin-bottom: 20px;
-}
-
-.filled2 {
-  background-color: #ADD3C6;
-}
-
-div#contact {
-  text-align: center;
-}
-
-div.circle {
-  background-color: #FAE324;
-  border-radius: 75px;
-  height: 150px;
-  width: 150px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-div.circle p {
-  padding-top: 50px;
-  font-size: 1.2em;
+a.nav-link:hover {
   font-weight: bold;
 }
 
-img.headshot {
-  max-width: 100px;
+div.bookframe {
+  border: 1px solid #9095c8;
+  overflow: scroll;
 }
 
-img.icon {
-  max-height: 100px;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-
-div#resources img.icon {
-  max-height: 50px;
-}
-
-a {
-  text-decoration: none;
-  color: #000;
-}
-
-p.title {
-  font-weight: bold;
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
-p.title a {
-}
-
-p.location {
-  font-size: 0.8em;
-}
-
-h2 {
-}
-
-span.key {
-  color: #ADD3C6;
-  color: #fff;
-  font-weight: normal;
-  font-size: 1.2em;
-}
-
-span.highlight {
-  background-color: #FAE324;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-span.highlight-u {
-  border-bottom: 2px solid #FAE324;
-}
-
-span.highlight-w {
+div.carousel-item {
   background-color: #fff;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding: 10% 15% 10% 15%;
 }
 
-div#problemstatement {
+div.carousel-item:first-of-type {
+  background-color: #21172E;
+  color: #CECAD1;
 }
 
-div#problemstatement, div#problemexpansion {
-  background-color: #3B876D;
-  background-color: rgb(63,153,144);
-  position: relative;
-}
-
-div#problemstatement h2, div#problemexpansion h2 {
-  color: #000;
-  color: #FAE324;
-  font-size: 5em;
-  text-align: right;
-  font-weight: bold;
-}
-
-div#problemstatement .detail, div#problemexpansion .detail {
-  background-color: #fff;
-}
-
-div#problemstatement .splash, div#problemexpansion .splash {
-  background-color: rgb(63,153,144);
-  color: #fff;
-  background-image: url("images/futuro_icons_update_11.png");
-  background-size: auto 110%;
-  background-repeat: no-repeat;
-  background-position: center 10px;
-  min-height: 150px;
-}
-
-div#problemexpansion .splash {
-  background-image: url("images/futuro_icons_update_4.png");
-  background-size: auto 100%;
-  background-position: center -20px;
-  min-height: 150px;
-}
-
-div#problemexpansion {
-
-}
-
-.bottomborder {
-  border-bottom: 2px dashed #ADD3C6;
-}
-
-.topborder {
-  border-top: 2px dashed #ADD3C6;
-}
-
-.splash p {
-  font-size: 1.5em;
-}
-
-.response {
-  font-size: 1.3em;
-  font-weight: bold;
-}
-
-.alignbottom {
-  position: relative;
-}
-
-.alignbottom > div {
-  color: #000;
-  position: absolute;
+div.footer {
+  background-color: #21172E;
+  color: #CECAD1;
+  padding-left: 53px;
+  padding-right: 53px;
+  position: fixed;
   bottom: 0;
+  width: 100%;
+  height: 30px;
 }
 
-.alignright {
-  right: 0;
+div.footer.lightfoot {
+  background-color: #fff;
 }
-
-.alignleft {
-  left: 0;
-}
-
-.filled {
-  background-color: rgb(63,153,144);
-}
-
-.floatleft {
-  float: left;
-}
-
-.floatright {
-  float: right;
-}
-
-/* phones and tablets */
-@media screen and (max-width: 768px) {
-
-
-}
+/* grid gutter: 32.5px */
