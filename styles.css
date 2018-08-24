@@ -30,6 +30,10 @@
   font-style: italic;
 }
 
+html {
+  background-color: #21172E;
+}
+
 body {
   box-sizing: border-box;
   font-family: "Spinoza";
@@ -48,8 +52,12 @@ h3 {
   font-weight: 300;
 }
 
+.half-height {
+  margin-top: 40vh;
+}
+
 li.nav-item {
-  font-family: 'Robinson Web';
+  font-family: "Robinson Web";
   font-weight: 400;
   font-size: 24px;
 }
@@ -62,40 +70,62 @@ a.nav-link:hover {
   font-weight: 300;
 }
 
+a.button {
+  font-family: "Robinson Web";
+  font-size: 32px;
+  line-height: 40px;
+  color: #21172E;
+  background-color: #00FF00;
+  padding: 13px 20px;
+  width: auto;
+  display: inline-block;
+}
+
 div.bookframe {
   border: 1px solid #9095c8;
   overflow: scroll;
 }
 
-div.carousel-item {
+div.pageframe {
   background-color: #fff;
   padding: 10% 15% 10% 15%;
 }
 
-div.carousel-item:first-of-type {
+div.pageframe:first-of-type {
   background-color: #21172E;
   color: #CECAD1;
+}
+
+div.two-col-text-block div.row {
+  margin-bottom: 47px;
 }
 
 div.footer {
   background-color: #21172E;
   color: #CECAD1;
   font-size: 16px;
-  padding-left: 53px;
-  padding-right: 53px;
-  position: fixed;
-  bottom: 0;
+/*  padding-left: 53px;
+  padding-right: 53px;*/
+  position: absolute;
+  bottom: -40px;
   width: 100%;
   height: 30px;
-}
-
-div.footer.lightfoot {
-  background-color: #fff;
-  color: #21172E;
+  white-space: nowrap;
+  overflow: visible;
 }
 
 div.footer li {
   margin-right: 31px;
+}
+
+div.footer-right {
+  text-align: right;
+  right: 0;
+}
+
+#whyswitch div.footer {
+  background-color: #fff;
+  color: #21172E;
 }
 
 #home {
@@ -103,7 +133,8 @@ div.footer li {
   background-color: #21172E;
 }
 
-#home a.nav-link {
+#home a.nav-link, #learnmore a.nav-link,
+#home *, #learnmore *  {
   color: #CECAD1;
 }
 
@@ -114,10 +145,6 @@ div.footer li {
 
 #whyswitch a.nav-link {
   color: #21172E;
-}
-
-div.two-col-text-block div.row {
-  margin-bottom: 47px;
 }
 
 #flowchart {
@@ -133,4 +160,17 @@ div.two-col-text-block div.row {
   width: 90vh;
   border-radius: 45vh;
   margin: 5vh auto 0 auto;
+}
+
+#learnmore {
+  padding: 40px 53px 40px 53px;
+  background-color: #21172E;
+}
+
+#learnmore h2 {
+  font-weight: 400;
+}
+
+#learnmore a.button {
+  color: #21172E;
 }
