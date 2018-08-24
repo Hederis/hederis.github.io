@@ -1,27 +1,61 @@
+@font-face {
+  font-family:"Spinoza";
+  src:url("Fonts/5560543/078d98f8-cf9e-45e8-a970-7a9e1b33f91e.eot?#iefix");
+  src:url("Fonts/5560543/078d98f8-cf9e-45e8-a970-7a9e1b33f91e.eot?#iefix") format("eot"),url("Fonts/5560543/569fa3bc-9ef5-4100-b7d0-a48eb302b294.woff2") format("woff2"),url("Fonts/5560543/ac769e3c-3ee1-4e64-a162-66761d074744.woff") format("woff"),url("Fonts/5560543/f389c5ef-03cb-4be1-a1a2-d61d1c9a95c2.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family:"Spinoza";
+  src:url("Fonts/5560548/ff626a15-fe32-4081-8934-8c3d37a20a51.eot?#iefix");
+  src:url("Fonts/5560548/ff626a15-fe32-4081-8934-8c3d37a20a51.eot?#iefix") format("eot"),url("Fonts/5560548/390b2ad5-187c-4b5c-b7c0-a4d345dc01be.woff2") format("woff2"),url("Fonts/5560548/dff5d809-5822-4b25-9a34-59e38514654e.woff") format("woff"),url("Fonts/5560548/33e3b6ba-7481-448e-beb7-d2995c57adaf.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family:"Spinoza";
+  src:url("Fonts/5561664/50b7c3ca-bd1a-469b-8f94-66695b6b7003.eot?#iefix");
+  src:url("Fonts/5561664/50b7c3ca-bd1a-469b-8f94-66695b6b7003.eot?#iefix") format("eot"),url("Fonts/5561664/580b240f-22a2-40be-b840-78ffa40eb73c.woff2") format("woff2"),url("Fonts/5561664/2c566f60-a414-49a4-82e5-a75f0395b1c5.woff") format("woff"),url("Fonts/5561664/9c052c21-0021-4781-a71c-858fe0a2717a.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family:"Spinoza";
+  src:url("Fonts/5561669/cd8a16b4-01d8-4cbc-b9f1-1f2cda1c66b2.eot?#iefix");
+  src:url("Fonts/5561669/cd8a16b4-01d8-4cbc-b9f1-1f2cda1c66b2.eot?#iefix") format("eot"),url("Fonts/5561669/2c2ad470-c377-4fa2-b87b-80572cbed356.woff2") format("woff2"),url("Fonts/5561669/9019a476-d85f-468f-80ab-7bfbc5e7a746.woff") format("woff"),url("Fonts/5561669/8d33215f-a6c6-4a16-ba9e-4f05c788f95e.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
 body {
   box-sizing: border-box;
+  font-family: "Spinoza";
 }
 
-#home {
-  padding: 40px 53px 40px 53px;
-  background-color: #21172E;
+h1 img {
+  height: 45px;
 }
 
-#home a.nav-link {
-  color: #CECAD1;
+h2 {
+  font-weight: 600;
 }
 
-#whyswitch {
-  padding: 40px 53px 40px 53px;
-  background-color: #fff;
+h3 {
+  font-family: "Robinson Web";
+  font-weight: 300;
 }
 
-#whyswitch a.nav-link {
-  color: #21172E;
+li.nav-item {
+  font-family: 'Robinson Web';
+  font-weight: 400;
+  font-size: 24px;
 }
 
 a.nav-link {
-  font-weight: normal;
+  font-weight: 400;
 }
 
 a.nav-link:hover {
@@ -46,6 +80,7 @@ div.carousel-item:first-of-type {
 div.footer {
   background-color: #21172E;
   color: #CECAD1;
+  font-size: 16px;
   padding-left: 53px;
   padding-right: 53px;
   position: fixed;
@@ -56,5 +91,27 @@ div.footer {
 
 div.footer.lightfoot {
   background-color: #fff;
+  color: #21172E;
 }
-/* grid gutter: 32.5px */
+
+div.footer li {
+  margin-right: 31px;
+}
+
+#home {
+  padding: 40px 53px 40px 53px;
+  background-color: #21172E;
+}
+
+#home a.nav-link {
+  color: #CECAD1;
+}
+
+#whyswitch {
+  padding: 40px 53px 40px 53px;
+  background-color: #fff;
+}
+
+#whyswitch a.nav-link {
+  color: #21172E;
+}
