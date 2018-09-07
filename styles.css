@@ -89,7 +89,7 @@ a.button {
 
 div.bookframe {
   border: 1px solid #9095c8;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 div.pageframe {

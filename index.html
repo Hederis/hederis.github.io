@@ -32,38 +32,41 @@
 
     <div class="col-md-6 offset-md-4">
       <div class="bookframe container my-1 py-0 px-0 h-100 rounded-right">
-        <div id="carouselHeader" class="carousel slide h-100 w-100" data-ride="carousel" data-interval="false">
-          <div class="carousel-inner h-100">
-            <div class="pageframe carousel-item h-100 active">
-              <h2 class="mb-5">Intelligent, automated publishing</h2>
-              <h3>Create beautiful books&mdash;quickly&mdash;with Hederis.</h3>
-            </div>
-            <div class="pageframe carousel-item h-100">
-              <p>As a book maker, you're crafting a product that's been perfected over centuries, and technology shouldn't get in your way.</p>
-              <p>Hederis is a ground-breaking platform that gives you the speed of automation, combined with the quality of traditional book layout. From preparing your manuscript for layout, building a design template, making sure your pages are balanced and lines are breaking in the right places, and fine-tuning all the details that reflect your professional standards, Hederis can help.</p>
-              <p>Hederis gives you book production and design tools to create high-quality print-ready PDFs and ebook files, ready for distribution, in a fraction of the time it takes with traditional book-production processes.</p>
-            </div>
-            <div class="pageframe carousel-item h-100">
-              <h3>Tools Made for Books</h3>
-              <p>Description TK.</p>
-            </div>
-            <div class="pageframe carousel-item h-100">
-              <h3>Eliminate Bottlenecks</h3>
-              <p>It takes a lot of people to make a book, which usually translates to a lot of waiting.</p>
-              <p>Hederis gives you a suite of intuitive tools centralized in one place, so that each person can do their job and instantly share their work with the other members of their book-making team.</p>
-            </div>
-            <div class="pageframe carousel-item h-100">
-              <h3>Hederis Speaks Your Language.</h3>
-              <p>No need to become a computer programmer or learn a whole new set of terminology! Our tools reflect our dozens of years of publishing experience, so that you can start making books fast.</p>
-            </div>
-            <div id="aboutus" class="pageframe carousel-item h-100 text-center">
-              <img src="images/nellie.png"/>
-              <h3>Nellie McKesson</h3>
-              <img src="images/erica.png"/>
-              <h3>Erica Warren</h3>
-              <p>Learn more about our team.</p>
-            </div>
-          </div>
+        <div>
+        <div class="pageframe h-100">
+          <h2 class="mb-5">Intelligent, automated publishing</h2>
+          <h3>Create beautiful books&mdash;quickly&mdash;with Hederis.</h3>
+        </div>
+
+        <div class="pageframe h-100">
+          <p>As a book maker, you're crafting a product that's been perfected over centuries, and technology shouldn't get in your way.</p>
+          <p>Hederis is a ground-breaking platform that gives you the speed of automation, combined with the quality of traditional book layout. From preparing your manuscript for layout, building a design template, making sure your pages are balanced and lines are breaking in the right places, and fine-tuning all the details that reflect your professional standards, Hederis can help.</p>
+          <p>Hederis gives you book production and design tools to create high-quality print-ready PDFs and ebook files, ready for distribution, in a fraction of the time it takes with traditional book-production processes.</p>
+        </div>
+
+        <div class="pageframe h-100">
+          <h3>Tools Made for Books</h3>
+          <p>Description TK.</p>
+        </div>
+
+        <div class="pageframe h-100">
+          <h3>Eliminate Bottlenecks</h3>
+          <p>It takes a lot of people to make a book, which usually translates to a lot of waiting.</p>
+          <p>Hederis gives you a suite of intuitive tools centralized in one place, so that each person can do their job and instantly share their work with the other members of their book-making team.</p>
+        </div>
+
+        <div class="pageframe h-100">
+          <h3>Hederis Speaks Your Language.</h3>
+          <p>No need to become a computer programmer or learn a whole new set of terminology! Our tools reflect our dozens of years of publishing experience, so that you can start making books fast.</p>
+        </div>
+
+        <div class="pageframe h-100" id="aboutus">
+          <img src="images/nellie.png"/>
+          <h3>Nellie McKesson</h3>
+          <img src="images/erica.png"/>
+          <h3>Erica Warren</h3>
+          <p>Learn more about our team.</p>
+        </div>
         </div>
       </div>
     </div>
@@ -182,37 +185,77 @@
 
   <script>
   $( document ).ready(function() {
-    var controller = new ScrollMagic.Controller();
-    var scene = new ScrollMagic.Scene({
-      offset: 0, // starting scene, when reaching this element
-      duration: 1300 // pin the element for a total of 400px
-    })
-    .setPin('#home'); // the element we want to pin
-
-    // Add Scene to ScrollMagic Controller
-    controller.addScene(scene);
-    window.onscroll = function() {scrollCarousel()};
-
-    function scrollCarousel() {
-      if (document.body.scrollTop > 0 && document.body.scrollTop < 100 || document.documentElement.scrollTop > 0 && document.documentElement.scrollTop < 100) {
-        $('.carousel').carousel(0);
+    // determine if an element is in the viewport
+    function isElementInViewport (el) {
+      if (typeof jQuery === "function" && el instanceof jQuery) {
+        el = el[0];
       }
-      if (document.body.scrollTop > 100 && document.body.scrollTop < 300 || document.documentElement.scrollTop > 100 && document.documentElement.scrollTop < 300) {
-        $('.carousel').carousel(1);
-      }
-      if (document.body.scrollTop > 300 && document.body.scrollTop < 500 || document.documentElement.scrollTop > 300 && document.documentElement.scrollTop < 500) {
-        $('.carousel').carousel(2);
-      }
-      if (document.body.scrollTop > 500 && document.body.scrollTop < 700 || document.documentElement.scrollTop > 500 && document.documentElement.scrollTop < 700) {
-        $('.carousel').carousel(3);
-      }
-      if (document.body.scrollTop > 700 && document.body.scrollTop < 900 || document.documentElement.scrollTop > 700 && document.documentElement.scrollTop < 900) {
-        $('.carousel').carousel(4);
-      }
-      if (document.body.scrollTop > 900 && document.body.scrollTop < 1100 || document.documentElement.scrollTop > 900 && document.documentElement.scrollTop < 1100) {
-        $('.carousel').carousel(5);
-      }
+      var parrect = $('#home .bookframe')[0].getBoundingClientRect();
+      var rect = el.getBoundingClientRect();
+      return (
+        rect.bottom <= parrect.bottom
+      );
     }
+
+    // determine if the last bookpage is in the viewport
+    var visible = isElementInViewport($('#aboutus'));
+
+    // start things off by unlocking the scroll function
+    var locked = false;
+
+    // bind the scroll function to the bookframe
+    // if the last bookpage is NOT visible
+    if (visible === false) {
+      locked = true;
+      $('body').bind('wheel', function(e) {
+        visible = isElementInViewport($('#aboutus'));
+        if (visible === true) {
+          locked = false;
+        } else {
+          locked = true;
+        }
+        // if scrollframe is locked,
+        // only scroll the bookframe
+        if (locked) {
+          var $div = $('#home .bookframe');
+          $div.scrollTop($div.scrollTop() - e.originalEvent.wheelDelta);
+          return false;
+        }
+      });
+    } 
+
+    // if scrolling back up, bind again.
+
+    // var controller = new ScrollMagic.Controller();
+    // var scene = new ScrollMagic.Scene({
+    //   offset: 0, // starting scene, when reaching this element
+    //   duration: 1300 // pin the element for a total of 400px
+    // })
+    // .setPin('#home'); // the element we want to pin
+
+    // // Add Scene to ScrollMagic Controller
+    // controller.addScene(scene);
+
+    // function scrollCarousel() {
+    //   if (document.body.scrollTop > 0 && document.body.scrollTop < 100 || document.documentElement.scrollTop > 0 && document.documentElement.scrollTop < 100) {
+    //     $('.carousel').carousel(0);
+    //   }
+    //   if (document.body.scrollTop > 100 && document.body.scrollTop < 300 || document.documentElement.scrollTop > 100 && document.documentElement.scrollTop < 300) {
+    //     $('.carousel').carousel(1);
+    //   }
+    //   if (document.body.scrollTop > 300 && document.body.scrollTop < 500 || document.documentElement.scrollTop > 300 && document.documentElement.scrollTop < 500) {
+    //     $('.carousel').carousel(2);
+    //   }
+    //   if (document.body.scrollTop > 500 && document.body.scrollTop < 700 || document.documentElement.scrollTop > 500 && document.documentElement.scrollTop < 700) {
+    //     $('.carousel').carousel(3);
+    //   }
+    //   if (document.body.scrollTop > 700 && document.body.scrollTop < 900 || document.documentElement.scrollTop > 700 && document.documentElement.scrollTop < 900) {
+    //     $('.carousel').carousel(4);
+    //   }
+    //   if (document.body.scrollTop > 900 && document.body.scrollTop < 1100 || document.documentElement.scrollTop > 900 && document.documentElement.scrollTop < 1100) {
+    //     $('.carousel').carousel(5);
+    //   }
+    // }
   });
   </script>
 </body>
