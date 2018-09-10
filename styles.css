@@ -37,6 +37,7 @@ html {
 body {
   box-sizing: border-box;
   font-family: "Spinoza";
+  font-size: 14px;
 }
 
 h1 img {
@@ -50,7 +51,8 @@ h2 {
 h3 {
   font-family: "Robinson Web";
   font-weight: 300;
-  font-size: 32px;
+  font-size: 2em;
+  margin-bottom: 1em;
 }
 
 .half-height {
@@ -60,7 +62,7 @@ h3 {
 li.nav-item {
   font-family: "Robinson Web";
   font-weight: 400;
-  font-size: 24px;
+  font-size: 1.5em;
 }
 
 a.nav-link {
@@ -73,8 +75,8 @@ a.nav-link:hover {
 
 a.button {
   font-family: "Robinson Web";
-  font-size: 32px;
-  line-height: 40px;
+  font-size: 1.75em;
+  line-height: 1.4em;
   color: #21172E;
   background-color: #00FF00;
   padding: 13px 20px;
@@ -93,9 +95,23 @@ div.bookframe {
 }
 
 div.pageframe {
+  position: relative;
   background-color: #fff;
   color: #21172E;
-  padding: 10% 15% 10% 15%;
+  padding: 15% 15% 10% 15%;
+}
+
+div.pageframe h3 {
+}
+
+div.pageframe p {
+  font-size: 1.5em;
+}
+
+div.pageframe a {
+  color: #21172E;
+  text-decoration: underline;
+  text-decoration-color: #00ff00;
 }
 
 div.pageframe:first-of-type {
@@ -107,10 +123,17 @@ div.two-col-text-block div.row {
   margin-bottom: 47px;
 }
 
+div.pageframe .bottom {
+  width: 70%;
+  position: absolute;
+  bottom: 10%;
+  left: 15%;
+}
+
 div.footer {
   background-color: #21172E;
   color: #CECAD1;
-  font-size: 16px;
+  font-size: 1em;
 /*  padding-left: 53px;
   padding-right: 53px;*/
   position: absolute;
@@ -135,7 +158,7 @@ div.footer-right {
   color: #21172E;
 }
 
-#home {
+#home, #pricing, #learnmore, #whyswitch {
   padding: 40px 53px 40px 53px;
 }
 
@@ -143,12 +166,64 @@ div.footer-right {
   color: #CECAD1;
 }
 
+#bookopener img, #bookcloser img {
+  max-width: 50%;
+  max-height: 40%;
+}
+
+#bookopener h2 {
+  font-weight: 400;
+  font-size: 3em;
+  line-height: 1em;
+  margin-bottom: 1em;
+}
+
+#bookopener h3 {
+  font-family: "Spinoza";
+  font-weight: 400;
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+#bookcloser h2 {
+  font-weight: 400;
+  font-size: 2em;
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+
+#aboutus {
+  text-align: center;
+}
+
+#aboutus h3 {
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+}
+
+#aboutus img {
+  height: 128px;
+}
+
 #whyswitch {
-  padding: 40px 53px 40px 53px;
+  color: #21172E;
   background-color: #fff;
 }
 
-#whyswitch a.nav-link {
+#whyswitch h2 {
+  font-size: 2.2em;
+}
+
+#whyswitch h3 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+#whyswitch p {
+  font-size: 1.25em;
+}
+
+#whyswitch a.nav-link, #pricing a.nav-link {
   color: #21172E;
 }
 
@@ -167,18 +242,102 @@ div.footer-right {
   margin: 5vh auto 0 auto;
 }
 
-#learnmore {
-  padding: 40px 53px 40px 53px;
-}
-
 #learnmore h2 {
   font-weight: 400;
+  font-size: 2em;
+  margin-bottom: 2em;
 }
 
 #learnmore a.button {
   color: #21172E;
 }
 
-#aboutus img {
-  height: 128px;
+#pricing h2 {
+  font-family: "Spinoza";
+  font-weight: 400;
+  font-size: 3em;
+  margin-bottom: 1em;
 }
+
+#pricing p, #pricing li {
+  font-size: 1.25em;
+}
+
+#pricing li {
+  color: #00FF00;
+}
+
+#pricing li span {
+  color: #21172E;
+}
+
+#pricing #options img {
+  width: 50%;
+}
+
+#pricing .packagebox {
+  border: 1px solid #CECAD1;
+  border-radius: 3px;
+  padding: 28px 40px;
+}
+
+#pricing .packagebox.shaded {
+  background-color:   #F5F5F5;
+}
+
+#pricing .packagebox .info {
+  color: #00FF00;
+  font-family: "Robinson Web";
+  font-weight: 400;
+  font-size: 1em;
+}
+
+#pricing .packagebox a.button {
+  border: 1px solid #21172E;
+  font-family: "Robinson Web";
+  font-size: 1.1em;
+  line-height: 1.4em;
+  color: #21172E;
+  background-color: #ffffff;
+  padding: 13px 20px;
+  width: auto;
+  display: inline-block;
+}
+
+#pricing .packagebox img {
+  width: 30%;
+}
+
+#pricing .packagebox .imgholder {
+  width: 100%;
+  height: 16em;
+  margin-bottom: 2em;
+}
+
+#pricing #six .imgholder {
+  height: 12em;
+  width: 100%;
+  margin-bottom: 6em;
+}
+
+#pricing #six .imgholder img {
+  max-height: 100%;
+  max-width: 72%;
+  width: auto;
+}
+
+#pricing #twelve img {
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+}
+
+#pricing #twentyfour img {
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+}
+
+@media all and (max-width: 980px) {}
+@media all and (max-width: 736px) {}
+@media all and (max-width: 480px) {}
