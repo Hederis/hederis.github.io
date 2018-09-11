@@ -153,12 +153,20 @@ div.footer-right {
   right: 0;
 }
 
+#footer-full {
+  padding: 0px 53px 0px 53px;
+}
+
+#footer-full li + li {
+  margin-left: 2em;
+}
+
 #whyswitch div.footer {
   background-color: #fff;
   color: #21172E;
 }
 
-#home, #pricing, #learnmore, #whyswitch {
+#home, #pricing, #learnmore, #whyswitch, #services {
   padding: 40px 53px 40px 53px;
 }
 
@@ -263,16 +271,20 @@ div.footer-right {
   margin-bottom: 0.5em;
 }
 
-#pricing p, #pricing li {
+#pricing p, #pricing li, #services p, #services li {
   font-size: 1.25em;
 }
 
-#pricing li {
+#pricing li, #services li {
   color: #00FF00;
 }
 
 #pricing li span {
   color: #21172E;
+}
+
+#services li span {
+  color: #CECAD1;
 }
 
 #pricing #options img {
@@ -347,6 +359,17 @@ div.footer-right {
   max-width: 100%;
   width: auto;
   margin-bottom: 0;
+}
+
+#services {
+  padding-top: 6em;
+  padding-bottom: 6em;
+}
+
+#services h2 {
+  font-family: "Robinson Web";
+  font-weight: 300;
+  margin-bottom: 0.75em;
 }
 
 @media all and (max-width: 980px) {}
