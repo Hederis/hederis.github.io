@@ -108,7 +108,7 @@ div.pageframe p {
   font-size: 1.5em;
 }
 
-div.pageframe a {
+div.pageframe a, #enterprise a {
   color: #21172E;
   text-decoration: underline;
   text-decoration-color: #00ff00;
@@ -259,6 +259,10 @@ div.footer-right {
   margin-bottom: 1em;
 }
 
+#pricing h3 {
+  margin-bottom: 0.5em;
+}
+
 #pricing p, #pricing li {
   font-size: 1.25em;
 }
@@ -278,11 +282,12 @@ div.footer-right {
 #pricing .packagebox {
   border: 1px solid #CECAD1;
   border-radius: 3px;
-  padding: 28px 40px;
+  padding: 28px 40px 0px 40px;
 }
 
 #pricing .packagebox.shaded {
-  background-color:   #F5F5F5;
+  background-color: #F5F5F5;
+  padding-bottom: 28px;
 }
 
 #pricing .packagebox .info {
@@ -290,6 +295,7 @@ div.footer-right {
   font-family: "Robinson Web";
   font-weight: 400;
   font-size: 1em;
+  margin-bottom: 0.5em;
 }
 
 #pricing .packagebox a.button {
@@ -300,6 +306,8 @@ div.footer-right {
   color: #21172E;
   background-color: #ffffff;
   padding: 13px 20px;
+  margin-top: 1em;
+  margin-bottom: 1em;
   width: auto;
   display: inline-block;
 }
@@ -324,18 +332,21 @@ div.footer-right {
   max-height: 100%;
   max-width: 72%;
   width: auto;
+  margin-bottom: 0;
 }
 
 #pricing #twelve img {
   max-height: 100%;
   max-width: 100%;
   width: auto;
+  margin-bottom: 0;
 }
 
 #pricing #twentyfour img {
   max-height: 100%;
   max-width: 100%;
   width: auto;
+  margin-bottom: 0;
 }
 
 @media all and (max-width: 980px) {}
