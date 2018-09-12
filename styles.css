@@ -44,6 +44,14 @@ h1 img {
   height: 45px;
 }
 
+h1.imageholder {
+  background-image: url("images/Hederiswordmark_purple@2x.png");
+  background-size: auto 45px;
+  background-repeat: no-repeat;
+  height: 45px;
+  width: 154px;
+}
+
 h2 {
   font-weight: 600;
 }
@@ -157,8 +165,16 @@ div.footer-right {
   padding: 0px 53px 0px 53px;
 }
 
+#footer-full li {
+  display: inline;
+}
+
 #footer-full li + li {
   margin-left: 2em;
+}
+
+#footer-full .float-right li {
+  color: #797381;
 }
 
 #whyswitch div.footer {
@@ -287,6 +303,10 @@ div.footer-right {
   color: #CECAD1;
 }
 
+#pricing .splash {
+  text-align: center;
+}
+
 #pricing #options img {
   width: 50%;
 }
@@ -374,4 +394,90 @@ div.footer-right {
 
 @media all and (max-width: 980px) {}
 @media all and (max-width: 736px) {}
-@media all and (max-width: 480px) {}
+@media all and (max-width: 480px) {
+  h1.imageholder {
+    background-image: url("images/Hederiswordmark_green@2x.png");
+    background-size: auto 27px;
+    background-repeat: no-repeat;
+    height: 27px;
+    width: 154px;
+  }
+  
+  #home, #pricing, #learnmore, #whyswitch, #services {
+    padding: 8%;
+  }
+
+  #pricing h2 {
+    margin-bottom: 0.5em;
+  }
+
+  #pricing .splash {
+    text-align: left;
+    margin-bottom: 2em;
+  }
+
+  #pricing ul, #services ul {
+    margin-left: 8%;
+    padding-left: 0;
+  }
+
+  #pricing div[class^="col-md"], 
+  #services div[class^="col-md"], 
+  #footer-full div[class^="col-md"] {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #pricing #options {
+    margin-bottom: 25px;
+  }
+
+  #pricing #options img {
+    width: 30%;
+  }
+
+  div.two-col-text-block div.row {
+    margin-bottom: 0px;
+  }
+
+  #pricing .packagebox {
+    padding: 28px 28px 0px 28px;
+    margin-bottom: 25px;
+  }
+
+  #pricing .packagebox .imgholder,
+  #pricing #six .imgholder {
+    margin-bottom: 1em;
+    height: auto;
+  }
+
+  #pricing #bundles {
+    margin-top: 25px;
+  }
+
+  #pricing #bundles ul {
+    margin-bottom: 47px;
+  }
+
+  #pricing #enterprise {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+
+  #services {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  #footer-full {
+    padding-left: 8%;
+  }
+
+  #footer-full li {
+    display: block;
+  }
+
+  #footer-full li + li {
+    margin-left: 0;
+  }
+}
