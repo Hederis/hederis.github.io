@@ -67,6 +67,16 @@ h3 {
   margin-top: 40vh;
 }
 
+nav.navbar {
+  padding: 0;
+}
+
+.navbar-toggler-icon {
+  background-image: url("images/menu-icon.png");
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+}
+
 li.nav-item {
   font-family: "Robinson Web";
   font-weight: 400;
@@ -392,15 +402,21 @@ div.footer-right {
   margin-bottom: 0.75em;
 }
 
+/*@media all and (max-width: 480px) { }*/
 @media all and (max-width: 980px) {}
-@media all and (max-width: 736px) {}
-@media all and (max-width: 480px) {
+@media all and (max-width: 768px) {
+  button.navbar-toggler {
+    position: absolute;
+    top: -43px;
+    right: 0;
+  }
+
   h1.imageholder {
     background-image: url("images/Hederiswordmark_green@2x.png");
-    background-size: auto 27px;
+    background-size: auto 35px;
     background-repeat: no-repeat;
-    height: 27px;
-    width: 154px;
+    height: 35px;
+    width: 160px;
   }
   
   #home, #pricing, #learnmore, #whyswitch, #services {
