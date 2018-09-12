@@ -196,6 +196,10 @@ div.footer-right {
   padding: 40px 53px 40px 53px;
 }
 
+#learnmore {
+  padding-bottom: 1em;
+}
+
 #home a.nav-link, #learnmore a.nav-link  {
   color: #CECAD1;
 }
@@ -405,10 +409,18 @@ div.footer-right {
 /*@media all and (max-width: 480px) { }*/
 @media all and (max-width: 980px) {}
 @media all and (max-width: 768px) {
+  .sm-dnone {
+    display: none;
+  }
+
   button.navbar-toggler {
     position: absolute;
     top: -43px;
     right: 0;
+  }
+
+  h1 img {
+    height: 35px;
   }
 
   h1.imageholder {
@@ -423,6 +435,27 @@ div.footer-right {
     padding: 8%;
   }
 
+  #home div[class^="col-md"],
+  #pricing div[class^="col-md"], 
+  #services div[class^="col-md"], 
+  #footer-full div[class^="col-md"] {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #home .bookframe {
+    margin-top: 2em;
+  }
+
+  #bookopener img, #bookcloser img {
+    height: 20vh;
+  }
+
+  div.pageframe .bottom {
+    width: auto;
+    position: relative;
+  }
+
   #pricing h2 {
     margin-bottom: 0.5em;
   }
@@ -435,13 +468,6 @@ div.footer-right {
   #pricing ul, #services ul {
     margin-left: 8%;
     padding-left: 0;
-  }
-
-  #pricing div[class^="col-md"], 
-  #services div[class^="col-md"], 
-  #footer-full div[class^="col-md"] {
-    padding-left: 0;
-    padding-right: 0;
   }
 
   #pricing #options {
