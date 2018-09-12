@@ -305,6 +305,10 @@ div.footer-right {
   font-size: 1.25em;
 }
 
+#pricing li.nav-item {
+    font-size: 1.5em;
+}
+
 #pricing li, #services li {
   color: #00FF00;
 }
@@ -468,6 +472,10 @@ div.footer-right {
   #pricing ul, #services ul {
     margin-left: 8%;
     padding-left: 0;
+  }
+
+  #pricing ul.navbar-nav {
+    margin-left: 0;
   }
 
   #pricing #options {
