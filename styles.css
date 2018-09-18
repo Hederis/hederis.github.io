@@ -117,6 +117,7 @@ div.pageframe {
   background-color: #fff;
   color: #21172E;
   padding: 15% 15% 10% 15%;
+  height: 100%;
 }
 
 div.pageframe h3 {
@@ -194,6 +195,10 @@ div.footer-right {
 
 #home, #pricing, #learnmore, #whyswitch, #services {
   padding: 40px 53px 40px 53px;
+}
+
+#home, #learnmore, #flowchart {
+  height: 100%;
 }
 
 #learnmore {
@@ -439,6 +444,10 @@ div.footer-right {
     padding: 8%;
   }
 
+  #home, #learnmore {
+    height: auto;
+  }
+
   #home div[class^="col-md"],
   #pricing div[class^="col-md"], 
   #services div[class^="col-md"], 
@@ -451,6 +460,14 @@ div.footer-right {
     margin-top: 2em;
   }
 
+  #home .pageframe {
+    height: auto;
+  }
+
+  #home #bookopener {
+    height: 100%;
+  }
+
   #bookopener img, #bookcloser img {
     height: 20vh;
   }
@@ -458,6 +475,17 @@ div.footer-right {
   div.pageframe .bottom {
     width: auto;
     position: relative;
+  }
+
+  #flowchart {
+    background-size: auto 150%;
+  }
+
+  #flowchart .anchor {
+    height: 90vh;
+    width: 100vh;
+    border-radius: 45vh;
+    margin: 5vh auto 0 auto;
   }
 
   #pricing h2 {
