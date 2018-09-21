@@ -1,53 +1,53 @@
 @font-face {
   font-family: "Spinoza";
-  src: url("fonts/5560543/078d98f8-cf9e-45e8-a970-7a9e1b33f91e.eot?#iefix");
-  src: url("fonts/5560543/078d98f8-cf9e-45e8-a970-7a9e1b33f91e.eot?#iefix") format("eot"),
-       url("fonts/5560543/569fa3bc-9ef5-4100-b7d0-a48eb302b294.woff2") format("woff2"),
-       url("fonts/5560543/ac769e3c-3ee1-4e64-a162-66761d074744.woff") format("woff"),
-       url("fonts/5560543/f389c5ef-03cb-4be1-a1a2-d61d1c9a95c2.ttf") format("truetype");
+  src: url("https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/078d98f8-cf9e-45e8-a970-7a9e1b33f91e.eot?#iefix");
+  src: url("https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/078d98f8-cf9e-45e8-a970-7a9e1b33f91e.eot?#iefix") format("eot"),
+       url("https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/569fa3bc-9ef5-4100-b7d0-a48eb302b294.woff2") format("woff2"),
+       url("https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/ac769e3c-3ee1-4e64-a162-66761d074744.woff") format("woff"),
+       url("https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/f389c5ef-03cb-4be1-a1a2-d61d1c9a95c2.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Spinoza";
-  src: url("fonts/5560548/ff626a15-fe32-4081-8934-8c3d37a20a51.eot?#iefix");
-  src: url("fonts/5560548/ff626a15-fe32-4081-8934-8c3d37a20a51.eot?#iefix") format("eot"),
-       url("fonts/5560548/390b2ad5-187c-4b5c-b7c0-a4d345dc01be.woff2") format("woff2"),
-       url("fonts/5560548/dff5d809-5822-4b25-9a34-59e38514654e.woff") format("woff"),
-       url("fonts/5560548/33e3b6ba-7481-448e-beb7-d2995c57adaf.ttf") format("truetype");
+  src: url("https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/ff626a15-fe32-4081-8934-8c3d37a20a51.eot?#iefix");
+  src: url("https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/ff626a15-fe32-4081-8934-8c3d37a20a51.eot?#iefix") format("eot"),
+       url("https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/390b2ad5-187c-4b5c-b7c0-a4d345dc01be.woff2") format("woff2"),
+       url("https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/dff5d809-5822-4b25-9a34-59e38514654e.woff") format("woff"),
+       url("https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/33e3b6ba-7481-448e-beb7-d2995c57adaf.ttf") format("truetype");
   font-weight: 600;
   font-style: italic;
 }
 
 @font-face {
   font-family: "Spinoza";
-  src: url("fonts/5561664/50b7c3ca-bd1a-469b-8f94-66695b6b7003.eot?#iefix");
-  src: url("fonts/5561664/50b7c3ca-bd1a-469b-8f94-66695b6b7003.eot?#iefix") format("eot"),
-       url("fonts/5561664/580b240f-22a2-40be-b840-78ffa40eb73c.woff2") format("woff2"),
-       url("fonts/5561664/2c566f60-a414-49a4-82e5-a75f0395b1c5.woff") format("woff"),
-       url("fonts/5561664/9c052c21-0021-4781-a71c-858fe0a2717a.ttf") format("truetype");
+  src: url("https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/50b7c3ca-bd1a-469b-8f94-66695b6b7003.eot?#iefix");
+  src: url("https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/50b7c3ca-bd1a-469b-8f94-66695b6b7003.eot?#iefix") format("eot"),
+       url("https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/580b240f-22a2-40be-b840-78ffa40eb73c.woff2") format("woff2"),
+       url("https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/2c566f60-a414-49a4-82e5-a75f0395b1c5.woff") format("woff"),
+       url("https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/9c052c21-0021-4781-a71c-858fe0a2717a.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Spinoza";
-  src: url("fonts/5561669/cd8a16b4-01d8-4cbc-b9f1-1f2cda1c66b2.eot?#iefix");
-  src: url("fonts/5561669/cd8a16b4-01d8-4cbc-b9f1-1f2cda1c66b2.eot?#iefix") format("eot"),
-       url("fonts/5561669/2c2ad470-c377-4fa2-b87b-80572cbed356.woff2") format("woff2"),
-       url("fonts/5561669/9019a476-d85f-468f-80ab-7bfbc5e7a746.woff") format("woff"),
-       url("fonts/5561669/8d33215f-a6c6-4a16-ba9e-4f05c788f95e.ttf") format("truetype");
+  src: url("https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/cd8a16b4-01d8-4cbc-b9f1-1f2cda1c66b2.eot?#iefix");
+  src: url("https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/cd8a16b4-01d8-4cbc-b9f1-1f2cda1c66b2.eot?#iefix") format("eot"),
+       url("https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/2c2ad470-c377-4fa2-b87b-80572cbed356.woff2") format("woff2"),
+       url("https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/9019a476-d85f-468f-80ab-7bfbc5e7a746.woff") format("woff"),
+       url("https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/8d33215f-a6c6-4a16-ba9e-4f05c788f95e.ttf") format("truetype");
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Robinson Web';
-  src: url('fonts/5ZDyh1tpAwuziiqx.eot');
-  src: url('fonts/5ZDyh1tpAwuziiqx.eot?#iefix') format('embedded-opentype'),
-       url('fonts/w09tnrw5J2UlsP8h.woff2') format('woff2'),
-       url('fonts/tVJdLqRrYanOgd1S.woff') format('woff');
+  src: url('https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/5ZDyh1tpAwuziiqx.eot');
+  src: url('https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/5ZDyh1tpAwuziiqx.eot?#iefix') format('embedded-opentype'),
+       url('https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/w09tnrw5J2UlsP8h.woff2') format('woff2'),
+       url('https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/tVJdLqRrYanOgd1S.woff') format('woff');
   font-weight: 400;
   font-style: normal;
   font-stretch: normal;
@@ -55,10 +55,10 @@
 
 @font-face {
   font-family: 'Robinson Web';
-  src: url('fonts/JNUj9SNINWINnOAB.eot');
-  src: url('fonts/JNUj9SNINWINnOAB.eot?#iefix') format('embedded-opentype'),
-       url('fonts/agiJdBvHoVAmu7MW.woff2') format('woff2'),
-       url('fonts/ssMiRL7B6SPFCWld.woff') format('woff');
+  src: url('https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/JNUj9SNINWINnOAB.eot');
+  src: url('https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/JNUj9SNINWINnOAB.eot?#iefix') format('embedded-opentype'),
+       url('https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/agiJdBvHoVAmu7MW.woff2') format('woff2'),
+       url('https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/ssMiRL7B6SPFCWld.woff') format('woff');
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
