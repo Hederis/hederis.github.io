@@ -40,6 +40,10 @@ body {
   font-size: 14px;
 }
 
+h1 {
+  margin-top: 0.5rem;
+}
+
 h1 img {
   height: 45px;
 }
@@ -173,7 +177,7 @@ div.footer-right {
 }
 
 #footer-full {
-  padding: 0px 53px 0px 53px;
+  padding: 10px 53px 0px 53px;
 }
 
 #footer-full li {
@@ -207,6 +211,10 @@ div.footer-right {
 
 #home a.nav-link, #learnmore a.nav-link  {
   color: #CECAD1;
+}
+
+#home .bookframe {
+  height: 100%;
 }
 
 #bookopener img, #bookcloser img {
@@ -293,6 +301,16 @@ div.footer-right {
 
 #learnmore a.button {
   color: #21172E;
+}
+
+#learnmore .bookframe {
+  height: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#learnmore div.container.bookframe {
+  padding: 0;
 }
 
 #pricing h2 {
@@ -439,16 +457,28 @@ div.footer-right {
     height: 35px;
     width: 160px;
   }
-  
-  #home, #pricing, #learnmore, #whyswitch, #services {
-    padding: 8%;
+
+  div.pageframe {
+    padding: 10vh 8vw 3vh 8vw;
   }
 
-  #home, #learnmore {
+  #home h1 {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-size: 8vh;
+  }
+  
+  #home, #pricing, #learnmore, #whyswitch, #services {
+    padding: 3vh 8vw 3vh 8vw;
+  }
+
+  #learnmore {
     height: auto;
   }
 
   #home div[class^="col-md"],
+  #whyswitch div[class^="col-md"],
+  #learnmore div[class^="col-md"],
   #pricing div[class^="col-md"], 
   #services div[class^="col-md"], 
   #footer-full div[class^="col-md"] {
@@ -457,7 +487,8 @@ div.footer-right {
   }
 
   #home .bookframe {
-    margin-top: 2em;
+    margin-top: 1vh;
+    height: 83vh;
   }
 
   #home .pageframe {
@@ -465,6 +496,7 @@ div.footer-right {
   }
 
   #home #bookopener {
+    padding: 3vh 8vw 3vh 8vw;
     height: 100%;
   }
 
@@ -472,9 +504,43 @@ div.footer-right {
     height: 20vh;
   }
 
+  #bookopener img {
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+  }
+
+  #bookcloser img {
+    margin-bottom: 8vh;
+  }
+
+  #bookopener h2 {
+    font-size: 6vh;
+    margin-bottom: 6vh;
+  }
+
+  #bookopener h3 {
+    font-size: 4vh;
+    margin-bottom: 6vh;
+  }
+
   div.pageframe .bottom {
     width: auto;
     position: relative;
+    bottom: auto;
+    left: auto;
+  }
+
+  #whyswitch h2 {
+    font-size: 2em;
+  }
+
+  #whyswitch h3 {
+    font-size: 1.8em;
+    margin-top: 1em;
+  }
+
+  #whyswitch div.row:first-of-type > div.col-md-6:first-of-type > h3 {
+    margin-top: 0;
   }
 
   #flowchart {
@@ -486,6 +552,29 @@ div.footer-right {
     width: 100vh;
     border-radius: 45vh;
     margin: 5vh auto 0 auto;
+  }
+
+  #learnmore .bookframe {
+    height: auto;
+    margin-bottom: 2em;
+  }
+
+  #learnmore div.bookframe.container {
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  #learnmore div.pageframe {
+    padding: 6vh 8vw 3vh 8vw;
+    height: auto;
+  }
+
+  #learnmore h2 {
+    margin-bottom: 1em;
+  }
+
+  #learnmore div.pageframe#bookcloser {
+    padding-bottom: 6vh;
   }
 
   #pricing h2 {
@@ -548,7 +637,8 @@ div.footer-right {
   }
 
   #footer-full {
-    padding-left: 8%;
+    padding-left: 8vw;
+    padding-right: 8vw;
   }
 
   #footer-full li {
