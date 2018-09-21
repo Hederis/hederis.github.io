@@ -361,6 +361,10 @@ div.footer-right {
   padding: 0;
 }
 
+#learnmore a.button {
+  text-decoration: none;
+}
+
 #pricing h2 {
   font-family: "Spinoza";
   font-weight: 400;
@@ -534,6 +538,10 @@ div.footer-right {
     padding-right: 0;
   }
 
+  #home {
+    height: auto;
+  }
+
   #home .bookframe {
     margin-top: 1vh;
     height: 83vh;
@@ -593,6 +601,7 @@ div.footer-right {
 
   #flowchart {
     background-size: auto 150%;
+    height: 100vh;
   }
 
   #flowchart .anchor {
