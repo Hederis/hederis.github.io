@@ -1,0 +1,470 @@
+#flowchart {
+  position:relative;
+  overflow:hidden;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+		
+#flowchart_background {
+  pointer-events:none;
+
+  position:fixed;
+  z-index:10;
+  width:200vw;
+  height:200vh;
+  left:-50vw;
+  top:-50vh;
+
+  background-image: url('/images/flow_bg.svg');
+  background-color:white;
+  background-size: 125% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  transform-origin: 50% 50%;
+}
+
+#circle {
+	position:fixed;
+	z-index:11;
+	height:90vmin;
+	width:90vmin;
+
+	top:calc((100vh - 90vmin) / 2);
+	left:calc((100vw - 90vmin) / 2);
+
+	background-color:white;
+	border-radius:100000px;
+}
+
+.flowchart_page {
+	position:relative;
+	z-index:19;
+	display:flex;
+	flex-direction:column-reverse;
+	align-items:center;
+	height:100vh;
+	box-sizing:border-box;
+	padding:15vh 0;
+}
+
+.flowchart_page.top_and_bottom_text {
+	flex-direction:column;
+	justify-content:space-between;
+}
+
+	#flowchart_how {
+		flex-direction:column;
+		justify-content:space-between;
+	}
+
+	#flowchart p {
+	  max-width:30vw;
+	  margin:0 auto;
+	  text-align:center;
+	}
+
+.circle {
+	position:absolute;
+	top:30vh;
+	width:40vh;
+	height:40vh;
+	overflow:visible;
+	border-radius:10000px;
+}
+.circle.grey  { background-color:#cecad1; }
+.circle.green { background-color:#07ff00; }
+
+.static_element {
+	position:absolute;
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+.static_element.word {
+	left:5vh;
+	top:6vh;
+	width:28vh;
+	height:28vh;
+	background-image:url('/images/flowchart_icons/WordDocIcon.svg');
+}
+
+.static_element.epubs {
+	left:-2.5vh;
+	top:-2.5vh;
+	width:45vh;
+	height:45vh;
+	background-image:url('/images/flowchart_icons/EPUBPDFpair.svg');
+}
+
+#flowchart_how .circle.left {
+	left:20vw;
+}
+
+#flowchart_how .circle.right {
+	right:20vw;
+}
+
+
+.eyes {
+	position:absolute;
+	top:30%;
+	width:100%;
+	height:calc(100% * .3);
+	background-image:url('/images/flowchart_icons/eyes.svg');
+	background-size:contain;
+	background-position:center;
+	background-repeat:no-repeat;
+	opacity:0;
+	will-change: opacity;
+	transition:opacity 0.25s ease-in-out;
+}
+
+.eyes.active {
+	opacity:1;
+}
+
+
+
+
+
+.animated_element {
+	position:fixed;
+	z-index:15;
+	width:35vw;
+	height:35vh;
+	left:32.5vw;
+	top:32.5vh;
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:center;
+	opacity:0;
+	transform: translateY(-100vh);
+	will-change: transform, opacity, left;
+	transition: transform 0.35s 0.01s ease-in, opacity 0.7s 0.01s ease-in, left 0.25s ease-in;
+}
+
+.animated_element.active {
+	opacity:1;
+	transform: translateY(0vh);
+}
+
+
+#word_doc {
+	background-image:url('/images/flowchart_icons/WordDocIcon.svg');
+}
+
+#analyze_doc {
+	background-image:url('/images/flowchart_icons/analysisicon.svg');
+}
+
+#analyze_doc.left {
+	left:10vw;
+}
+
+#grid_doc {
+	left:52.5vw;
+	background-image:url('/images/flowchart_icons/fixedpagecount.svg');
+}
+
+#grid_doc.center {
+	left: 32.5vw;
+}
+
+#grid_doc.left {
+	left: 15vw;
+}
+
+#grid_stack {
+	left:50vw;
+	background-image:url('/images/flowchart_icons/longpagecount.svg');
+}
+
+#epubs {
+	background-image:url('/images/flowchart_icons/EPUBPDFpair.svg');
+}
+
+
+
+
+
+
+
+
+
+#timeline {
+	position:absolute;
+	z-index:13;
+	top:100vh;
+	left:calc((100vw - 20px) / 2);
+	margin-top:10vh;
+	height:80vh;
+	width:20px;
+	background-color:#07ff00;
+	will-change: height;
+	transition:height 0.35s ease-in-out;
+}
+
+#timeline.fixed {
+	position:fixed;
+	top:0vh;
+}
+
+#timeline.end {
+	height:40vh;
+}
+
+#timeline .cap {
+	width:40px;
+	height:40px;
+	border-radius:100000px;
+	position:absolute;
+	left:-10px;
+	background-color:#07ff00;
+}
+
+#timeline #cap_top {
+	top:-10px;
+}
+
+#timeline #cap_bottom {
+	bottom:-10px;
+	will-change: top, left, width, height;
+	transition:top 0.35s ease-in-out, left 0.35s ease-in-out, width 0.35s ease-in-out, height 0.35s ease-in-out;
+}
+
+#timeline.end #cap_bottom {
+	width:45vh;
+	height:45vh;
+	bottom:-22.5vh;
+	left:calc(-22.5vh + 10px);
+}
+
+#arrows {
+	position:absolute;
+	top:40vh;
+	left:10px;
+	width:0; 
+	height:0;
+}
+
+#arrows .arrow {
+	position:absolute;
+	margin-top:-7vh;
+	width:43vh;
+	height:14vh;
+	opacity:0;
+
+	background-image:url("/images/flowchart_icons/arrow.svg");
+	background-position: right top;
+	background-repeat:no-repeat;
+	transform-origin:0px 7vh;
+	will-change: transform, opacity;
+	transition:transform 0.35s 0s ease-out, opacity 0.15s 0s ease-in-out;
+}
+	#arrows.active .arrow {
+		will-change: transform, opacity;
+		transition:transform 0.35s 0.5s ease-out, opacity 0.15s 0.5s ease-in-out;
+	}
+
+	#arrows.active .arrow {
+		opacity:1;
+	}
+
+	#arrows .arrow:nth-of-type(1) { transform:scale(0.25) rotateZ(230deg); }
+	#arrows .arrow:nth-of-type(2) { transform:scale(0.25) rotateZ(45deg); }
+	#arrows .arrow:nth-of-type(3) { transform:scale(0.25) rotateZ(155deg); }
+	#arrows .arrow:nth-of-type(4) { transform:scale(0.25) rotateZ(200deg); }
+	#arrows .arrow:nth-of-type(5) { transform:scale(0.25) rotateZ(320deg); }
+	#arrows .arrow:nth-of-type(6) { transform:scale(0.25) rotateZ(350deg); }
+
+	#arrows.active .arrow:nth-of-type(1) { transform:scale(1) rotateZ(230deg); }
+	#arrows.active .arrow:nth-of-type(2) { transform:scale(1) rotateZ(45deg); }
+	#arrows.active .arrow:nth-of-type(3) { transform:scale(1) rotateZ(155deg); }
+	#arrows.active .arrow:nth-of-type(4) { transform:scale(1) rotateZ(200deg); }
+	#arrows.active .arrow:nth-of-type(5) { transform:scale(1) rotateZ(320deg); }
+	#arrows.active .arrow:nth-of-type(6) { transform:scale(1) rotateZ(350deg); }
+
+
+#timeline_box {
+	position:absolute;
+	top:10vh;
+	left:calc(-30vw + 10px);
+	height:60vh;
+	width:calc(60vw);
+	border-radius:25px;
+	border:20px solid #07ff00;
+	background:white;
+	opacity:0;
+	will-change: transform, opacity;
+	transition:transform 0.35s ease-in-out, opacity 0.35s ease-in-out;
+	transform-origin:center center;
+	transform:scale(0.01);
+}
+
+#timeline_box.active {
+	transform:scale(1);
+	opacity:1;
+}
+
+
+
+#timeline_circle {
+	position:absolute;
+	top:15vh;
+	left:calc(-25vh + 10px);
+	height:50vh;
+	width:calc(50vh);
+	border-radius:100000px;
+	border:20px solid #07ff00;
+	background:white;
+	opacity:0;
+	will-change: transform, opacity;
+	transition:transform 0.35s ease-in-out, opacity 0.35s ease-in-out;
+	transform-origin:center center;
+	transform:scale(0.01);
+}
+
+
+#timeline_circle.active {
+	transform:scale(1);
+	opacity:1;
+}
+
+
+
+
+@media only screen and (max-width:767px) {
+
+	#flowchart h2 {
+		text-align:center;
+		font-size:1.7rem;
+	}
+
+	#flowchart p {
+		max-width:80%;
+		margin-top:1em;
+	}
+
+	.flowchart_page {
+		padding:10vh 0;
+	}
+
+	.circle {
+		position:absolute;
+		top: calc(50vh - 20vw);
+		width:40vw;
+		height:40vw;
+		overflow:visible;
+		border-radius:10000px;
+	}
+
+	#flowchart_how .circle.left {
+		left: 7vw;
+	}
+
+	#flowchart_how .circle.right {
+		right: 7vw;
+	}
+
+	.static_element.word {
+	  left: 2vh;
+	  top: 3vh;
+	  width: 28vw;
+	  height: 28vw;
+	}
+
+	.static_element.epubs {
+		left:-2vh;
+		top:3vh;
+		width:48vw;
+		height:28vw;
+	}
+
+	#timeline {
+		left:calc((100vw - 10px) / 2);
+		margin-top:calc(50vh - 40vw);
+		height:80vw;
+		width:10px;
+	}
+
+	#timeline.end {
+		height:40vw;
+	}
+
+	#timeline.end #cap_bottom {
+		width: 30vh;
+		height: 30vh;
+		bottom: -28vw;
+		left: calc(-28vw + 10px);
+	}
+
+	#timeline .cap {
+		width:20px;
+		height:20px;
+		border-radius:100000px;
+		position:absolute;
+		left:-5px;
+		background-color:#07ff00;
+	}
+
+	#timeline_box, #timeline_circle {
+		position:absolute;
+		top:8vw;
+		height:64vw;
+		left:calc(-30vw + 5px);
+		border-width:10px;
+	}
+
+	#timeline_circle {
+		width:calc(60vw);
+	}
+
+	#timeline_circle.active:after {
+		top:10px;
+	}
+
+	#grid_doc, #grid_stack {
+		left:55vw;
+	}
+
+	#grid_doc.left {
+		left:10vw;
+	}
+
+
+	#timeline_circle:after {
+		display:none;
+	}
+
+	#epubs {
+		width: 70vw;
+		left: 15vw;
+	}
+
+
+	#arrows {
+		position:absolute;
+		top:40vw;
+		left:5px;
+		width:0; 
+		height:0;
+	}
+
+	#arrows .arrow {
+		position:absolute;
+		margin-top:-7vw;
+		width:50vw;
+		height:14vw;
+		opacity:0;
+
+		background-image:url("/images/flowchart_icons/arrow.svg");
+		background-position: right top;
+		background-repeat:no-repeat;
+		transform-origin:0px 7vh;
+		will-change: transform, opacity;
+		transition:transform 0.35s 0s ease-out, opacity 0.15s 0s ease-in-out;
+	}
+}
