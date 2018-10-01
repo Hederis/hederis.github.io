@@ -123,7 +123,7 @@
 	background-repeat:no-repeat;
 	opacity:0;
 	will-change: opacity;
-	transition:opacity 0.25s ease-in-out;
+	transition:opacity 0.40s ease-in-out;
 }
 
 .eyes.active {
@@ -139,20 +139,19 @@
 	z-index:15;
 	width:35vw;
 	height:35vh;
-	left:32.5vw;
 	top:32.5vh;
 	background-size:contain;
 	background-repeat:no-repeat;
 	background-position:center;
 	opacity:0;
-	transform: translateY(-100vh);
-	will-change: transform, opacity, left;
-	transition: transform 0.35s 0.01s ease-in, opacity 0.7s 0.01s ease-in, left 0.25s ease-in;
+	transform: translateX(32.5vw) translateY(-100vh);
+	will-change: transform, opacity;
+	transition: transform 0.5s 0.01s ease-in, opacity 0.7s 0.01s ease-in;
 }
 
 .animated_element.active {
 	opacity:1;
-	transform: translateY(0vh);
+	transform: translateX(32.5vw) translateY(0vh);
 }
 
 
@@ -165,25 +164,33 @@
 }
 
 #analyze_doc.left {
-	left:10vw;
+	transform: translateX(10vw) translateY(0vh);
 }
 
 #grid_doc {
-	left:52.5vw;
+	transform: translateX(52.5vw) translateY(-100vh);
 	background-image:url('/images/flowchart_icons/fixedpagecount.svg');
 }
 
-#grid_doc.center {
-	left: 32.5vw;
+#grid_doc.active {
+	transform: translateX(52.5vw) translateY(0vh);
 }
 
-#grid_doc.left {
-	left: 15vw;
+#grid_doc.active.center {
+	transform: translateX(32.5vw) translateY(0vh);
+}
+
+#grid_doc.active.left {
+	transform: translateX(15vw) translateY(0vh);
 }
 
 #grid_stack {
-	left:50vw;
+	transform: translateX(50vw) translateY(-100vh);
 	background-image:url('/images/flowchart_icons/longpagecount.svg');
+}
+
+#grid_stack.active {
+	transform: translateX(50vw) translateY(0vh);
 }
 
 #epubs {
@@ -208,7 +215,7 @@
 	width:20px;
 	background:linear-gradient(to bottom, #cccad1 0%,#cccad1 5%,#07ff00 20%,#07ff00 100%);
 	will-change: height;
-	transition:height 0.35s ease-in-out;
+	transition:height 0.50s ease-in-out;
 }
 
 #timeline.fixed {
@@ -237,7 +244,7 @@
 #timeline #cap_bottom {
 	bottom:-10px;
 	will-change: top, left, width, height;
-	transition:top 0.35s ease-in-out, left 0.35s ease-in-out, width 0.35s ease-in-out, height 0.35s ease-in-out;
+	transition:top 0.50s ease-in-out, left 0.50s ease-in-out, width 0.50s ease-in-out, height 0.50s ease-in-out;
 }
 
 #timeline.end #cap_bottom {
@@ -267,11 +274,11 @@
 	background-repeat:no-repeat;
 	transform-origin:0px 7vh;
 	will-change: transform, opacity;
-	transition:transform 0.35s 0s ease-out, opacity 0.15s 0s ease-in-out;
+	transition:transform 0.50s 0s ease-out, opacity 0.15s 0s ease-in-out;
 }
 	#arrows.active .arrow {
 		will-change: transform, opacity;
-		transition:transform 0.35s 0.5s ease-out, opacity 0.15s 0.5s ease-in-out;
+		transition:transform 0.50s 0.5s ease-out, opacity 0.15s 0.5s ease-in-out;
 	}
 
 	#arrows.active .arrow {
@@ -305,7 +312,7 @@
 	background:white;
 	opacity:0;
 	will-change: transform, opacity;
-	transition:transform 0.35s ease-in-out, opacity 0.35s ease-in-out;
+	transition:transform 0.50s ease-in-out, opacity 0.15s ease-in-out;
 	transform-origin:center center;
 	transform:scale(0.01);
 }
@@ -330,7 +337,7 @@
 	background:white;
 	opacity:0;
 	will-change: transform, opacity;
-	transition:transform 0.35s ease-in-out, opacity 0.35s ease-in-out;
+	transition:transform 0.50s ease-in-out, opacity 0.15s ease-in-out;
 	transform-origin:center center;
 	transform:scale(0.01);
 }
@@ -487,6 +494,6 @@
 		background-repeat:no-repeat;
 		transform-origin:0px 7vh;
 		will-change: transform, opacity;
-		transition:transform 0.35s 0s ease-out, opacity 0.15s 0s ease-in-out;
+		transition:transform 0.5s 0s ease-out, opacity 0.15s 0s ease-in-out;
 	}
 }
