@@ -67,9 +67,9 @@
 
 .circle {
 	position:absolute;
-	top:30vh;
-	width:40vh;
-	height:40vh;
+	top:calc((100vh - 35vmax) / 2);
+	width:35vmax;
+	height:35vmax;
 	overflow:visible;
 	border-radius:10000px;
 }
@@ -84,27 +84,27 @@
 }
 
 .static_element.word {
-	left:5vh;
-	top:6vh;
-	width:28vh;
-	height:28vh;
+	left:5vmax;
+	top:6vmax;
+	width:25vmax;
+	height:25vmax;
 	background-image:url('/images/flowchart_icons/WordDocIcon.svg');
 }
 
 .static_element.epubs {
-	left:-2.5vh;
-	top:-2.5vh;
-	width:45vh;
-	height:45vh;
+	left:-2.5vmax;
+	top:-2.5vmax;
+	width:40vmax;
+	height:40vmax;
 	background-image:url('/images/flowchart_icons/EPUBPDFpair.svg');
 }
 
 #flowchart_how .circle.left {
-	left:20vw;
+	left:10vmax;
 }
 
 #flowchart_how .circle.right {
-	right:20vw;
+	right:10vmax;
 }
 
 
@@ -338,6 +338,20 @@
 
 @media only screen and (max-width:767px) {
 
+	#circle {
+		position:fixed;
+		z-index:11;
+		height:80vh;
+		width:80vh;
+
+		top:10vh;
+		left:calc((100vw - 80vh) / 2);
+
+		background-color:white;
+		border-radius:100000px;
+	}
+
+
 	#flowchart h2 {
 		text-align:center;
 		font-size:1.7rem;
@@ -354,9 +368,9 @@
 
 	.circle {
 		position:absolute;
-		top: calc(50vh - 20vw);
-		width:40vw;
-		height:40vw;
+		top: calc(50vh - 40vw);
+		width:80vw;
+		height:80vw;
 		overflow:visible;
 		border-radius:10000px;
 	}
@@ -385,8 +399,8 @@
 
 	#timeline {
 		left:calc((100vw - 10px) / 2);
-		margin-top:calc(50vh - 40vw);
-		height:80vw;
+		margin-top:15vh;
+		height:70vh;
 		width:10px;
 	}
 
@@ -397,7 +411,7 @@
 	#timeline.end #cap_bottom {
 		width: 30vh;
 		height: 30vh;
-		bottom: -28vw;
+		top:20vh;
 		left: calc(-28vw + 10px);
 	}
 
@@ -412,7 +426,7 @@
 
 	#timeline_box, #timeline_circle {
 		position:absolute;
-		top:8vw;
+		top:calc((70vh - 64vw) / 2);
 		height:64vw;
 		left:calc(-30vw + 5px);
 		border-width:10px;
@@ -447,7 +461,7 @@
 
 	#arrows {
 		position:absolute;
-		top:40vw;
+		top:35vh;
 		left:5px;
 		width:0; 
 		height:0;
