@@ -206,7 +206,7 @@
 	margin-top:10vh;
 	height:80vh;
 	width:20px;
-	background:linear-gradient(to bottom, #cccad1 0%,#cccad1 5%,#07ff00 95%,#07ff00 100%);
+	background:linear-gradient(to bottom, #cccad1 0%,#cccad1 5%,#07ff00 20%,#07ff00 100%);
 	will-change: height;
 	transition:height 0.35s ease-in-out;
 }
