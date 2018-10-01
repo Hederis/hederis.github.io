@@ -9,7 +9,7 @@
 #flowchart_background {
   pointer-events:none;
 
-  position:fixed;
+  position:absolute;
   z-index:10;
   width:200vw;
   height:200vh;
@@ -25,14 +25,18 @@
   transform-origin: 50% 50%;
 }
 
-#circle {
+#flowchart_background.active {
 	position:fixed;
-	z-index:11;
-	height:90vmin;
-	width:90vmin;
+}
 
-	top:calc((100vh - 90vmin) / 2);
-	left:calc((100vw - 90vmin) / 2);
+#circle {
+	position:absolute;
+	z-index:11;
+	width:90vmin;
+	height:90vmin;
+
+	left:calc((200vw - 90vmin) / 2);
+	top:calc((200vh - 90vmin) / 2);
 
 	background-color:white;
 	border-radius:100000px;

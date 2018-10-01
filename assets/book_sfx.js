@@ -65,7 +65,7 @@ $(function() {
 	})
 
 
-
+	let $flowchart_background = $('#flowchart_background');
 	let $word_doc = $('#word_doc');
 	let $analyze_doc = $('#analyze_doc');
 	let $analyze_doc_eyes = $('#analyze_doc .eyes');
@@ -76,6 +76,18 @@ $(function() {
 	let $timeline_box = $('#timeline_box');
 	let $timeline_circle = $('#timeline_circle');
 	let $arrows = $('#arrows');
+
+	var waypoint_how = new Waypoint({
+	  element: document.getElementById('flowchart_how'),
+	  handler: function(direction) {
+	  	if( direction == 'down') {
+	  		$flowchart_background.addClass('active');
+	  	} else {
+	  		$flowchart_background.removeClass('active');
+	  	}
+	  },
+	  offset: 0
+	})
 
 	var waypoint_word_doc_start = new Waypoint({
 	  element: document.getElementById('flowchart_word'),
