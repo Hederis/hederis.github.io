@@ -31,6 +31,16 @@
 	transform: perspective(1600px) rotateY(0deg);
 }
 
+.book.withHover .book_cover {
+	transition:transform 0.2s ease-in-out;
+}
+
+.book.withHover:hover .book_cover {
+	transform:perspective(1600px) rotateY(-50deg);
+}
+
+/*$cover.css('transform', `perspective(1600px) rotateY(${c}deg)`);*/
+
 @media only screen and (max-width:767px) {
 
 	#book_wrapper {

@@ -36,6 +36,8 @@ $(function() {
 
 
 
+
+
 	/* nav */
 
 	$('div.nav h1').on('click', () => {

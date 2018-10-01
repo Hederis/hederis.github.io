@@ -202,7 +202,7 @@
 	margin-top:10vh;
 	height:80vh;
 	width:20px;
-	background-color:#07ff00;
+	background:linear-gradient(to bottom, #cccad1 0%,#cccad1 5%,#07ff00 95%,#07ff00 100%);
 	will-change: height;
 	transition:height 0.35s ease-in-out;
 }
@@ -227,6 +227,7 @@
 
 #timeline #cap_top {
 	top:-10px;
+	background-color:#cccad1;
 }
 
 #timeline #cap_bottom {
@@ -296,6 +297,7 @@
 	width:calc(60vw);
 	border-radius:25px;
 	border:20px solid #07ff00;
+	/*border-image:linear-gradient(to bottom, #cccad1, #07ff00) 1;*/
 	background:white;
 	opacity:0;
 	will-change: transform, opacity;
@@ -319,6 +321,8 @@
 	width:calc(50vh);
 	border-radius:100000px;
 	border:20px solid #07ff00;
+	/*border-image:linear-gradient(to bottom, #cccad1, #07ff00) 1;*/
+
 	background:white;
 	opacity:0;
 	will-change: transform, opacity;
