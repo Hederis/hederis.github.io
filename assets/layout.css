@@ -33,6 +33,7 @@ div.page {
 
 #whyswitch {
 	z-index:70;
+  min-height:0;
 }
 
 #whyswitch_nav {
