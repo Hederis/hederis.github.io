@@ -76,54 +76,74 @@ $(function() {
 	let $timeline_box = $('#timeline_box');
 	let $timeline_circle = $('#timeline_circle');
 	let $arrows = $('#arrows');
+	let $circles = $('#circles');
+	let $flowchart_pages = $('.flowchart_page');
 
-	var waypoint_how = new Waypoint({
-	  element: document.getElementById('flowchart_how'),
+	let $flowchart_how = $('#flowchart_how');
+	$flowchart_how.waypoint({
 	  handler: function(direction) {
 	  	if( direction == 'down') {
 	  		$flowchart_background.addClass('active');
+	  		$circles.addClass('active');
+	  		$flowchart_how.addClass('active');
 	  	} else {
 	  		$flowchart_background.removeClass('active');
+	  		$circles.removeClass('active');
+	  		$flowchart_how.removeClass('active');
 	  	}
 	  },
 	  offset: 0
 	})
 
-	var waypoint_word_doc_start = new Waypoint({
-	  element: document.getElementById('flowchart_word'),
+	let $flowchart_word = $('#flowchart_word')
+	$flowchart_word.waypoint({
 	  handler: function(direction) {
 	  	if( direction == 'down') {
+	  		$circles.removeClass('active');
 	  		$word_doc.addClass('active');
+	  		$flowchart_word.addClass('active');
+	  		$flowchart_how.removeClass('active');
 	  	} else {
+	  		$circles.addClass('active');
 	  		$word_doc.removeClass('active');
+	  		$flowchart_word.removeClass('active');
+	  		$flowchart_how.addClass('active');
 	  	}
 	  },
 	  offset: animation_offset
 	})
 
-	var waypoint_word_upload = new Waypoint({
-	  element: document.getElementById('flowchart_upload'),
+	let $flowchart_upload = $('#flowchart_upload');
+	$flowchart_upload.waypoint({
 	  handler: function(direction) {
 	  	if( direction == 'down') {
 	  		$timeline_box.addClass('active');
+	  		$flowchart_upload.addClass('active');
+	  		$flowchart_word.removeClass('active');
 	  	} else {
 	  		$timeline_box.removeClass('active');
+	  		$flowchart_upload.removeClass('active');
+	  		$flowchart_word.addClass('active');
 	  	}
 	  },
 	  offset: animation_offset
 	})
 
-	var waypoint_word_doc_end = new Waypoint({
-	  element: document.getElementById('flowchart_analyze'),
+	let $flowchart_analyze = $('#flowchart_analyze');
+	$flowchart_analyze.waypoint({
 	  handler: function(direction) {
 	  	if( direction == 'down') {
 	  		$timeline_box.removeClass('active');
 	  		$word_doc.removeClass('active');
 	  		$analyze_doc.addClass('active');
+	  		$flowchart_analyze.addClass('active');
+	  		$flowchart_upload.removeClass('active');
 	  	} else {
 	  		$timeline_box.addClass('active');
 	  		$word_doc.addClass('active');
 	  		$analyze_doc.removeClass('active');
+	  		$flowchart_analyze.removeClass('active');
+	  		$flowchart_upload.addClass('active');
 	  	}
 	  },
 	  offset: animation_offset
@@ -141,56 +161,68 @@ $(function() {
 	  offset: animation_offset
 	})
 
-	var waypoint_eyes_with_grid = new Waypoint({
-	  element: document.getElementById('flowchart_eyes_with_grid'),
+	let $flowchart_eyes_with_grid = $('#flowchart_eyes_with_grid');
+	$flowchart_eyes_with_grid.waypoint({
 	  handler: function(direction) {
 	  	if( direction == 'down') {
 	  		$analyze_doc.addClass('left');
 	  		$grid_doc.addClass('active');
+	  		$flowchart_eyes_with_grid.addClass('active');
+	  		$flowchart_analyze.removeClass('active');
 	  	} else {
 	  		$analyze_doc.removeClass('left');
 	  		$grid_doc.removeClass('active');
+	  		$flowchart_eyes_with_grid.removeClass('active');
+	  		$flowchart_analyze.addClass('active');
 	  	}
 	  },
 	  offset: animation_offset
 	})
 
-	var waypoint_grid_with_eyes = new Waypoint({
-	  element: document.getElementById('flowchart_grid_with_eyes'),
+	let $flowchart_grid_with_eyes = $('#flowchart_grid_with_eyes');
+	$flowchart_grid_with_eyes.waypoint({
 	  handler: function(direction) {
 	  	if( direction == 'down') {
 	  		$grid_doc.addClass('center');
 	  		$grid_doc_eyes.addClass('active');
 	  		$analyze_doc.removeClass('active');
+	  		$flowchart_grid_with_eyes.addClass('active');
+	  		$flowchart_eyes_with_grid.removeClass('active');
 	  	} else {
 	  		$grid_doc.removeClass('center');
 	  		$grid_doc_eyes.removeClass('active');
 	  		$analyze_doc.addClass('active');
+	  		$flowchart_grid_with_eyes.removeClass('active');
+	  		$flowchart_eyes_with_grid.addClass('active');
 	  	}
 	  },
 	  offset: animation_offset
 	})
 
-	var waypoint_grids_and_grids = new Waypoint({
-	  element: document.getElementById('flowchart_grids_and_grids'),
+	let $flowchart_grids_and_grids = $('#flowchart_grids_and_grids');
+	$flowchart_grids_and_grids.waypoint({
 	  handler: function(direction) {
 	  	if( direction == 'down') {
 	  		$grid_doc.removeClass('center').addClass('left');
 	  		$grid_doc_eyes.removeClass('active');
 	  		$timeline_circle.addClass('active');
 	  		$grid_stack.addClass('active');
+	  		$flowchart_grids_and_grids.addClass('active');
+	  		$flowchart_grid_with_eyes.removeClass('active');
 	  	} else {
 	  		$grid_doc.addClass('center').removeClass('left');
 	  		$grid_doc_eyes.addClass('active');
 	  		$timeline_circle.removeClass('active');
 	  		$grid_stack.removeClass('active');
+	  		$flowchart_grids_and_grids.removeClass('active');
+	  		$flowchart_grid_with_eyes.addClass('active');
 	  	}
 	  },
 	  offset: animation_offset
 	})
 
-	var waypoint_epubs = new Waypoint({
-	  element: document.getElementById('flowchart_epubs'),
+	let $flowchart_epubs = $('#flowchart_epubs');
+	$flowchart_epubs.waypoint({
 	  handler: function(direction) {
 	  	if( direction == 'down') {
 	  		$grid_doc.removeClass('active');
@@ -199,6 +231,8 @@ $(function() {
 	  		$timeline_circle.removeClass('active');
 	  		$arrows.addClass('active');
 	  		$('#timeline').addClass('end');
+	  		$flowchart_epubs.addClass('active');
+	  		$flowchart_grids_and_grids.removeClass('active');
 	  	} else {
 	  		$grid_doc.addClass('active');
 	  		$grid_stack.addClass('active');
@@ -206,6 +240,8 @@ $(function() {
 	  		$timeline_circle.addClass('active');
 	  		$arrows.removeClass('active');
 	  		$('#timeline').removeClass('end');
+	  		$flowchart_epubs.removeClass('active');
+	  		$flowchart_grids_and_grids.addClass('active');
 	  	}
 	  },
 	  offset: animation_offset
