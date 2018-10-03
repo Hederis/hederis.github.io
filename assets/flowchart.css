@@ -22,6 +22,8 @@
   background-position: center;
   background-repeat: no-repeat;
 
+  transform:rotateZ(0deg);
+  will-change:transform;
   transform-origin: 50% 50%;
 }
 
@@ -387,8 +389,8 @@
 		height:80vh;
 		width:80vh;
 
-		top:10vh;
-		left:calc((100vw - 80vh) / 2);
+		top: 60vh;
+		left: 30vw;
 
 		background-color:white;
 		border-radius:100000px;
@@ -409,22 +411,23 @@
 		padding:10vh 0;
 	}
 
-	.circle {
-		position:absolute;
-		top: calc(50vh - 40vw);
-		width:80vw;
-		height:80vw;
-		overflow:visible;
-		border-radius:10000px;
-	}
+		.circle {
+			width:38vw;
+			height:38vw;
+		}
 
-	#flowchart_how .circle.left {
-		left: 7vw;
-	}
-
-	#flowchart_how .circle.right {
-		right: 7vw;
-	}
+		.circle.grey  { 
+			transform: translate(-100vw, calc((100vh - 28vmax) / 2));
+		}
+			#circles.active .circle.grey {
+				transform: translate(5vw, calc((100vh - 28vmax) / 2));
+			}
+		.circle.green { 
+			transform: translate(200vw, calc((100vh - 28vmax) / 2));
+		}
+			#circles.active .circle.green {
+				transform: translate(55vw, calc((100vh - 28vmax) / 2));
+			}
 
 	.static_element.word {
 	  left: 2vh;
