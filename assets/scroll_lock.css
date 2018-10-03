@@ -1,0 +1,10 @@
+@media only screen and (min-width:980px) {
+
+
+	#home .bookframe {
+		height: 90vh;
+		overflow: auto;
+		outline: 1px solid white;
+	}
+
+}

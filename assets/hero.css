@@ -1,8 +1,19 @@
-#home .bookframe {
+@media only screen and (min-width:769px) {
+
+  #home .bookframe {
+    height: 90vh;
+    overflow: auto;
+    outline: 1px solid white;
+  }
+
+  #bookopener {
+  }
+
 }
 
+
 #bookopener {
-  height:calc(100vh - 40px);
+  height:90vh;
   min-height:650px;
   padding:40px 15% 40px 15%;
   display:flex;
