@@ -59,6 +59,9 @@
 		opacity:0;
 		will-change:opacity;
 	}
+		#flowchart_how .toptext {
+			top: 10vh;
+		}
 
 	.flowchart_page .bottomtext {
 		position:fixed;
@@ -123,6 +126,26 @@
 	opacity:1;
 	transform: translateX(32.5vw) translateY(0vh);
 }
+
+#questionmark {
+	position:fixed;
+	z-index:14;
+	width: 60vw;
+	height: 60vh;
+	left: 20vw;
+	top: 17vh;
+	background-image:url('/images/question_mark_elements.svg');
+	background-position:center center;
+	background-size:contain;
+	background-repeat:no-repeat;
+	will-change:opacity;
+	opacity:0;
+	transition:opacity 0.5s 0.01s ease-in-out;
+}
+
+	#questionmark.active {
+		opacity:1;
+	}
 
 #circles {
 	position:fixed;
@@ -382,6 +405,17 @@
 
 
 @media only screen and (max-width:767px) {
+
+	#flowchart_how .toptext {
+		top:15vh;
+	}
+
+	#questionmark {
+		width: 60vw;
+		height: 55vh;
+		left: 20vw;
+		top: 21vh;
+	}
 
 	#circle {
 		position:fixed;
