@@ -1,0 +1,57 @@
+#home .bookframe {
+}
+
+#bookopener {
+  height:calc(100vh - 40px);
+  min-height:650px;
+  padding:40px 15% 40px 15%;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+
+#bookopener img, #bookcloser img {
+  max-width: 50%;
+  max-height: 40%;
+}
+
+#bookopener h2 {
+  font-weight: 400;
+  font-size: 3em;
+  line-height: 1em;
+  margin-bottom: 1em;
+}
+
+#bookopener h3 {
+  font-family: "Spinoza";
+  font-weight: 400;
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+@media all and (max-width: 767px) {
+
+  #home .bookframe {
+    box-sizing:border-box;
+    min-height:100vh;
+    padding-top: 150px !important;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+
+  #bookopener {
+    height:auto;
+    min-height:0;
+    padding:0px;
+  }
+
+  #bookopener h2 {
+    font-size:2.4em;
+  }
+
+  #bookopener h3 {
+    font-size:1.7em;
+  }
+
+}

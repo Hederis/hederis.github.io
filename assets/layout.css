@@ -1,0 +1,45 @@
+html {
+  background-color: #21172E;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Spinoza";
+  font-size: 14px;
+}
+
+
+
+.half-height {
+  margin-top: 40vh;
+}
+
+
+div.page {
+  position:relative;
+  z-index:20;
+  overflow:hidden;
+  min-height:100vh;
+}
+
+
+#home {
+	z-index:80;
+}
+
+#home_nav {
+	z-index:81;
+}
+
+#whyswitch {
+	z-index:70;
+  min-height:0;
+}
+
+#whyswitch_nav {
+	z-index:71;
+}
+
+#flowchart {
+	z-index:90;
+}
