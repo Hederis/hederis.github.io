@@ -7,7 +7,7 @@ h1 img {
 }
 
 h1.imageholder {
-  background-image: url("/images/Hederiswordmark_purple@2x.png");
+  background-image: url("../images/Hederiswordmark_purple@2x.png");
   background-size: auto 45px;
   background-repeat: no-repeat;
   height: 45px;
@@ -52,6 +52,10 @@ div.pageframe {
   padding: 15% 15% 3rem 15%;
 }
 
+div.bookframe {
+  border: 1px solid #585162;
+}
+
 div.pageframe h3 {
 }
 
@@ -72,6 +76,11 @@ div.pageframe:first-of-type {
 
 div.two-col-text-block div.row {
   margin-bottom: 47px;
+}
+
+div.two-col-text-block div.col-md-6 {
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 #whyswitch div.footer {
