@@ -20,7 +20,7 @@
   left:-50vw;
   top:-50vh;
 
-  background-image: url('/images/flow_bg.svg');
+  background-image: url('../images/flow_bg.svg');
   background-color:white;
   background-size: 125% auto;
   background-position: center;
@@ -94,7 +94,7 @@
 	top:30%;
 	width:100%;
 	height:calc(100% * .3);
-	background-image:url('/images/flowchart_icons/eyes.svg');
+	background-image:url('../images/flowchart_icons/eyes.svg');
 	background-size:contain;
 	background-position:center;
 	background-repeat:no-repeat;
@@ -138,7 +138,7 @@
 	height: 60vh;
 	left: 20vw;
 	top: 17vh;
-	background-image:url('/images/question_mark_elements.svg');
+	background-image:url('../images/question_mark_elements.svg');
 	background-position:center center;
 	background-size:contain;
 	background-repeat:no-repeat;
@@ -193,7 +193,7 @@
 			top:4vmax;
 			width:22vmax;
 			height:22vmax;
-			background-image:url('/images/flowchart_icons/WordDocIcon.svg');
+			background-image:url('../images/flowchart_icons/WordDocIcon.svg');
 		}
 
 		.static_element.epubs {
@@ -201,7 +201,7 @@
 			top:-1vmax;
 			width:34vmax;
 			height:30vmax;
-			background-image:url('/images/flowchart_icons/EPUBPDFpair.svg');
+			background-image:url('../images/flowchart_icons/EPUBPDFpair.svg');
 		}
 
 		#flowchart_how .circle.left {
@@ -213,11 +213,11 @@
 		}
 
 #word_doc {
-	background-image:url('/images/flowchart_icons/WordDocIcon.svg');
+	background-image:url('../images/flowchart_icons/WordDocIcon.svg');
 }
 
 #analyze_doc {
-	background-image:url('/images/flowchart_icons/analysisicon.svg');
+	background-image:url('../images/flowchart_icons/analysisicon.svg');
 }
 
 #analyze_doc.left {
@@ -226,7 +226,7 @@
 
 #grid_doc {
 	transform: translateX(52.5vw) translateY(-100vh);
-	background-image:url('/images/flowchart_icons/fixedpagecount.svg');
+	background-image:url('../images/flowchart_icons/fixedpagecount.svg');
 }
 
 #grid_doc.active {
@@ -243,7 +243,7 @@
 
 #grid_stack {
 	transform: translateX(50vw) translateY(-100vh);
-	background-image:url('/images/flowchart_icons/longpagecount.svg');
+	background-image:url('../images/flowchart_icons/longpagecount.svg');
 }
 
 #grid_stack.active {
@@ -251,7 +251,7 @@
 }
 
 #epubs {
-	background-image:url('/images/flowchart_icons/EPUBPDFpair.svg');
+	background-image:url('../images/flowchart_icons/EPUBPDFpair.svg');
 }
 
 
@@ -326,7 +326,7 @@
 	height:14vh;
 	opacity:0;
 
-	background-image:url("/images/flowchart_icons/arrow.svg");
+	background-image:url("../images/flowchart_icons/arrow.svg");
 	background-position: right top;
 	background-repeat:no-repeat;
 	transform-origin:0px 7vh;
@@ -558,7 +558,7 @@
 		height:14vw;
 		opacity:0;
 
-		background-image:url("/images/flowchart_icons/arrow.svg");
+		background-image:url("../images/flowchart_icons/arrow.svg");
 		background-position: right top;
 		background-repeat:no-repeat;
 		transform-origin:0px 7vh;
