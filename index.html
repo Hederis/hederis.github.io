@@ -134,12 +134,12 @@
   </div>
 
   <div id="flowchart">
-    <div id="flowchart_background">
+    <div id="flowchart_background" class="noclicks">
         <div id="circle" ></div>
     </div>
     
     <div class="flowchart_page" id="flowchart_how">
-      <div id="questionmark"></div>
+      <div id="questionmark" class="noclicks"></div>
       <div class="toptext"><h2>How does Hederis work?</h2></div>
       <div class="paragraphs bottomtext">
         <p>You can use Hederis to easily produce print-ready PDF files or distributable EPUB files from any Word document.</p>
@@ -183,7 +183,7 @@
 
     <div class="flowchart_page" id="flowchart_out"></div>
 
-    <div id="circles" />
+    <div id="circles" class="noclicks"/>
       <div class="circle grey left" >
         <div class="static_element word" ></div>
       </div>
@@ -191,17 +191,17 @@
         <div class="static_element epubs" ></div>
       </div>
     </div>
-    <div class="animated_element" id="word_doc"></div>
-    <div class="animated_element" id="analyze_doc">
+    <div class="animated_element noclicks" id="word_doc"></div>
+    <div class="animated_element noclicks" id="analyze_doc">
       <div class="eyes"></div>
     </div>
-    <div class="animated_element" id="grid_doc" >
+    <div class="animated_element noclicks" id="grid_doc" >
       <div class="eyes"></div>
     </div>
-    <div class="animated_element" id="grid_stack" ></div>
-    <div class="animated_element" id="epubs" ></div>
+    <div class="animated_element noclicks" id="grid_stack" ></div>
+    <div class="animated_element noclicks" id="epubs" ></div>
 
-    <div id="timeline" >
+    <div id="timeline" class="noclicks" >
       <div class="cap" id="cap_top"></div>
       <div class="cap" id="cap_bottom"></div>
       <div id="timeline_box"></div>
@@ -284,9 +284,10 @@
   </div> -->
 </div>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="assets/book_sfx.js"></script>
-  <script src="assets/waypoints.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script type="text/javascript" rc="/assets/book_sfx.js"></script>
+  <script type="text/javascript" src="/assets/waypoints.min.js"></script>
+  <script type="text/javascript" src="/assets/scroll_lock.js" ></script>
   
 </body>
 </html>

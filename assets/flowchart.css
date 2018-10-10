@@ -1,3 +1,7 @@
+.noclicks {
+	pointer-events: none;
+}
+
 #flowchart {
   position:relative;
   overflow:hidden;
