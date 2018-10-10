@@ -413,6 +413,14 @@ div.footer-right {
 #pricing .packagebox.shaded {
   background-color: #F5F5F5;
   padding-bottom: 28px;
+  height: 40em;
+  position: relative;
+}
+
+#pricing .packagebox.shaded div.details {
+  position: absolute;
+  bottom: 0;
+  padding: 0 40px 40px 0;
 }
 
 #pricing .packagebox .info {
