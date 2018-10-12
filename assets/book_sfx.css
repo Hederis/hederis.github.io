@@ -9,7 +9,7 @@
 	width:195px;
 	height:266px;
 
-	background-image:url('/images/book_without_cover.svg');
+	background-image:url('../images/book_without_cover.svg');
 	background-size:contain;
 	background-repeat:no-repeat;
 	background-position:left bottom;
@@ -22,7 +22,7 @@
 	width:182px;
 	height:256px;
 
-	background-image:url('/images/book_cover.svg');
+	background-image:url('../images/book_cover.svg');
 	background-size:contain;
 	background-repeat:no-repeat;
 	background-position:left bottom;

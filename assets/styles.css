@@ -384,15 +384,20 @@ div.footer-right {
     font-size: 1.5em;
 }
 
-#pricing li, #services li {
-  color: #00FF00;
+#pricing ul, #services ul {
+  list-style-image: url('../images/diamondbullet.svg');
+  padding-left: 16px;
 }
 
-#pricing li span {
+#pricing li, #services li {
+  padding-left: 4px;
+}
+
+#pricing li {
   color: #21172E;
 }
 
-#services li span {
+#services li {
   color: #CECAD1;
 }
 
