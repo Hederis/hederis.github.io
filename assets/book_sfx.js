@@ -78,21 +78,19 @@ $(function() {
 	let $arrows = $('#arrows');
 	let $circles = $('#circles');
 	let $flowchart_pages = $('.flowchart_page');
-	let $questionmark = $('#questionmark');
+	let $question_mark_and_icons = $('#question_mark_and_icons');
 
 	let $flowchart_how = $('#flowchart_how');
 	$flowchart_how.waypoint({
 	  handler: function(direction) {
 	  	if( direction == 'down') {
 	  		$flowchart_background.addClass('active');
-	  		$circles.addClass('active');
 	  		$flowchart_how.addClass('active');
-	  		$questionmark.addClass('active');
+	  		$question_mark_and_icons.addClass('active');
 	  	} else {
 	  		$flowchart_background.removeClass('active');
-	  		$circles.removeClass('active');
 	  		$flowchart_how.removeClass('active');
-	  		$questionmark.removeClass('active');
+	  		$question_mark_and_icons.removeClass('active');
 	  	}
 	  },
 	  offset: 0
@@ -102,17 +100,16 @@ $(function() {
 	$flowchart_word.waypoint({
 	  handler: function(direction) {
 	  	if( direction == 'down') {
-	  		$circles.removeClass('active');
 	  		$word_doc.addClass('active');
 	  		$flowchart_word.addClass('active');
 	  		$flowchart_how.removeClass('active');
-	  		$questionmark.removeClass('active');
+	  		$question_mark_and_icons.removeClass('active');
 	  	} else {
 	  		$circles.addClass('active');
 	  		$word_doc.removeClass('active');
 	  		$flowchart_word.removeClass('active');
 	  		$flowchart_how.addClass('active');
-	  		$questionmark.addClass('active');
+	  		$question_mark_and_icons.addClass('active');
 	  	}
 	  },
 	  offset: animation_offset
