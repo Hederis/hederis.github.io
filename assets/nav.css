@@ -19,7 +19,7 @@ a.nav-link:hover {
 }
 
 div.nav {
-	position:fixed;
+	position:absolute;
 	top:40px;
 	left:53px;
 	display:flex;

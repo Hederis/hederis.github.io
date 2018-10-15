@@ -249,6 +249,26 @@ $(function() {
 	  offset: animation_offset
 	})
 
+	let $flowchart_out = $('#flowchart_out');
+	$flowchart_out.waypoint({
+	  handler: function(direction) {
+	  	if( direction == 'down') {
+	  		$flowchart_background.removeClass('active');
+	  		$epubs.removeClass('active');
+	  		$arrows.removeClass('active');
+	  		$('#timeline').removeClass('fixed');
+	  		$flowchart_epubs.removeClass('active');
+	  	} else {
+	  		$flowchart_background.addClass('active');
+	  		$epubs.addClass('active');
+	  		$arrows.addClass('active');
+	  		$('#timeline').addClass('fixed');
+	  		$flowchart_epubs.addClass('active');
+	  	}
+	  },
+	  offset: animation_offset
+	})
+
 
 
 

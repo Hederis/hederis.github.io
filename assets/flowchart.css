@@ -55,6 +55,12 @@
 	box-sizing:border-box;
 }
 
+#flowchart_out {
+  background-color:#21172E;
+  height: 100vh;
+  /*background-image: linear-gradient(transparent, #21172E);*/
+}
+
 	.flowchart_page .toptext {
 		position:fixed;
 		width:100%;
