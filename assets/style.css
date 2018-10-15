@@ -96,12 +96,14 @@ div.two-col-text-block div.col-md-6 {
 }
 
 #learnmore {
-  padding-bottom: 3em;
+  padding-bottom: 1em;
+	min-height:650px;
 }
 
-#learnmore {
-	min-height:650px;
-	padding:40px 0 0 0;
+#learnmore #bookcloser {
+  border: 1px solid #585162;
+  border-radius: 0px 4px 4px 0px;
+  height:90vh;
 }
 
 @media only screen and (min-height:651px) {
@@ -154,7 +156,6 @@ div.two-col-text-block div.col-md-6 {
 }
 
 #learnmore_book #bookcloser {
-	height:100%;
 	display:flex;
 	flex-direction:column;
 	justify-content:space-between;
