@@ -3,7 +3,7 @@
   #home .bookframe {
     height: 90vh;
     overflow: auto;
-    outline: 1px solid #585162;
+    border: 1px solid #585162;
     border-radius: 0px 4px 4px 0px;
   }
 

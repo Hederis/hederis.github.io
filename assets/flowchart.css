@@ -57,7 +57,7 @@
 
 #flowchart_out {
   background-color:#21172E;
-  height: 100vh;
+  height: auto;
   /*background-image: linear-gradient(transparent, #21172E);*/
 }
 
