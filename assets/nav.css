@@ -53,6 +53,10 @@ li.nav-item {
     z-index: 10;
   }
 
+  #learnmore_nav {
+    z-index: 10;
+  }
+
   #pricing_nav h1 {
     background-color: white;
   }
