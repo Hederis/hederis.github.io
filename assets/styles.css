@@ -413,6 +413,7 @@ div.footer-right {
   border: 1px solid #CECAD1;
   border-radius: 3px;
   padding: 28px 40px 0px 40px;
+  height: auto;
 }
 
 #pricing .packagebox.shaded {
@@ -450,9 +451,9 @@ div.footer-right {
   display: inline-block;
 }
 
-#pricing .packagebox img {
+/*#pricing .packagebox img {
   width: 30%;
-}
+}*/
 
 #pricing .packagebox .imgholder {
   width: 100%;
@@ -473,7 +474,7 @@ div.footer-right {
   margin-bottom: 0;
 }
 
-#pricing #twelve img {
+/*#pricing #twelve img {
   max-height: 100%;
   max-width: 100%;
   width: auto;
@@ -485,7 +486,7 @@ div.footer-right {
   max-width: 100%;
   width: auto;
   margin-bottom: 0;
-}
+}*/
 
 #services {
   padding-top: 6em;

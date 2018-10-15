@@ -52,15 +52,61 @@
 
 .book.withHover.small {
 	display:inline-block;
-	margin-right:5px;
-	margin-bottom:5px;
-	width:50px;
-	height:68px;
+	margin-right:1%;
+	margin-bottom:0px;
+	height: 100%;
+/*	width:50px;
+	height:68px;*/
 }
 
 .book.withHover.small .book_cover {
-	width:46px;
-	height: 65px;
+	width: 93%;
+	height: 100%;
+/*	width:46px;
+	height: 65px;*/
+}
+
+.book_row {
+	margin-top: 0;
+	margin-bottom: 5px;
+	height: auto;
+}
+
+.book_row .book.withHover.small {
+	height: auto;
+}
+
+.book_row .book.withHover.small img {
+	width: 100%;
+	height: auto;
+}
+
+.book_row .book.withHover.small img.book_cover {
+	position: absolute;
+	top: 0;
+	background-image: none;
+	z-index: 10;
+	width: 93%;
+}
+
+#six .book_row {
+	width: 75%;
+}
+
+#six .book.withHover.small {
+	width: 30%;
+}
+
+#twelve .book_row, #twentyfour .book_row {
+	width: 100%;
+}
+
+#twelve .book.withHover.small {
+	width: 22%;
+}
+
+#twentyfour .book.withHover.small {
+	width: 10%;
 }
 
 /*$cover.css('transform', `perspective(1600px) rotateY(${c}deg)`);*/
