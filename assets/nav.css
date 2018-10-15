@@ -49,6 +49,14 @@ li.nav-item {
 
   }
 
+  #pricing_nav {
+    z-index: 10;
+  }
+
+  #pricing_nav h1 {
+    background-color: white;
+  }
+
   div.nav {
     position:fixed;
     left:0; top:0;

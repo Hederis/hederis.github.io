@@ -365,6 +365,10 @@ div.footer-right {
   text-decoration: none;
 }
 
+#pricing #main_content {
+  padding-top: 1.5rem;
+}
+
 #pricing h2 {
   font-family: "Spinoza";
   font-weight: 400;
@@ -646,6 +650,10 @@ div.footer-right {
 
   #learnmore div.pageframe#bookcloser {
     padding-bottom: 6vh;
+  }
+
+  #pricing #main_content {
+    padding-top: 2.5rem;
   }
 
   #pricing h2 {

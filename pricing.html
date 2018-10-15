@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
   <link rel="shortcut icon" href="favicon.ico" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="assets/nav.css" />
   <link rel="stylesheet" type="text/css" href="assets/styles.css" />
   <link rel="stylesheet" type="text/css" href="assets/book_sfx.css" />
 </head>
@@ -13,14 +14,11 @@
 <div class="container-fluid">
   <div class="row" id="pricing">
 
-    <div class="col-md-2">
+    <div class="nav white" id="pricing_nav">
       <h1 class=""><a href="/index.html#home"><img src="images/Hederiswordmark_purple@2x.png"/></a></h1>
-      <nav class="navbar navbar-expand-lg">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <div class="mobile_nav_btn"><span id="stripe_1"></span><span id="stripe_2"></span><span id="stripe_3"></span></div>
+      <nav class="navbar">
+        <div class="mobile_nav_hider" id="navbarTogglerDemo03">
           <ul class="navbar-nav nav flex-column">
             <li class="nav-item"><a class="nav-link pl-0" href="/index.html#home">About</a></li>
             <li class="nav-item active"><a class="nav-link pl-0" href="/pricing.html">Pricing</a></li>
@@ -32,7 +30,7 @@
       </nav>
     </div>
 
-    <div class="col-md-8 offset-md-1 pt-4 two-col-text-block">
+    <div class="col-md-8 offset-md-3 two-col-text-block" id="main_content">
       <div class="container">
         <div class="row" id="options">
           <div class="col-md-6 splash">
@@ -228,6 +226,7 @@
 </div>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="assets/book_sfx.js"></script>
   <script>
   function addPadding(marg) {
     var myBook = document.querySelectorAll("#six img.book_interior")[0];
