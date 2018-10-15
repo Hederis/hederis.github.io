@@ -151,6 +151,26 @@
 		opacity:1;
 	}
 
+#question_mark_and_icons {
+	position:absolute;
+	z-index:14;
+	width: 80vw;
+	height: 80vh;
+	left: 10vw;
+	top: 10vh;
+	transform:translateX(0px);
+	background-image:url('../images/question_mark_and_icons.svg');
+	background-position:center center;
+	background-size:contain;
+	background-repeat:no-repeat;
+	opacity:1;
+}
+
+	#question_mark_and_icons.active {
+		opacity:1;
+	}
+
+
 #circles {
 	position:fixed;
 	z-index:15;
@@ -270,9 +290,13 @@
 	margin-top:10vh;
 	height:80vh;
 	width:20px;
-	background:linear-gradient(to bottom, #cccad1 0%,#cccad1 5%,#07ff00 20%,#07ff00 100%);
+	background-color:#07ff00;
 	will-change: height;
 	transition:height 0.50s ease-in-out;
+}
+
+#timeline.gradient {
+ background:linear-gradient(to bottom, #cccad1 0%,#cccad1 5%,#07ff00 20%,#07ff00 100%); 	
 }
 
 #timeline.fixed {
@@ -295,7 +319,11 @@
 
 #timeline #cap_top {
 	top:-10px;
-	background-color:#cccad1;
+	background-color:#07ff00;
+}
+
+#timeline.gradient #cap_top {
+	background-color:#cccad1;	
 }
 
 #timeline #cap_bottom {
@@ -412,6 +440,10 @@
 
 	#flowchart_how .toptext {
 		top:15vh;
+	}
+
+	#flowchart_how .bottomtext{
+		bottom:13vh;
 	}
 
 	#questionmark {
