@@ -12,22 +12,23 @@ $(function() {
 	let $pinwheel = $('#flowchart_background');
 
 	window.onscroll = (e) => {
-		let y = document.body.scrollTop;
+		let ya = document.querySelector('#home .bookframe').scrollTop;
+		let yb = document.body.scrollTop;
 
-		var c = y;
+		var c = ya;
 		if (c < 0) c = 0;
 		else if (c > 400) c = 400;
 		c = c * -15 / 100;
 		$cover.css('transform', `perspective(1600px) rotateY(${c}deg)`);
 
 		var b = document.body.scrollHeight - window.innerHeight;
-		var cc = y
+		var cc = yb;
 		ccc = (cc - b) * 15 / 100;
 		if(ccc < -50) ccc = -50;
 		if(ccc > 0) ccc = 0
 		$bottom_cover.css('transform', `perspective(1600px) rotateY(${ccc}deg)`);
 
-		let z = y * spin;
+		let z = yb * spin;
 		$pinwheel.css('transform', `rotateZ(${z}deg)`);
 	}
 
