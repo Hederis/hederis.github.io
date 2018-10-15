@@ -384,7 +384,7 @@ div.footer-right {
     font-size: 1.5em;
 }
 
-#pricing ul, #services ul {
+#options ul, #bundles ul, #services ul {
   list-style-image: url('../images/diamondbullet.svg');
   padding-left: 16px;
 }

@@ -48,31 +48,30 @@
     var locked = false;
     var cover = $('#top_book .book_cover');
 
-    if (window.innerWidth > 768 || document.documentElement.clientWidth > 768) {
-      $('body').bind('wheel', function(e) {
-        visible = isElementVisibleInParent($('#aboutus'));
-        parvisible = isElementInViewport($('#home'));
-        if (visible === true) {
-          locked = false;
-        } else if (visible === false && parvisible === true) {
-          locked = true;
-        } else if (visible === false && parvisible === false) {
-          locked = false;
-        }
-        // if scrollframe is locked,
-        // only scroll the bookframe
-        if (locked) {
-          var $div = $('#home .bookframe');
-          $div.scrollTop($div.scrollTop() - e.originalEvent.wheelDelta);
-          scrollBook(cover);
-          return false;
-        }
-        if (scrolledToNext($('#whyswitch'))) {
-          // Reset bookframe to first page
-          var childel = document.getElementById('bookopener');
-          var topPos = childel.offsetTop;
-          document.querySelector('#home .bookframe').scrollTop = topPos;
-        }
-      });
-    }
+    // if (window.innerWidth > 768 || document.documentElement.clientWidth > 768)
+    $('body').bind('wheel', function(e) {
+      visible = isElementVisibleInParent($('#aboutus'));
+      parvisible = isElementInViewport($('#home'));
+      if (visible === true) {
+        locked = false;
+      } else if (visible === false && parvisible === true) {
+        locked = true;
+      } else if (visible === false && parvisible === false) {
+        locked = false;
+      }
+      // if scrollframe is locked,
+      // only scroll the bookframe
+      if (locked) {
+        var $div = $('#home .bookframe');
+        $div.scrollTop($div.scrollTop() - e.originalEvent.wheelDelta);
+        scrollBook(cover);
+        return false;
+      }
+      if (scrolledToNext($('#whyswitch'))) {
+        // Reset bookframe to first page
+        var childel = document.getElementById('bookopener');
+        var topPos = childel.offsetTop;
+        document.querySelector('#home .bookframe').scrollTop = topPos;
+      }
+    });
   });

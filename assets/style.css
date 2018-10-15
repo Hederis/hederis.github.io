@@ -307,7 +307,6 @@ div.two-col-text-block div.col-md-6 {
 	body {
 	  box-sizing: border-box;
 	  font-family: "Spinoza";
-	  font-size: 11px;
 	}
 
 	#home, #pricing, #learnmore, #whyswitch, #services {
@@ -319,6 +318,10 @@ div.two-col-text-block div.col-md-6 {
     background-color: #fff;
     color: #21172E;
     padding: 15% 10%;
+  }
+
+  div.two-col-text-block div.row {
+    margin-bottom: 0px;
   }
 
 }
