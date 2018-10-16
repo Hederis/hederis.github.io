@@ -160,6 +160,7 @@ div.two-col-text-block div.col-md-6 {
 }
 
 #learnmore_questions {
+  background-color: transparent;
 	display:flex;
 	flex-direction:column-reverse;
 }
@@ -173,7 +174,6 @@ div.two-col-text-block div.col-md-6 {
 #learnmore h2 {
   font-weight: 400;
   font-size: 1.9em;
-  margin-top: 2em;
   margin-bottom: 2em;
 }
 
@@ -187,6 +187,11 @@ div.two-col-text-block div.col-md-6 {
 
 #learnmore a.button {
   text-decoration: none;
+}
+
+#learnmore_questions div.pageframe {
+  height: 100%;
+  padding-top: 41vh;
 }
 
 #pricing h2 {

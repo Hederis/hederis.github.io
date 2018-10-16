@@ -32,6 +32,36 @@
 	transform: perspective(1600px) rotateY(0deg);
 }
 
+#bookcloser #book_wrapper {
+	height: 30vh;
+}
+
+/*#bookcloser #book_wrapper {
+	height: 40%;
+}
+
+#bottom_book {
+	position: relative;
+	background-image: none;
+	width: auto;
+	height: 100%;
+	margin-right:1%;
+}
+
+#bottom_book img.book_interior {
+	height: 100%;
+}
+
+#bottom_book img.book_cover {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-image: none;
+	z-index: 10;
+	width: 93%;
+	height: auto;
+}*/
+
 .book.withHover .book_cover {
 	transition:transform 0.2s ease-in-out;
 }
