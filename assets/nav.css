@@ -79,6 +79,10 @@ li.nav-item {
     margin:0;
   }
 
+  div.nav h1 img {
+    height: 30px;
+  }
+
   div.nav.white h1 {
     background-color:white;
   }

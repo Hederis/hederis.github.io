@@ -172,7 +172,8 @@ div.two-col-text-block div.col-md-6 {
 
 #learnmore h2 {
   font-weight: 400;
-  font-size: 2em;
+  font-size: 1.9em;
+  margin-top: 2em;
   margin-bottom: 2em;
 }
 
@@ -342,19 +343,25 @@ div.two-col-text-block div.col-md-6 {
     margin-bottom: 0.5em;
   }
 
-  #footer-full {
-    text-align: center;
+  #learnmore #bookcloser {
+    height: auto;
   }
 
-  .footer-info {
-    float: none;
-    margin-bottom: 0;
+  #learnmore h2 {
+    font-size: 1.6em;
+    margin-bottom: 1rem;
   }
 
-  .footer-credits {
-    padding-left: 0;
-    -webkit-padding-start: 0px;
-    float: none;
+  #learnmore div.pageframe {
+    padding: 4rem 2rem 2rem;
+  }
+
+  #learnmore .pageframe h2 {
+    margin-bottom: 1.5rem;
+  }
+
+  a.button {
+    font-size: 1.5em;
   }
 
 }
