@@ -2,10 +2,6 @@ a.nav-link {
   font-weight: 400;
 }
 
-a.nav-link:hover {
-  font-weight: 300;
-}
-
 #home a.nav-link, #learnmore a.nav-link  {
   color: #CECAD1;
 }
@@ -16,6 +12,11 @@ a.nav-link:hover {
 
 #pricing li.nav-item {
     font-size: 1.5em;
+}
+
+#home a.nav-link:hover, #learnmore a.nav-link:hover, #whyswitch a.nav-link:hover, #pricing a.nav-link:hover {
+  font-weight: 300;
+  color: #00FF00;
 }
 
 div.nav {
