@@ -25,6 +25,19 @@ h3 {
   margin-bottom: 1em;
 }
 
+div.pageframe p.navlink {
+  font-size: 1em;
+  text-align: center;
+  margin-top: 40px;
+  color: #797381;
+}
+
+div.pageframe  p.navlink a {
+  color: #797381;
+  text-decoration: none;
+  text-decoration-color: #797381;
+}
+
 span.highlight {
   color: #00FF00;
 }
@@ -50,6 +63,10 @@ div.pageframe {
   background-color: #fff;
   color: #21172E;
   padding: 5% 15% 10% 15%;
+}
+
+#aboutus {
+  padding-bottom: 10px;
 }
 
 div.pageframe p.imageholder {
