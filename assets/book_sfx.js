@@ -88,10 +88,14 @@ $(function() {
 	  		$flowchart_background.addClass('active');
 	  		$flowchart_how.addClass('active');
 	  		$question_mark_and_icons.addClass('active');
+	  		$('div.bottomtext').removeClass('d-none');
+	  		$('div.toptext').removeClass('d-none');
 	  	} else {
 	  		$flowchart_background.removeClass('active');
 	  		$flowchart_how.removeClass('active');
 	  		$question_mark_and_icons.removeClass('active');
+	  		$('div.bottomtext').addClass('d-none');
+	  		$('div.toptext').addClass('d-none');
 	  	}
 	  },
 	  offset: 0

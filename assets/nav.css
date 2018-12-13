@@ -27,6 +27,32 @@ div.nav {
 	padding:0px 15px;
 }
 
+div.nav.blue h1 a {
+  background-image: url("../images/Hederiswordmark_green@2x.png");
+  background-size: auto 45px;
+  background-repeat: no-repeat;
+  height: 45px;
+  width: 154px;
+  display: inline-block;
+}
+
+div.nav.blue h1 a:hover {
+  background-image: url("../images/green_logo_animation@4x.gif");
+}
+
+div.nav.white h1 a {
+  background-image: url("../images/Hederiswordmark_purple@2x.png");
+  background-size: auto 45px;
+  background-repeat: no-repeat;
+  height: 45px;
+  width: 154px;
+  display: inline-block;
+}
+
+div.nav.white h1 a:hover {
+  background-image: url("../images/purple_logo_animation@4x.gif");
+}
+
 nav.navbar {
   padding: 0;
 }
