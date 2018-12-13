@@ -22,7 +22,7 @@ div.footer-right {
 }
 
 #footer-full {
-  padding: 10px 53px 0px 53px;
+  padding: 15px 53px 0px 53px;
   min-height:0;
 }
 
@@ -33,6 +33,12 @@ div.footer-right {
   font-style: italic;
 }
 
+.footer-credits a {
+  color: #797381;
+  text-decoration: underline;
+  text-decoration-color: #797381;
+}
+
 #footer-full li {
   display: inline;
 }
@@ -41,8 +47,12 @@ div.footer-right {
   margin-left: 2em;
 }
 
-#footer-full .footer-credits li:first-of-type::after {
+#footer-full .footer-credits li::before {
   content: " | ";
+}
+
+#footer-full .footer-credits li:first-of-type::before {
+  content: normal;
 }
 
 #footer-full .float-right li {

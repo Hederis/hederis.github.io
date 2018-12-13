@@ -2,6 +2,10 @@
 	pointer-events: none;
 }
 
+.d-none {
+	display: none;
+}
+
 #flowchart {
   position:relative;
   overflow:hidden;
@@ -56,27 +60,48 @@
 }
 
 #flowchart_out {
-  background-color:#21172E;
-  height: auto;
+  z-index:9;
+  height: 100vh;
+  background-image: url('../images/flow_bg.svg');
+  background-color:white;
+  background-size: 250vw auto;
+  background-position: center;
+  background-repeat: no-repeat;
+
+/*  background-color:#21172E;
+  height: auto;*/
   /*background-image: linear-gradient(transparent, #21172E);*/
+}
+
+#circle_out {
+	position:absolute;
+	z-index:11;
+	width:90vmin;
+	height:90vmin;
+
+	left:calc((100vw - 90vmin) / 2);
+	top:calc((100vh - 90vmin) / 2);
+
+	background-color:white;
+	border-radius:100000px;
 }
 
 	.flowchart_page .toptext {
 		position:fixed;
 		width:100%;
-		top:13vh;
+		top:15vh;
 		text-align:center;
 		opacity:0;
 		will-change:opacity;
 	}
 		#flowchart_how .toptext {
-			top: 10vh;
+			top: 11vh;
 		}
 
 	.flowchart_page .bottomtext {
 		position:fixed;
 		width:100%;
-		bottom:13vh;
+		bottom:15vh;
 		margin:0 auto;
         text-align:center;
 		opacity:0;

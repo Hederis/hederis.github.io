@@ -224,6 +224,32 @@ $(function() {
 	  offset: animation_offset
 	})
 
+	// let $flowchart_epubs = $('#flowchart_epubs');
+	// $flowchart_epubs.waypoint({
+	//   handler: function(direction) {
+	//   	if( direction == 'down') {
+	//   		$grid_doc.removeClass('active');
+	//   		$grid_stack.removeClass('active');
+	//   		$epubs.addClass('active');
+	//   		$timeline_circle.removeClass('active');
+	//   		$arrows.addClass('active');
+	//   		$('#timeline').addClass('end');
+	//   		$flowchart_epubs.addClass('active');
+	//   		$flowchart_grids_and_grids.removeClass('active');
+	//   	} else {
+	//   		$grid_doc.addClass('active');
+	//   		$grid_stack.addClass('active');
+	//   		$epubs.removeClass('active');
+	//   		$timeline_circle.addClass('active');
+	//   		$arrows.removeClass('active');
+	//   		$('#timeline').removeClass('end');
+	//   		$flowchart_epubs.removeClass('active');
+	//   		$flowchart_grids_and_grids.addClass('active');
+	//   	}
+	//   },
+	//   offset: animation_offset
+	// })
+
 	let $flowchart_epubs = $('#flowchart_epubs');
 	$flowchart_epubs.waypoint({
 	  handler: function(direction) {
@@ -250,24 +276,46 @@ $(function() {
 	  offset: animation_offset
 	})
 
+	// let $flowchart_out = $('#flowchart_out');
+	// $flowchart_out.waypoint({
+	//   handler: function(direction) {
+	//   	if( direction == 'down') {
+	//   		$flowchart_background.removeClass('active');
+	//   		$epubs.removeClass('active');
+	//   		$arrows.removeClass('active');
+	//   		$('#timeline').removeClass('fixed');
+	//   		$flowchart_epubs.removeClass('active');
+	//   	} else {
+	//   		$flowchart_background.addClass('active');
+	//   		$epubs.addClass('active');
+	//   		$arrows.addClass('active');
+	//   		$('#timeline').addClass('fixed');
+	//   		$flowchart_epubs.addClass('active');
+	//   	}
+	//   },
+	//   offset: animation_offset
+	// })
+
 	let $flowchart_out = $('#flowchart_out');
 	$flowchart_out.waypoint({
 	  handler: function(direction) {
 	  	if( direction == 'down') {
 	  		$flowchart_background.removeClass('active');
 	  		$epubs.removeClass('active');
-	  		$arrows.removeClass('active');
 	  		$('#timeline').removeClass('fixed');
 	  		$flowchart_epubs.removeClass('active');
+	  		$('div.bottomtext').addClass('d-none');
+	  		$('div.toptext').addClass('d-none');
 	  	} else {
 	  		$flowchart_background.addClass('active');
 	  		$epubs.addClass('active');
-	  		$arrows.addClass('active');
 	  		$('#timeline').addClass('fixed');
 	  		$flowchart_epubs.addClass('active');
+	  		$('div.bottomtext').removeClass('d-none');
+	  		$('div.toptext').removeClass('d-none');
 	  	}
 	  },
-	  offset: animation_offset
+	  offset: 30
 	})
 
 
