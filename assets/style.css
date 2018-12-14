@@ -164,6 +164,10 @@ div.two-col-text-block div.col-md-6 {
   height: 128px;
 }*/
 
+#team img {
+  height: 128px;
+}
+
 #whyswitch {
   color: #21172E;
   background-color: #fff;
@@ -355,7 +359,11 @@ div.two-col-text-block div.col-md-6 {
     position: relative;
     background-color: #fff;
     color: #21172E;
-    padding: 15% 10%;
+    padding: 5% 10%;
+  }
+
+  div.pageframe p.navlink {
+    display: none;
   }
 
   div.two-col-text-block div.row {

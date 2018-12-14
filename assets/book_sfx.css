@@ -148,14 +148,20 @@
 	}
 
 	.book {
-		width :calc(195px * .65);
-		height:calc(266px * .65);
-		margin-bottom:2rem;
+		background-image:url('../images/hederisbook@2x.png');
+		background-size: auto 30vh;
+		background-repeat:no-repeat;
+		background-position:left bottom;
+		position: relative;
+		margin-top: 0;
+		margin-bottom: 1em;
+		height: 30vh;
+		width: 100%;
 	}
 
 	.book_cover {
-		width :calc(182px * .65);
-		height:calc(256px * .65);
+		display: none;
+		position: relative;
 	}
 
 }

@@ -45,7 +45,7 @@
 
   #home .bookframe {
     box-sizing:border-box;
-    height:90vh;
+    height: auto;
     margin-top: 4.5rem;
     margin-bottom: 10px;
     overflow: scroll;
@@ -55,7 +55,7 @@
   }
 
   #bookopener {
-    height:100%;
+    height: auto;
     min-height:0;
     padding:50px;
   }
