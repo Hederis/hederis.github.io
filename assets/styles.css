@@ -215,36 +215,6 @@ div.footer {
   overflow: visible;
 }
 
-div.footer li {
-  margin-right: 31px;
-}
-
-div.footer-right {
-  text-align: right;
-  right: 0;
-}
-
-#footer-full {
-  padding: 10px 53px 0px 53px;
-}
-
-#footer-full li {
-  display: inline;
-}
-
-#footer-full li + li {
-  margin-left: 2em;
-}
-
-#footer-full .float-right li {
-  color: #797381;
-}
-
-#whyswitch div.footer {
-  background-color: #fff;
-  color: #21172E;
-}
-
 #home, #pricing, #learnmore, #whyswitch, #services {
   padding: 40px 53px 40px 53px;
 }
@@ -550,8 +520,7 @@ div.footer-right {
   #whyswitch div[class^="col-md"],
   #learnmore div[class^="col-md"],
   #pricing div[class^="col-md"], 
-  #services div[class^="col-md"], 
-  #footer-full div[class^="col-md"] {
+  #services div[class^="col-md"] {
     padding-left: 0;
     padding-right: 0;
   }
@@ -713,18 +682,5 @@ div.footer-right {
   #services {
     padding-top: 80px;
     padding-bottom: 80px;
-  }
-
-  #footer-full {
-    padding-left: 8vw;
-    padding-right: 8vw;
-  }
-
-  #footer-full li {
-    display: block;
-  }
-
-  #footer-full li + li {
-    margin-left: 0;
   }
 }

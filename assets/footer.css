@@ -12,6 +12,20 @@ div.footer {
   overflow: visible;
 }
 
+#whyswitch div.footer {
+  background-color: #fff;
+  color: #21172E;
+}
+
+.footer-info {
+  float: left;
+}
+
+.footer-credits {
+  float: right;
+  color: #797381;
+}
+
 div.footer li {
   margin-right: 31px;
 }

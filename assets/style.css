@@ -116,20 +116,6 @@ div.two-col-text-block div.col-md-6 {
   padding-right: 25px;
 }
 
-#whyswitch div.footer {
-  background-color: #fff;
-  color: #21172E;
-}
-
-.footer-info {
-  float: left;
-}
-
-.footer-credits {
-  float: right;
-  color: #797381;
-}
-
 #home, #pricing, #learnmore, #whyswitch, #services {
   padding: 40px 53px 40px 53px;
 }
