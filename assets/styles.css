@@ -1,0 +1,686 @@
+@font-face {
+  font-family: "Spinoza";
+  src: url("https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/078d98f8-cf9e-45e8-a970-7a9e1b33f91e.eot?#iefix");
+  src: url("https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/078d98f8-cf9e-45e8-a970-7a9e1b33f91e.eot?#iefix") format("eot"),
+       url("https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/569fa3bc-9ef5-4100-b7d0-a48eb302b294.woff2") format("woff2"),
+       url("https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/ac769e3c-3ee1-4e64-a162-66761d074744.woff") format("woff"),
+       url("https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/f389c5ef-03cb-4be1-a1a2-d61d1c9a95c2.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Spinoza";
+  src: url("https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/ff626a15-fe32-4081-8934-8c3d37a20a51.eot?#iefix");
+  src: url("https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/ff626a15-fe32-4081-8934-8c3d37a20a51.eot?#iefix") format("eot"),
+       url("https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/390b2ad5-187c-4b5c-b7c0-a4d345dc01be.woff2") format("woff2"),
+       url("https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/dff5d809-5822-4b25-9a34-59e38514654e.woff") format("woff"),
+       url("https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/33e3b6ba-7481-448e-beb7-d2995c57adaf.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Spinoza";
+  src: url("https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/50b7c3ca-bd1a-469b-8f94-66695b6b7003.eot?#iefix");
+  src: url("https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/50b7c3ca-bd1a-469b-8f94-66695b6b7003.eot?#iefix") format("eot"),
+       url("https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/580b240f-22a2-40be-b840-78ffa40eb73c.woff2") format("woff2"),
+       url("https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/2c566f60-a414-49a4-82e5-a75f0395b1c5.woff") format("woff"),
+       url("https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/9c052c21-0021-4781-a71c-858fe0a2717a.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Spinoza";
+  src: url("https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/cd8a16b4-01d8-4cbc-b9f1-1f2cda1c66b2.eot?#iefix");
+  src: url("https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/cd8a16b4-01d8-4cbc-b9f1-1f2cda1c66b2.eot?#iefix") format("eot"),
+       url("https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/2c2ad470-c377-4fa2-b87b-80572cbed356.woff2") format("woff2"),
+       url("https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/9019a476-d85f-468f-80ab-7bfbc5e7a746.woff") format("woff"),
+       url("https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/8d33215f-a6c6-4a16-ba9e-4f05c788f95e.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Robinson Web';
+  src: url('https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/5ZDyh1tpAwuziiqx.eot');
+  src: url('https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/5ZDyh1tpAwuziiqx.eot?#iefix') format('embedded-opentype'),
+       url('https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/w09tnrw5J2UlsP8h.woff2') format('woff2'),
+       url('https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/tVJdLqRrYanOgd1S.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Robinson Web';
+  src: url('https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/JNUj9SNINWINnOAB.eot');
+  src: url('https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/JNUj9SNINWINnOAB.eot?#iefix') format('embedded-opentype'),
+       url('https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/agiJdBvHoVAmu7MW.woff2') format('woff2'),
+       url('https://s3-us-west-2.amazonaws.com/hederissite-storage/fonts/ssMiRL7B6SPFCWld.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+.Robinson-Regular-Web {
+  font-family: 'Robinson Web';
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+.Robinson-Light-Web {
+  font-family: 'Robinson Web';
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+html {
+  background-color: #21172E;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Spinoza";
+  font-size: 14px;
+}
+
+h1 {
+  margin-top: 0.5rem;
+}
+
+h1 img {
+  height: 45px;
+}
+
+h1.imageholder {
+  background-image: url("../images/Hederiswordmark_purple@2x.png");
+  background-size: auto 45px;
+  background-repeat: no-repeat;
+  height: 45px;
+  width: 154px;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+h3 {
+  font-family: "Robinson Web";
+  font-weight: 300;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.half-height {
+  margin-top: 40vh;
+}
+
+nav.navbar {
+  padding: 0;
+}
+
+.navbar-toggler-icon {
+  background-image: url("images/menu-icon.png");
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+}
+
+li.nav-item {
+  font-family: "Robinson Web";
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+a.nav-link {
+  font-weight: 400;
+}
+
+a.nav-link:hover {
+  font-weight: 300;
+}
+
+a.button {
+  font-family: "Robinson Web";
+  font-size: 1.75em;
+  line-height: 1.4em;
+  color: #21172E;
+  background-color: #00FF00;
+  padding: 13px 20px;
+  width: auto;
+  display: inline-block;
+}
+
+.panel-dark {
+  background-color: #21172E;
+  color: #CECAD1;
+}
+
+div.bookframe {
+  border: 1px solid #9095c8;
+  overflow-y: scroll;
+}
+
+div.pageframe {
+  position: relative;
+  background-color: #fff;
+  color: #21172E;
+  padding: 15% 15% 10% 15%;
+  height: 100%;
+}
+
+div.pageframe h3 {
+}
+
+div.pageframe p {
+  font-size: 1.5em;
+}
+
+div.pageframe a, #enterprise a {
+  color: #21172E;
+  text-decoration: underline;
+  text-decoration-color: #00ff00;
+}
+
+div.pageframe:first-of-type {
+  background-color: #21172E;
+  color: #CECAD1;
+}
+
+div.two-col-text-block div.row {
+  margin-bottom: 47px;
+}
+
+div.pageframe .bottom {
+  width: 70%;
+  position: absolute;
+  bottom: 10%;
+  left: 15%;
+}
+
+div.footer {
+  background-color: #21172E;
+  color: #CECAD1;
+  font-size: 1em;
+/*  padding-left: 53px;
+  padding-right: 53px;*/
+  position: absolute;
+  bottom: -40px;
+  width: 100%;
+  height: 30px;
+  white-space: nowrap;
+  overflow: visible;
+}
+
+#home, #pricing, #learnmore, #whyswitch, #services {
+  padding: 40px 53px 40px 53px;
+}
+
+#home, #learnmore, #flowchart {
+  height: 100%;
+}
+
+#learnmore {
+  padding-bottom: 1em;
+}
+
+#home a.nav-link, #learnmore a.nav-link  {
+  color: #CECAD1;
+}
+
+#home .bookframe {
+  height: 100%;
+}
+
+#bookopener img, #bookcloser img {
+  max-width: 50%;
+  max-height: 40%;
+}
+
+#bookopener h2 {
+  font-weight: 400;
+  font-size: 3em;
+  line-height: 1em;
+  margin-bottom: 1em;
+}
+
+#bookopener h3 {
+  font-family: "Spinoza";
+  font-weight: 400;
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+#bookcloser h2 {
+  font-weight: 400;
+  font-size: 2em;
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+
+#aboutus {
+  text-align: center;
+}
+
+#aboutus h3 {
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+}
+
+#aboutus img {
+  height: 128px;
+}
+
+#whyswitch {
+  color: #21172E;
+  background-color: #fff;
+}
+
+#whyswitch h2 {
+  font-size: 2.2em;
+}
+
+#whyswitch h3 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+#whyswitch p {
+  font-size: 1.25em;
+}
+
+#whyswitch a.nav-link, #pricing a.nav-link {
+  color: #21172E;
+}
+
+#flowchart {
+  background-image: url('images/flow_bg.svg');
+  background-size: 200% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#flowchart .anchor {
+  background-color: #fff;
+  height: 90vh;
+  width: 90vh;
+  border-radius: 45vh;
+  margin: 5vh auto 0 auto;
+}
+
+#learnmore h2 {
+  font-weight: 400;
+  font-size: 2em;
+  margin-bottom: 2em;
+}
+
+#learnmore a.button {
+  color: #21172E;
+}
+
+#learnmore .bookframe {
+  height: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#learnmore div.container.bookframe {
+  padding: 0;
+}
+
+#learnmore a.button {
+  text-decoration: none;
+}
+
+#pricing #main_content {
+  padding-top: 1.5rem;
+}
+
+#pricing h2 {
+  font-family: "Spinoza";
+  font-weight: 400;
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+#pricing h3 {
+  margin-bottom: 0.5em;
+}
+
+#pricing p, #pricing li, #services p, #services li {
+  font-size: 1.25em;
+}
+
+#pricing li.nav-item {
+    font-size: 1.5em;
+}
+
+#options ul, #bundles ul, #services ul {
+  list-style-image: url('../images/diamondbullet.svg');
+  padding-left: 16px;
+}
+
+#pricing li, #services li {
+  padding-left: 4px;
+}
+
+#pricing li {
+  color: #21172E;
+}
+
+#services li {
+  color: #CECAD1;
+}
+
+#pricing .splash {
+  text-align: center;
+}
+
+#pricing #options img {
+  width: 50%;
+}
+
+#pricing .packagebox {
+  border: 1px solid #CECAD1;
+  border-radius: 3px;
+  padding: 28px 40px 0px 40px;
+  height: auto;
+}
+
+#pricing .packagebox.shaded {
+  background-color: #F5F5F5;
+  padding-bottom: 28px;
+  height: 40em;
+  position: relative;
+}
+
+#pricing .packagebox.shaded div.details {
+  position: absolute;
+  bottom: 0;
+  padding: 0 40px 40px 0;
+}
+
+#pricing .packagebox .info {
+  color: #00FF00;
+  font-family: "Robinson Web";
+  font-weight: 400;
+  font-size: 1em;
+  margin-bottom: 0.5em;
+}
+
+#pricing .packagebox a.button {
+  border: 1px solid #21172E;
+  font-family: "Robinson Web";
+  font-size: 1.1em;
+  line-height: 1.4em;
+  color: #21172E;
+  background-color: #ffffff;
+  padding: 13px 20px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width: auto;
+  display: inline-block;
+}
+
+/*#pricing .packagebox img {
+  width: 30%;
+}*/
+
+#pricing .packagebox .imgholder {
+  width: 100%;
+  height: 16em;
+  margin-bottom: 2em;
+}
+
+#pricing #six .imgholder {
+  height: 12em;
+  width: 100%;
+  margin-bottom: 6em;
+}
+
+#pricing #six .imgholder img {
+  max-height: 100%;
+  max-width: 72%;
+  width: auto;
+  margin-bottom: 0;
+}
+
+/*#pricing #twelve img {
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  margin-bottom: 0;
+}
+
+#pricing #twentyfour img {
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  margin-bottom: 0;
+}*/
+
+#services {
+  padding-top: 6em;
+  padding-bottom: 6em;
+}
+
+#services h2 {
+  font-family: "Robinson Web";
+  font-weight: 300;
+  margin-bottom: 0.75em;
+}
+
+/*@media all and (max-width: 480px) { }*/
+@media all and (max-width: 980px) {}
+@media all and (max-width: 768px) {
+  .sm-dnone {
+    display: none;
+  }
+
+  button.navbar-toggler {
+    position: absolute;
+    top: -43px;
+    right: 0;
+  }
+
+  h1 img {
+    height: 35px;
+  }
+
+  h1.imageholder {
+    background-image: url("../images/Hederiswordmark_green@2x.png");
+    background-size: auto 35px;
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 160px;
+  }
+
+  div.pageframe {
+    padding: 10vh 8vw 3vh 8vw;
+  }
+
+  #home h1 {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-size: 8vh;
+  }
+  
+  #home, #pricing, #learnmore, #whyswitch, #services {
+    padding: 3vh 8vw 3vh 8vw;
+  }
+
+  #learnmore {
+    height: auto;
+  }
+
+  #home div[class^="col-md"],
+  #whyswitch div[class^="col-md"],
+  #learnmore div[class^="col-md"],
+  #pricing div[class^="col-md"], 
+  #services div[class^="col-md"] {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #home {
+    height: auto;
+  }
+
+  #home .bookframe {
+    margin-top: 1vh;
+    height: 83vh;
+  }
+
+  #home .pageframe {
+    height: auto;
+  }
+
+  #home #bookopener {
+    padding: 3vh 8vw 3vh 8vw;
+    height: 100%;
+  }
+
+  #bookopener img, #bookcloser img {
+    height: 20vh;
+  }
+
+  #bookopener img {
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+  }
+
+  #bookcloser img {
+    margin-bottom: 8vh;
+  }
+
+  #bookopener h2 {
+    font-size: 6vh;
+    margin-bottom: 6vh;
+  }
+
+  #bookopener h3 {
+    font-size: 4vh;
+    margin-bottom: 6vh;
+  }
+
+  div.pageframe .bottom {
+    width: auto;
+    position: relative;
+    bottom: auto;
+    left: auto;
+  }
+
+  #whyswitch h2 {
+    font-size: 2em;
+  }
+
+  #whyswitch h3 {
+    font-size: 1.8em;
+    margin-top: 1em;
+  }
+
+  #whyswitch div.row:first-of-type > div.col-md-6:first-of-type > h3 {
+    margin-top: 0;
+  }
+
+  #flowchart {
+    background-size: auto 150%;
+    height: 100vh;
+  }
+
+  #flowchart .anchor {
+    height: 90vh;
+    width: 100vh;
+    border-radius: 45vh;
+    margin: 5vh auto 0 auto;
+  }
+
+  #learnmore .bookframe {
+    height: auto;
+    margin-bottom: 2em;
+  }
+
+  #learnmore div.bookframe.container {
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  #learnmore div.pageframe {
+    padding: 6vh 8vw 3vh 8vw;
+    height: auto;
+  }
+
+  #learnmore h2 {
+    margin-bottom: 1em;
+  }
+
+  #learnmore div.pageframe#bookcloser {
+    padding-bottom: 6vh;
+  }
+
+  #pricing #main_content {
+    padding-top: 2.5rem;
+  }
+
+  #pricing h2 {
+    margin-bottom: 0.5em;
+  }
+
+  #pricing .splash {
+    text-align: left;
+    margin-bottom: 2em;
+  }
+
+  #pricing ul, #services ul {
+    margin-left: 8%;
+    padding-left: 0;
+  }
+
+  #pricing ul.navbar-nav {
+    margin-left: 0;
+  }
+
+  #pricing #options {
+    margin-bottom: 25px;
+  }
+
+  #pricing #options img {
+    width: 30%;
+  }
+
+  div.two-col-text-block div.row {
+    margin-bottom: 0px;
+  }
+
+  #pricing .packagebox {
+    padding: 28px 28px 0px 28px;
+    margin-bottom: 25px;
+  }
+
+  #pricing .packagebox .imgholder,
+  #pricing #six .imgholder {
+    margin-bottom: 1em;
+    height: auto;
+  }
+
+  #pricing #bundles {
+    margin-top: 25px;
+  }
+
+  #pricing #bundles ul {
+    margin-bottom: 47px;
+  }
+
+  #pricing #enterprise {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+
+  #services {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}

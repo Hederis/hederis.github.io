@@ -1,0 +1,161 @@
+#book_wrapper {
+	height:80vh;
+	display:flex;
+	align-items:center;
+}
+
+.book {
+	position:relative;
+	width:195px;
+	height:266px;
+
+	background-image:url('../images/book_without_cover.svg');
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:left bottom;
+}
+
+.book_cover {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:182px;
+	height:256px;
+
+	background-image:url('../images/book_cover.svg');
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:left bottom;
+
+	will-change: transform;
+	transform-origin: 0% 200%;
+	transform: perspective(1600px) rotateY(0deg);
+}
+
+#bookcloser #book_wrapper {
+	height: 30vh;
+}
+
+/*#bookcloser #book_wrapper {
+	height: 40%;
+}
+
+#bottom_book {
+	position: relative;
+	background-image: none;
+	width: auto;
+	height: 100%;
+	margin-right:1%;
+}
+
+#bottom_book img.book_interior {
+	height: 100%;
+}
+
+#bottom_book img.book_cover {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-image: none;
+	z-index: 10;
+	width: 93%;
+	height: auto;
+}*/
+
+.book.withHover .book_cover {
+	transition:transform 0.2s ease-in-out;
+}
+
+.book.withHover:hover .book_cover {
+	transform:perspective(1600px) rotateY(-50deg);
+}
+
+.book.withHover.medium {
+	width:100px;
+	height:136px;
+}
+
+.book.withHover.medium .book_cover {
+	width:93px;
+	height: 131px;
+}
+
+.book.withHover.small {
+	display:inline-block;
+	margin-right:1%;
+	margin-bottom:0px;
+	height: 100%;
+/*	width:50px;
+	height:68px;*/
+}
+
+.book.withHover.small .book_cover {
+	width: 93%;
+	height: 100%;
+/*	width:46px;
+	height: 65px;*/
+}
+
+.book_row {
+	margin-top: 0;
+	margin-bottom: 5px;
+	height: auto;
+}
+
+.book_row .book.withHover.small {
+	height: auto;
+}
+
+.book_row .book.withHover.small img {
+	width: 100%;
+	height: auto;
+}
+
+.book_row .book.withHover.small img.book_cover {
+	position: absolute;
+	top: 0;
+	background-image: none;
+	z-index: 10;
+	width: 93%;
+}
+
+#six .book_row {
+	width: 75%;
+}
+
+#six .book.withHover.small {
+	width: 30%;
+}
+
+#twelve .book_row, #twentyfour .book_row {
+	width: 100%;
+}
+
+#twelve .book.withHover.small {
+	width: 22%;
+}
+
+#twentyfour .book.withHover.small {
+	width: 10%;
+}
+
+/*$cover.css('transform', `perspective(1600px) rotateY(${c}deg)`);*/
+
+@media only screen and (max-width:767px) {
+
+	#book_wrapper {
+		height:auto;
+	}
+
+	.book {
+		width :calc(195px * .65);
+		height:calc(266px * .65);
+		margin-bottom:2rem;
+	}
+
+	.book_cover {
+		width :calc(182px * .65);
+		height:calc(256px * .65);
+	}
+
+}

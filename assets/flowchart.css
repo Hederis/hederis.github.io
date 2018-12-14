@@ -1,0 +1,635 @@
+.noclicks {
+	pointer-events: none;
+}
+
+.d-none {
+	display: none;
+}
+
+#flowchart {
+  position:relative;
+  overflow:hidden;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+		
+#flowchart_background {
+  pointer-events:none;
+
+  position:absolute;
+  z-index:10;
+  width:200vw;
+  height:200vh;
+  left:-50vw;
+  top:-50vh;
+
+  background-image: url('../images/flow_bg.svg');
+  background-color:white;
+  background-size: 125% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  transform:rotateZ(0deg);
+  will-change:transform;
+  transform-origin: 50% 50%;
+}
+
+#flowchart_background.active {
+	position:fixed;
+}
+
+#circle {
+	position:absolute;
+	z-index:11;
+	width:90vmin;
+	height:90vmin;
+
+	left:calc((200vw - 90vmin) / 2);
+	top:calc((200vh - 90vmin) / 2);
+
+	background-color:white;
+	border-radius:100000px;
+}
+
+.flowchart_page {
+	position:relative;
+	z-index:19;
+	height:150vh;
+	box-sizing:border-box;
+}
+
+#flowchart_out {
+  z-index:9;
+  height: 100vh;
+  background-image: url('../images/flow_bg.svg');
+  background-color:white;
+  background-size: 250vw auto;
+  background-position: center;
+  background-repeat: no-repeat;
+
+/*  background-color:#21172E;
+  height: auto;*/
+  /*background-image: linear-gradient(transparent, #21172E);*/
+}
+
+#circle_out {
+	position:absolute;
+	z-index:11;
+	width:90vmin;
+	height:90vmin;
+
+	left:calc((100vw - 90vmin) / 2);
+	top:calc((100vh - 90vmin) / 2);
+
+	background-color:white;
+	border-radius:100000px;
+}
+
+	.flowchart_page .toptext {
+		position:fixed;
+		width:100%;
+		top:15vh;
+		text-align:center;
+		opacity:0;
+		will-change:opacity;
+	}
+		#flowchart_how .toptext {
+			top: 11vh;
+		}
+
+	.flowchart_page .bottomtext {
+		position:fixed;
+		width:100%;
+		bottom:15vh;
+		margin:0 auto;
+        text-align:center;
+		opacity:0;
+		will-change:opacity;
+		transition:opacity 0.3s 0.01s ease-in-out;
+	}
+
+	.flowchart_page.active .toptext, .flowchart_page.active .bottomtext { opacity:1; }
+
+
+	#flowchart p {
+	  max-width:30vw;
+	  margin:0 auto;
+	}
+
+		
+
+
+.eyes {
+	position:absolute;
+	top:30%;
+	width:100%;
+	height:calc(100% * .3);
+	background-image:url('../images/flowchart_icons/eyes.svg');
+	background-size:contain;
+	background-position:center;
+	background-repeat:no-repeat;
+	opacity:0;
+	will-change: opacity;
+	transition:opacity 0.40s ease-in-out;
+}
+
+.eyes.active {
+	opacity:1;
+}
+
+
+
+
+
+.animated_element {
+	position:fixed;
+	z-index:15;
+	width:35vw;
+	height:35vh;
+	top:32.5vh;
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:center;
+	opacity:0;
+	transform: translateX(32.5vw) translateY(-100vh);
+	will-change: transform, opacity;
+	transition: transform 0.5s 0.01s ease-in, opacity 0.7s 0.01s ease-in;
+}
+
+.animated_element.active {
+	opacity:1;
+	transform: translateX(32.5vw) translateY(0vh);
+}
+
+#questionmark {
+	position:fixed;
+	z-index:14;
+	width: 60vw;
+	height: 60vh;
+	left: 20vw;
+	top: 17vh;
+	background-image:url('../images/question_mark_elements.svg');
+	background-position:center center;
+	background-size:contain;
+	background-repeat:no-repeat;
+	will-change:opacity;
+	opacity:0;
+	transition:opacity 0.5s 0.01s ease-in-out;
+}
+
+	#questionmark.active {
+		opacity:1;
+	}
+
+#question_mark_and_icons {
+	position:absolute;
+	z-index:14;
+	width: 80vw;
+	height: 80vh;
+	left: 10vw;
+	top: 10vh;
+	transform:translateX(0px);
+	background-image:url('../images/question_mark_and_icons.svg');
+	background-position:center center;
+	background-size:contain;
+	background-repeat:no-repeat;
+	opacity:1;
+}
+
+	#question_mark_and_icons.active {
+		opacity:1;
+	}
+
+
+#circles {
+	position:fixed;
+	z-index:15;
+	left:0;
+	top:0;
+}
+
+		.circle {
+			position:absolute;
+			width:28vmax;
+			height:28vmax;
+			border-radius:10000px;
+			will-change:transition;
+			transition: transform 0.5s 0.1s ease-in-out;
+		}
+		.circle.grey  { 
+			background-color:#cecad1; 
+			transform: translate(-100vmax, calc((100vh - 28vmax) / 2));
+		}
+			#circles.active .circle.grey {
+				transform: translate(10vmax, calc((100vh - 28vmax) / 2));
+			}
+		.circle.green { 
+			background-color:#07ff00; 
+			transform: translate(200vmax, calc((100vh - 28vmax) / 2));
+		}
+			#circles.active .circle.green {
+				transform: translate(60vmax, calc((100vh - 28vmax) / 2));
+			}
+
+		.static_element {
+			position:absolute;
+			background-size:contain;
+			background-repeat:no-repeat;
+			background-position:center;
+		}
+
+		.static_element.word {
+			left:3vmax;
+			top:4vmax;
+			width:22vmax;
+			height:22vmax;
+			background-image:url('../images/flowchart_icons/WordDocIcon.svg');
+		}
+
+		.static_element.epubs {
+			left:-2.5vmax;
+			top:-1vmax;
+			width:34vmax;
+			height:30vmax;
+			background-image:url('../images/flowchart_icons/EPUBPDFpair.svg');
+		}
+
+		#flowchart_how .circle.left {
+			left:10vmax;
+		}
+
+		#flowchart_how .circle.right {
+			right:10vmax;
+		}
+
+#word_doc {
+	background-image:url('../images/flowchart_icons/WordDocIcon.svg');
+}
+
+#analyze_doc {
+	background-image:url('../images/flowchart_icons/analysisicon.svg');
+}
+
+#analyze_doc.left {
+	transform: translateX(10vw) translateY(0vh);
+}
+
+#grid_doc {
+	transform: translateX(52.5vw) translateY(-100vh);
+	background-image:url('../images/flowchart_icons/fixedpagecount.svg');
+}
+
+#grid_doc.active {
+	transform: translateX(52.5vw) translateY(0vh);
+}
+
+#grid_doc.active.center {
+	transform: translateX(32.5vw) translateY(0vh);
+}
+
+#grid_doc.active.left {
+	transform: translateX(15vw) translateY(0vh);
+}
+
+#grid_stack {
+	transform: translateX(50vw) translateY(-100vh);
+	background-image:url('../images/flowchart_icons/longpagecount.svg');
+}
+
+#grid_stack.active {
+	transform: translateX(50vw) translateY(0vh);
+}
+
+#epubs {
+	background-image:url('../images/flowchart_icons/EPUBPDFpair.svg');
+}
+
+
+
+
+
+
+
+
+
+#timeline {
+	position:absolute;
+	z-index:13;
+	top:150vh;
+	left:calc((100vw - 20px) / 2);
+	margin-top:10vh;
+	height:80vh;
+	width:20px;
+	background-color:#07ff00;
+	will-change: height;
+	transition:height 0.50s ease-in-out;
+}
+
+#timeline.gradient {
+ background:linear-gradient(to bottom, #cccad1 0%,#cccad1 5%,#07ff00 20%,#07ff00 100%); 	
+}
+
+#timeline.fixed {
+	position:fixed;
+	top:0vh;
+}
+
+#timeline.end {
+	height:40vh;
+}
+
+#timeline .cap {
+	width:40px;
+	height:40px;
+	border-radius:100000px;
+	position:absolute;
+	left:-10px;
+	background-color:#07ff00;
+}
+
+#timeline #cap_top {
+	top:-10px;
+	background-color:#07ff00;
+}
+
+#timeline.gradient #cap_top {
+	background-color:#cccad1;	
+}
+
+#timeline #cap_bottom {
+	bottom:-10px;
+	will-change: top, left, width, height;
+	transition:top 0.50s ease-in-out, left 0.50s ease-in-out, width 0.50s ease-in-out, height 0.50s ease-in-out;
+}
+
+#timeline.end #cap_bottom {
+	width:45vh;
+	height:45vh;
+	bottom:-22.5vh;
+	left:calc(-22.5vh + 10px);
+}
+
+#arrows {
+	position:absolute;
+	top:40vh;
+	left:10px;
+	width:0; 
+	height:0;
+}
+
+#arrows .arrow {
+	position:absolute;
+	margin-top:-7vh;
+	width:43vh;
+	height:14vh;
+	opacity:0;
+
+	background-image:url("../images/flowchart_icons/arrow.svg");
+	background-position: right top;
+	background-repeat:no-repeat;
+	transform-origin:0px 7vh;
+	will-change: transform, opacity;
+	transition:transform 0.50s 0s ease-out, opacity 0.15s 0s ease-in-out;
+}
+	#arrows.active .arrow {
+		will-change: transform, opacity;
+		transition:transform 0.50s 0.5s ease-out, opacity 0.15s 0.5s ease-in-out;
+	}
+
+	#arrows.active .arrow {
+		opacity:1;
+	}
+
+	#arrows .arrow:nth-of-type(1) { transform:scale(0.25) rotateZ(230deg); }
+	#arrows .arrow:nth-of-type(2) { transform:scale(0.25) rotateZ(45deg); }
+	#arrows .arrow:nth-of-type(3) { transform:scale(0.25) rotateZ(155deg); }
+	#arrows .arrow:nth-of-type(4) { transform:scale(0.25) rotateZ(200deg); }
+	#arrows .arrow:nth-of-type(5) { transform:scale(0.25) rotateZ(320deg); }
+	#arrows .arrow:nth-of-type(6) { transform:scale(0.25) rotateZ(350deg); }
+
+	#arrows.active .arrow:nth-of-type(1) { transform:scale(1) rotateZ(230deg); }
+	#arrows.active .arrow:nth-of-type(2) { transform:scale(1) rotateZ(45deg); }
+	#arrows.active .arrow:nth-of-type(3) { transform:scale(1) rotateZ(155deg); }
+	#arrows.active .arrow:nth-of-type(4) { transform:scale(1) rotateZ(200deg); }
+	#arrows.active .arrow:nth-of-type(5) { transform:scale(1) rotateZ(320deg); }
+	#arrows.active .arrow:nth-of-type(6) { transform:scale(1) rotateZ(350deg); }
+
+
+#timeline_box {
+	position:absolute;
+	top:10vh;
+	left:calc(-30vw + 10px);
+	height:60vh;
+	width:calc(60vw);
+	border-radius:25px;
+	border:20px solid #07ff00;
+	/*border-image:linear-gradient(to bottom, #cccad1, #07ff00) 1;*/
+	background:white;
+	opacity:0;
+	will-change: transform, opacity;
+	transition:transform 0.50s ease-in-out, opacity 0.15s ease-in-out;
+	transform-origin:center center;
+	transform:scale(0.01);
+}
+
+#timeline_box.active {
+	transform:scale(1);
+	opacity:1;
+}
+
+
+
+#timeline_circle {
+	position:absolute;
+	top:15vh;
+	left:calc(-25vh + 10px);
+	height:50vh;
+	width:calc(50vh);
+	border-radius:100000px;
+	border:20px solid #07ff00;
+	/*border-image:linear-gradient(to bottom, #cccad1, #07ff00) 1;*/
+
+	background:white;
+	opacity:0;
+	will-change: transform, opacity;
+	transition:transform 0.50s ease-in-out, opacity 0.15s ease-in-out;
+	transform-origin:center center;
+	transform:scale(0.01);
+}
+
+
+#timeline_circle.active {
+	transform:scale(1);
+	opacity:1;
+}
+
+
+
+
+@media only screen and (max-width:767px) {
+
+	#flowchart_how .toptext {
+		top:15vh;
+	}
+
+	#flowchart_how .bottomtext{
+		bottom:13vh;
+	}
+
+	#questionmark {
+		width: 60vw;
+		height: 55vh;
+		left: 20vw;
+		top: 21vh;
+	}
+
+	#circle {
+		position:fixed;
+		z-index:11;
+		height:80vh;
+		width:80vh;
+
+		top: 60vh;
+		left: 30vw;
+
+		background-color:white;
+		border-radius:100000px;
+	}
+
+
+	#flowchart h2 {
+		text-align:center;
+		font-size:1.7rem;
+	}
+
+	#flowchart #learnmore h2 {
+		text-align:left;
+	}
+
+	#flowchart p {
+		max-width:80%;
+		margin-top:1em;
+	}
+
+	.flowchart_page {
+		padding:10vh 0;
+	}
+
+		.circle {
+			width:38vw;
+			height:38vw;
+		}
+
+		.circle.grey  { 
+			transform: translate(-100vw, calc((100vh - 28vmax) / 2));
+		}
+			#circles.active .circle.grey {
+				transform: translate(5vw, calc((100vh - 28vmax) / 2));
+			}
+		.circle.green { 
+			transform: translate(200vw, calc((100vh - 28vmax) / 2));
+		}
+			#circles.active .circle.green {
+				transform: translate(55vw, calc((100vh - 28vmax) / 2));
+			}
+
+	.static_element.word {
+	  left: 2vh;
+	  top: 3vh;
+	  width: 28vw;
+	  height: 28vw;
+	}
+
+	.static_element.epubs {
+		left:-2vh;
+		top:3vh;
+		width:48vw;
+		height:28vw;
+	}
+
+	#timeline {
+		left:calc((100vw - 10px) / 2);
+		margin-top:15vh;
+		height:70vh;
+		width:10px;
+	}
+
+	#timeline.end {
+		height:40vw;
+	}
+
+	#timeline.end #cap_bottom {
+		width: 30vh;
+		height: 30vh;
+		top:20vh;
+		left: calc(-28vw + 10px);
+	}
+
+	#timeline .cap {
+		width:20px;
+		height:20px;
+		border-radius:100000px;
+		position:absolute;
+		left:-5px;
+		background-color:#07ff00;
+	}
+
+	#timeline_box, #timeline_circle {
+		position:absolute;
+		top:calc((70vh - 64vw) / 2);
+		height:64vw;
+		left:calc(-30vw + 5px);
+		border-width:10px;
+	}
+
+	#timeline_circle {
+		width:calc(60vw);
+	}
+
+	#timeline_circle.active:after {
+		top:10px;
+	}
+
+	#grid_doc, #grid_stack {
+		left:55vw;
+	}
+
+	#grid_doc.left {
+		left:10vw;
+	}
+
+
+	#timeline_circle:after {
+		display:none;
+	}
+
+	#epubs {
+		width: 70vw;
+		left: -15vw;
+	}
+
+
+	#arrows {
+		position:absolute;
+		top:35vh;
+		left:5px;
+		width:0; 
+		height:0;
+	}
+
+	#arrows .arrow {
+		position:absolute;
+		margin-top:-7vw;
+		width:50vw;
+		height:14vw;
+		opacity:0;
+
+		background-image:url("../images/flowchart_icons/arrow.svg");
+		background-position: right top;
+		background-repeat:no-repeat;
+		transform-origin:0px 7vh;
+		will-change: transform, opacity;
+		transition:transform 0.5s 0s ease-out, opacity 0.15s 0s ease-in-out;
+	}
+}

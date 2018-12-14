@@ -1,0 +1,71 @@
+@media only screen and (min-width:769px) {
+
+  #home .bookframe {
+    height: 90vh;
+    overflow: auto;
+    border: 1px solid #585162;
+    border-radius: 0px 4px 4px 0px;
+  }
+
+  #bookopener {
+  }
+
+}
+
+
+#bookopener {
+  height:90vh;
+  min-height:650px;
+  padding:40px 15% 40px 15%;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+
+#bookopener img, #bookcloser img {
+  max-width: 50%;
+  max-height: 40%;
+}
+
+#bookopener h2 {
+  font-weight: 400;
+  font-size: 3em;
+  line-height: 1em;
+  margin-bottom: 1em;
+}
+
+#bookopener h3 {
+  font-family: "Spinoza";
+  font-weight: 400;
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+@media all and (max-width: 767px) {
+
+  #home .bookframe {
+    box-sizing:border-box;
+    height:90vh;
+    margin-top: 4.5rem;
+    margin-bottom: 10px;
+    overflow: scroll;
+/*    display:flex;
+    flex-direction:column;
+    align-items:center;*/
+  }
+
+  #bookopener {
+    height:100%;
+    min-height:0;
+    padding:50px;
+  }
+
+  #bookopener h2 {
+/*    font-size:2.4em;
+*/  }
+
+  #bookopener h3 {
+    font-size:1.7em;
+  }
+
+}
