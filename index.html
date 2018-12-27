@@ -1,8 +1,10 @@
+<!DOCTYPE html>
 <html>
 
 <head>
   <title>Hederis</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8">
 
   <link rel="shortcut icon" href="favicon.ico" />
   <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://www.hederis.com/apple-touch-icon-57x57.png" />
@@ -98,6 +100,7 @@
         </div>
       </div>
     </div>
+    <div class="navarrow"><a href="#" data-toggle="tooltip" data-placement="left" title="Keep scrolling!"><img src="images/down-arrow.png" alt="Keep scrolling for more"/></a></div>
   </div>
 
   <div class="row page" id="whyswitch">
@@ -296,6 +299,14 @@
   <script type="text/javascript" src="assets/book_sfx.js"></script>
   <script type="text/javascript" src="assets/waypoints.min.js"></script>
   <script type="text/javascript" src="assets/scroll_lock.js" ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+  </script>
   
 </body>
 </html>

@@ -31,8 +31,8 @@
   background-repeat: no-repeat;
 
   transform:rotateZ(0deg);
-  will-change:transform;
-  transform-origin: 50% 50%;
+/*  will-change:transform;
+*/  transform-origin: 50% 50%;
 }
 
 #flowchart_background.active {
@@ -92,8 +92,8 @@
 		top:15vh;
 		text-align:center;
 		opacity:0;
-		will-change:opacity;
-	}
+/*		will-change:opacity;
+*/	}
 		#flowchart_how .toptext {
 			top: 11vh;
 		}
@@ -105,8 +105,8 @@
 		margin:0 auto;
         text-align:center;
 		opacity:0;
-		will-change:opacity;
-		transition:opacity 0.3s 0.01s ease-in-out;
+/*		will-change:opacity;
+*/		transition:opacity 0.3s 0.01s ease-in-out;
 	}
 
 	.flowchart_page.active .toptext, .flowchart_page.active .bottomtext { opacity:1; }
@@ -130,8 +130,8 @@
 	background-position:center;
 	background-repeat:no-repeat;
 	opacity:0;
-	will-change: opacity;
-	transition:opacity 0.40s ease-in-out;
+/*	will-change: opacity;
+*/	transition:opacity 0.40s ease-in-out;
 }
 
 .eyes.active {
@@ -153,8 +153,8 @@
 	background-position:center;
 	opacity:0;
 	transform: translateX(32.5vw) translateY(-100vh);
-	will-change: transform, opacity;
-	transition: transform 0.5s 0.01s ease-in, opacity 0.7s 0.01s ease-in;
+/*	will-change: transform, opacity;
+*/	transition: transform 0.5s 0.01s ease-in, opacity 0.7s 0.01s ease-in;
 }
 
 .animated_element.active {
@@ -173,8 +173,8 @@
 	background-position:center center;
 	background-size:contain;
 	background-repeat:no-repeat;
-	will-change:opacity;
-	opacity:0;
+/*	will-change:opacity;
+*/	opacity:0;
 	transition:opacity 0.5s 0.01s ease-in-out;
 }
 
@@ -214,8 +214,8 @@
 			width:28vmax;
 			height:28vmax;
 			border-radius:10000px;
-			will-change:transition;
-			transition: transform 0.5s 0.1s ease-in-out;
+/*			will-change:transition;
+*/			transition: transform 0.5s 0.1s ease-in-out;
 		}
 		.circle.grey  { 
 			background-color:#cecad1; 
@@ -322,8 +322,8 @@
 	height:80vh;
 	width:20px;
 	background-color:#07ff00;
-	will-change: height;
-	transition:height 0.50s ease-in-out;
+/*	will-change: height;
+*/	transition:height 0.50s ease-in-out;
 }
 
 #timeline.gradient {
@@ -359,8 +359,8 @@
 
 #timeline #cap_bottom {
 	bottom:-10px;
-	will-change: top, left, width, height;
-	transition:top 0.50s ease-in-out, left 0.50s ease-in-out, width 0.50s ease-in-out, height 0.50s ease-in-out;
+/*	will-change: top, left, width, height;
+*/	transition:top 0.50s ease-in-out, left 0.50s ease-in-out, width 0.50s ease-in-out, height 0.50s ease-in-out;
 }
 
 #timeline.end #cap_bottom {
@@ -389,12 +389,12 @@
 	background-position: right top;
 	background-repeat:no-repeat;
 	transform-origin:0px 7vh;
-	will-change: transform, opacity;
-	transition:transform 0.50s 0s ease-out, opacity 0.15s 0s ease-in-out;
+/*	will-change: transform, opacity;
+*/	transition:transform 0.50s 0s ease-out, opacity 0.15s 0s ease-in-out;
 }
 	#arrows.active .arrow {
-		will-change: transform, opacity;
-		transition:transform 0.50s 0.5s ease-out, opacity 0.15s 0.5s ease-in-out;
+/*		will-change: transform, opacity;
+*/		transition:transform 0.50s 0.5s ease-out, opacity 0.15s 0.5s ease-in-out;
 	}
 
 	#arrows.active .arrow {
@@ -427,8 +427,8 @@
 	/*border-image:linear-gradient(to bottom, #cccad1, #07ff00) 1;*/
 	background:white;
 	opacity:0;
-	will-change: transform, opacity;
-	transition:transform 0.50s ease-in-out, opacity 0.15s ease-in-out;
+/*	will-change: transform, opacity;
+*/	transition:transform 0.50s ease-in-out, opacity 0.15s ease-in-out;
 	transform-origin:center center;
 	transform:scale(0.01);
 }
@@ -452,8 +452,8 @@
 
 	background:white;
 	opacity:0;
-	will-change: transform, opacity;
-	transition:transform 0.50s ease-in-out, opacity 0.15s ease-in-out;
+/*	will-change: transform, opacity;
+*/	transition:transform 0.50s ease-in-out, opacity 0.15s ease-in-out;
 	transform-origin:center center;
 	transform:scale(0.01);
 }
@@ -629,7 +629,7 @@
 		background-position: right top;
 		background-repeat:no-repeat;
 		transform-origin:0px 7vh;
-		will-change: transform, opacity;
-		transition:transform 0.5s 0s ease-out, opacity 0.15s 0s ease-in-out;
+/*		will-change: transform, opacity;
+*/		transition:transform 0.5s 0s ease-out, opacity 0.15s 0s ease-in-out;
 	}
 }

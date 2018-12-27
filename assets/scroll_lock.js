@@ -48,8 +48,23 @@
     var locked = false;
     var cover = $('#top_book .book_cover');
 
+    $('#abs').bind('mousewheel DOMMouseScroll', function(e) {
+      var scrollTo = 0;
+      e.preventDefault();
+      if (e.type == 'mousewheel') {
+          scrollTo = (e.originalEvent.wheelDelta * -1);
+          alert("w"+e.originalEvent.wheelDelta);
+      }
+      else if (e.type == 'DOMMouseScroll') {
+          scrollTo = 40 * e.originalEvent.detail;
+          alert("d"+e.originalEvent.detail);
+      }
+      $(this).scrollTop(scrollTo + $(this).scrollTop());
+      
+    });
+
     if (window.innerWidth > 768 || document.documentElement.clientWidth > 768) {
-      $('body').bind('wheel', function(e) {
+      $(window).bind('mousewheel DOMMouseScroll MozMousePixelScroll', function(e) {
         visible = isElementVisibleInParent($('#aboutus'));
         parvisible = isElementInViewport($('#home'));
         if (visible === true) {
@@ -63,7 +78,13 @@
         // only scroll the bookframe
         if (locked) {
           var $div = $('#home .bookframe');
-          $div.scrollTop($div.scrollTop() - e.originalEvent.wheelDelta);
+          if (e.type == 'mousewheel') {
+            var scrollTo = ($div.scrollTop() - e.originalEvent.wheelDelta);
+          }
+          else if (e.type == 'DOMMouseScroll') {
+            var scrollTo = $div.scrollTop() - e.originalEvent.detail;
+          }
+          $div.scrollTop(scrollTo);
           scrollBook(cover);
           return false;
         }

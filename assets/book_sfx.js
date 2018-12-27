@@ -1,7 +1,7 @@
 $(function() {
 
 	let animation_offset = 100
-	let spin = .01 /* higher number == faster */
+	let spin = 0.01 /* higher number == faster */
 
 
 
@@ -13,7 +13,11 @@ $(function() {
 
 	window.onscroll = (e) => {
 		let ya = document.querySelector('#home .bookframe').scrollTop;
-		let yb = document.body.scrollTop;
+		// bottom book closing is broken and in progress
+		let yb = document.body.scrollHeight;
+		let aa = document.querySelector('#home .bookframe').offsetHeight;
+		// let yb = document.body.scrollTop;
+		// let yb = document.querySelector('#learnmore_container').scrollTop;
 
 		var c = ya;
 		if (c < 0) c = 0;
@@ -23,12 +27,15 @@ $(function() {
 
 		var b = document.body.scrollHeight - window.innerHeight;
 		var cc = yb;
-		ccc = (cc - b) * 15 / 100;
+		//ccc = (cc - b) * 15 / 100;
+		ccc = (cc - aa) * 15 / 100;
 		if(ccc < -50) ccc = -50;
 		if(ccc > 0) ccc = 0
 		$bottom_cover.css('transform', `perspective(1600px) rotateY(${ccc}deg)`);
 
 		let z = yb * spin;
+		console.log(yb);
+		console.log(z);
 		$pinwheel.css('transform', `rotateZ(${z}deg)`);
 	}
 

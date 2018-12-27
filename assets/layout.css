@@ -23,7 +23,7 @@ div.page {
 }
 
 
-#home {
+#home, #home_mask {
 	z-index:80;
 }
 

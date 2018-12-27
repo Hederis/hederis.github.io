@@ -1,6 +1,6 @@
 @media only screen and (min-width:769px) {
 
-  #home .bookframe {
+  #home .bookframe, #home_mask .bookframe {
     height: 90vh;
     overflow: auto;
     border: 1px solid #585162;
@@ -43,7 +43,7 @@
 
 @media all and (max-width: 767px) {
 
-  #home .bookframe {
+  #home .bookframe, #home_mask .bookframe {
     box-sizing:border-box;
     height: auto;
     margin-top: 4.5rem;
