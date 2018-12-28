@@ -1,23 +1,23 @@
 $(function() {
 
-	let animation_offset = 100
-	let spin = 0.01 /* higher number == faster */
+	var animation_offset = 100
+	var spin = 0.01 /* higher number == faster */
 
 
 
 	/* scroll-based f/x (not counting timeline) */
 
-	let $cover = $('#top_book .book_cover');
-	let $bottom_cover = $('#bottom_book .book_cover');
-	let $pinwheel = $('#flowchart_background');
+	var $cover = $('#top_book .book_cover');
+	var $bottom_cover = $('#bottom_book .book_cover');
+	var $pinwheel = $('#flowchart_background');
 
-	window.onscroll = (e) => {
-		let ya = document.querySelector('#home .bookframe').scrollTop;
+	window.onscroll = function(e) {
+		var ya = document.querySelector('#home .bookframe').scrollTop;
 		// bottom book closing is broken and in progress
-		let yb = document.body.scrollHeight;
-		let aa = document.querySelector('#home .bookframe').offsetHeight;
-		// let yb = document.body.scrollTop;
-		// let yb = document.querySelector('#learnmore_container').scrollTop;
+		var yb = document.body.scrollHeight;
+		var aa = document.querySelector('#home .bookframe').offsetHeight;
+		// var yb = document.body.scrollTop;
+		// var yb = document.querySelector('#learnmore_container').scrollTop;
 
 		var c = ya;
 		if (c < 0) c = 0;
@@ -33,7 +33,7 @@ $(function() {
 		if(ccc > 0) ccc = 0
 		$bottom_cover.css('transform', `perspective(1600px) rotateY(${ccc}deg)`);
 
-		let z = yb * spin;
+		var z = yb * spin;
 		console.log(yb);
 		console.log(z);
 		$pinwheel.css('transform', `rotateZ(${z}deg)`);
@@ -48,7 +48,7 @@ $(function() {
 
 	/* nav */
 
-	$('div.nav h1').on('click', () => {
+	$('div.nav h1').on('click', function() {
 		console.log('click')
 		$('div.nav').toggleClass('active');
 		$('.mobile_nav_btn').toggleClass('active');
@@ -60,7 +60,7 @@ $(function() {
 
 	/* flowchart animations */
 
-	let $timeline = $('#timeline');
+	var $timeline = $('#timeline');
 	var waypoint_timeline_start = new Waypoint({
 	  element: document.getElementById('flowchart_word'),
 	  handler: function(direction) {
@@ -73,22 +73,22 @@ $(function() {
 	})
 
 
-	let $flowchart_background = $('#flowchart_background');
-	let $word_doc = $('#word_doc');
-	let $analyze_doc = $('#analyze_doc');
-	let $analyze_doc_eyes = $('#analyze_doc .eyes');
-	let $grid_doc = $('#grid_doc');
-	let $grid_doc_eyes = $('#grid_doc .eyes');
-	let $grid_stack = $('#grid_stack');
-	let $epubs = $('#epubs');
-	let $timeline_box = $('#timeline_box');
-	let $timeline_circle = $('#timeline_circle');
-	let $arrows = $('#arrows');
-	let $circles = $('#circles');
-	let $flowchart_pages = $('.flowchart_page');
-	let $question_mark_and_icons = $('#question_mark_and_icons');
+	var $flowchart_background = $('#flowchart_background');
+	var $word_doc = $('#word_doc');
+	var $analyze_doc = $('#analyze_doc');
+	var $analyze_doc_eyes = $('#analyze_doc .eyes');
+	var $grid_doc = $('#grid_doc');
+	var $grid_doc_eyes = $('#grid_doc .eyes');
+	var $grid_stack = $('#grid_stack');
+	var $epubs = $('#epubs');
+	var $timeline_box = $('#timeline_box');
+	var $timeline_circle = $('#timeline_circle');
+	var $arrows = $('#arrows');
+	var $circles = $('#circles');
+	var $flowchart_pages = $('.flowchart_page');
+	var $question_mark_and_icons = $('#question_mark_and_icons');
 
-	let $flowchart_how = $('#flowchart_how');
+	var $flowchart_how = $('#flowchart_how');
 	$flowchart_how.waypoint({
 	  handler: function(direction) {
 	  	if( direction == 'down') {
@@ -108,7 +108,7 @@ $(function() {
 	  offset: 0
 	})
 
-	let $flowchart_word = $('#flowchart_word')
+	var $flowchart_word = $('#flowchart_word')
 	$flowchart_word.waypoint({
 	  handler: function(direction) {
 	  	if( direction == 'down') {
@@ -127,7 +127,7 @@ $(function() {
 	  offset: animation_offset
 	})
 
-	let $flowchart_upload = $('#flowchart_upload');
+	var $flowchart_upload = $('#flowchart_upload');
 	$flowchart_upload.waypoint({
 	  handler: function(direction) {
 	  	if( direction == 'down') {
@@ -143,7 +143,7 @@ $(function() {
 	  offset: animation_offset
 	})
 
-	let $flowchart_analyze = $('#flowchart_analyze');
+	var $flowchart_analyze = $('#flowchart_analyze');
 	$flowchart_analyze.waypoint({
 	  handler: function(direction) {
 	  	if( direction == 'down') {
@@ -175,7 +175,7 @@ $(function() {
 	  offset: animation_offset
 	})
 
-	let $flowchart_eyes_with_grid = $('#flowchart_eyes_with_grid');
+	var $flowchart_eyes_with_grid = $('#flowchart_eyes_with_grid');
 	$flowchart_eyes_with_grid.waypoint({
 	  handler: function(direction) {
 	  	if( direction == 'down') {
@@ -193,7 +193,7 @@ $(function() {
 	  offset: animation_offset
 	})
 
-	let $flowchart_grid_with_eyes = $('#flowchart_grid_with_eyes');
+	var $flowchart_grid_with_eyes = $('#flowchart_grid_with_eyes');
 	$flowchart_grid_with_eyes.waypoint({
 	  handler: function(direction) {
 	  	if( direction == 'down') {
@@ -213,7 +213,7 @@ $(function() {
 	  offset: animation_offset
 	})
 
-	let $flowchart_grids_and_grids = $('#flowchart_grids_and_grids');
+	var $flowchart_grids_and_grids = $('#flowchart_grids_and_grids');
 	$flowchart_grids_and_grids.waypoint({
 	  handler: function(direction) {
 	  	if( direction == 'down') {
@@ -235,7 +235,7 @@ $(function() {
 	  offset: animation_offset
 	})
 
-	// let $flowchart_epubs = $('#flowchart_epubs');
+	// var $flowchart_epubs = $('#flowchart_epubs');
 	// $flowchart_epubs.waypoint({
 	//   handler: function(direction) {
 	//   	if( direction == 'down') {
@@ -261,7 +261,7 @@ $(function() {
 	//   offset: animation_offset
 	// })
 
-	let $flowchart_epubs = $('#flowchart_epubs');
+	var $flowchart_epubs = $('#flowchart_epubs');
 	$flowchart_epubs.waypoint({
 	  handler: function(direction) {
 	  	if( direction == 'down') {
@@ -287,7 +287,7 @@ $(function() {
 	  offset: animation_offset
 	})
 
-	// let $flowchart_out = $('#flowchart_out');
+	// var $flowchart_out = $('#flowchart_out');
 	// $flowchart_out.waypoint({
 	//   handler: function(direction) {
 	//   	if( direction == 'down') {
@@ -307,7 +307,7 @@ $(function() {
 	//   offset: animation_offset
 	// })
 
-	let $flowchart_out = $('#flowchart_out');
+	var $flowchart_out = $('#flowchart_out');
 	$flowchart_out.waypoint({
 	  handler: function(direction) {
 	  	if( direction == 'down') {
