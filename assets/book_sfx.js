@@ -34,8 +34,8 @@ $(function() {
 		$bottom_cover.css('transform', `perspective(1600px) rotateY(${ccc}deg)`);
 
 		var z = yb * spin;
-		console.log(yb);
-		console.log(z);
+		// console.log(yb);
+		// console.log(z);
 		$pinwheel.css('transform', `rotateZ(${z}deg)`);
 	}
 
@@ -49,7 +49,7 @@ $(function() {
 	/* nav */
 
 	$('div.nav h1').on('click', function() {
-		console.log('click')
+		// console.log('click')
 		$('div.nav').toggleClass('active');
 		$('.mobile_nav_btn').toggleClass('active');
 	})
