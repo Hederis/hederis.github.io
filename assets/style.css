@@ -67,6 +67,11 @@ a.button {
   color: #CECAD1;
 }
 
+.panel-med {
+  background-color: #CECAD1;
+  color: #21172E;
+}
+
 div.pageframe {
   position: relative;
   background-color: #fff;
@@ -151,6 +156,7 @@ div.two-col-text-block div.col-md-6 {
 #learnmore_container {
   z-index: 100;
   height: auto;
+  padding-bottom: 50px;
 }
 
 #learnmore {
