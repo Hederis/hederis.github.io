@@ -364,21 +364,34 @@ div.footer {
     font-size: 1.5em;
 }
 
-#options ul, #bundles ul, #services ul {
+#options ul, #bundles ul, #services ul, #products ul {
   list-style-image: url('../images/diamondbullet.svg');
   padding-left: 16px;
 }
 
-#pricing li, #services li {
+#pricing li, #services li, #products li {
   padding-left: 4px;
 }
 
-#pricing li {
+#pricing li, #products li {
   color: #21172E;
 }
 
 #services li {
   color: #CECAD1;
+}
+
+#products li {
+  font-size: 0.8em;
+  margin-bottom: 0;
+}
+
+#products li p {
+  margin-bottom: 0;
+}
+
+#products img {
+  max-width: 100%;
 }
 
 #pricing .splash {
@@ -403,6 +416,10 @@ div.footer {
   position: relative;
 }
 
+#pricing #products .packagebox.shaded {
+  height: auto;
+}
+
 #pricing .packagebox.shaded div.details {
   position: absolute;
   bottom: 0;
@@ -415,6 +432,23 @@ div.footer {
   font-weight: 400;
   font-size: 1em;
   margin-bottom: 0.5em;
+}
+
+#products .packagebox .info {
+  color: #00FF00;
+  font-family: "Robinson Web";
+  font-weight: 400;
+  font-size: 1em;
+  margin-bottom: 0.5em;
+}
+
+#products .packagebox .info:nth-of-type(2) {
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+#products .packagebox .info a {
+  color: #00FF00;
 }
 
 #pricing .packagebox a.button {
