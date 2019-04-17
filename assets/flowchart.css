@@ -55,8 +55,12 @@
 .flowchart_page {
 	position:relative;
 	z-index:19;
-	height:150vh;
+	height:200vh;
 	box-sizing:border-box;
+}
+
+.flowchart_page:first-of-type {
+/*	height:150vh;*/
 }
 
 #flowchart_out {

@@ -62,6 +62,10 @@ a.button {
   display: inline-block;
 }
 
+a.button.small {
+  font-size: 1em;
+}
+
 .panel-dark {
   background-color: #21172E;
   color: #CECAD1;
@@ -217,6 +221,17 @@ div.two-col-text-block div.col-md-6 {
 
 #whyswitch p, #flowchart p {
   font-size: 1.25em;
+}
+
+#whyswitch p.imageholder {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+#whyswitch p.imageholder img {
+  width: 100%;
+  max-width: 250px;
 }
 
 #learnmore_questions {
@@ -386,7 +401,7 @@ div.two-col-text-block div.col-md-6 {
 	}
 
   #home, #home_mask, #pricing, #learnmore, #whyswitch, #services {
-		padding:0;
+		padding: 30px 0;
 	}
 
   #home .navarrow {
@@ -437,6 +452,10 @@ div.two-col-text-block div.col-md-6 {
 
   a.button {
     font-size: 1.5em;
+  }
+
+  a.button.small {
+    font-size: 1em;
   }
 
 }

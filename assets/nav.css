@@ -20,12 +20,23 @@ a.nav-link {
 }
 
 div.nav {
+  top:40px;
+  left:53px;
+  display:flex;
+  flex-direction:column;
+  padding:0px 15px;
+}
+
+div.nav.primary {
 	position:absolute;
-	top:40px;
-	left:53px;
-	display:flex;
-	flex-direction:column;
-	padding:0px 15px;
+}
+
+div.nav.secondary {
+  position: fixed;
+}
+
+div.nav.relative {
+  position: relative;
 }
 
 div.nav.blue h1 a {
@@ -93,7 +104,10 @@ a.nav-link.highlight,
     background-color: white;
   }
 
-  div.nav {
+  div.nav,
+  div.nav.primary,
+  div.nav.secondary,
+  div.nav.relative {
     position:fixed;
     left:0; top:0;
     width:100%;
@@ -119,7 +133,9 @@ a.nav-link.highlight,
     background-color:white;
   }
 
-  nav.navbar {
+  div.nav nav.navbar,
+  div.nav.primary nav.navbar,
+  div.nav.secondary nav.navbar {
     will-change:transform;
     transform:translateY(-55vh);
     transition: transform 0.2s ease-in-out;
@@ -131,7 +147,9 @@ a.nav-link.highlight,
     background-color:white;
   }
 
-  div.nav.active nav.navbar {
+  div.nav.active nav.navbar,
+  div.nav.primary.active nav.navbar,
+  div.nav.secondary.active nav.navbar {
     transform:translateY(0);
   }
 

@@ -1,6 +1,6 @@
 $(function() {
 
-	var animation_offset = 100
+	var animation_offset = 75
 	var spin = 0.01 /* higher number == faster */
 
 
@@ -66,8 +66,10 @@ $(function() {
 	  handler: function(direction) {
 	  	if( direction == 'down') {
 	  		$('#timeline').addClass('fixed').removeClass('end');
+	  		$('div.nav.secondary').addClass('relative');
 	  	} else {
 	  		$('#timeline').removeClass('fixed').removeClass('end');
+	  		$('div.nav.secondary').removeClass('relative');
 	  	}
 	  }
 	})
