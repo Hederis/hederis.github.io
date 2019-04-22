@@ -115,6 +115,10 @@ a.nav-link.highlight,
     padding:0;
   }
 
+  div.nav.nav-pills {
+    position: relative;
+  }
+
   div.nav h1 {
     position:relative;
     z-index:100;
