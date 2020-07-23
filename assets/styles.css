@@ -563,6 +563,15 @@ div.footer {
   margin-bottom: 0.75em;
 }
 
+#faq details {
+  font-size: 1.5em;
+  margin-bottom: 0.75em;
+}
+
+#faq summary {
+  font-style: italic;
+}
+
 strong.highlight {
   color: #21172E;
 }
@@ -606,7 +615,7 @@ span.larger {
     margin-bottom: 1vh;
     font-size: 8vh;
   }
-  
+
   #home, #pricing, #learnmore, #whyswitch, #services {
     padding: 3vh 8vw 3vh 8vw;
   }
@@ -618,7 +627,7 @@ span.larger {
   #home div[class^="col-md"],
   #whyswitch div[class^="col-md"],
   #learnmore div[class^="col-md"],
-  #pricing div[class^="col-md"], 
+  #pricing div[class^="col-md"],
   #services div[class^="col-md"] {
     padding-left: 0;
     padding-right: 0;
