@@ -478,6 +478,7 @@ div.footer {
 #products th {
   background-color: #21172E;
   color: #00ff00;
+  min-width: 120px;
 }
 
 #products th:first-child {
