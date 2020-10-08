@@ -451,48 +451,63 @@ div.footer {
   color: #00FF00;
 }
 
-#products tr:nth-of-type(odd) {
+#products tr:nth-of-type(odd),
+#pricing tr:nth-of-type(odd) {
   background-color: #F5F5F5;
 }
 
-#products tr:first-of-type {
+#products tr:first-of-type,
+#pricing tr:first-of-type {
   background-color: transparent;
 }
 
-#products tr:last-of-type {
+#products tr:last-of-type,
+#pricing tr.last,
+#pricing tr:last-of-type {
   background-color: transparent;
   border-width: 0px;
 }
 
-#products td, #products th {
+#products td, #products th,
+#pricing td, #pricing th {
   font-size: 1.25em;
   border: 1px solid #CECAD1;
   padding: 2px 10px 2px 10px;
   text-align: center;
 }
 
-#products tr:last-of-type td {
+#products tr:last-of-type td,
+#pricing tr.last td,
+#pricing tr:last-of-type td {
   border-width: 0px;
 }
 
-#products th {
+#pricing tr.footnote p {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+#products th, #pricing th {
   background-color: #21172E;
   color: #00ff00;
   min-width: 120px;
 }
 
-#products th:first-child {
+#products th:first-child,
+#pricing th:first-child {
   color: #000000;
   text-align: left;
   border-width: 0px;
   background-color: transparent;
 }
 
-#products td:first-child {
+#products td:first-child,
+#pricing td:first-child {
   text-align: left;
 }
 
-#products td a.button {
+#products td a.button,
+#pricing td a.button {
   font-size: 1em;
 }
 
@@ -500,6 +515,10 @@ div.footer {
   font-style: italic;
   font-size: 0.9em;
   text-align: center;
+}
+
+.pricing-details {
+  margin-bottom: 40px;
 }
 
 #pricing .packagebox a.button {
@@ -580,6 +599,20 @@ strong.highlight {
 span.larger {
   font-size: 2em;
   color: #00ff00;
+}
+
+span.optional, span.required {
+  line-height: 3em;
+  display: inline-block;
+  font-weight: bold;
+}
+
+span.optional {
+  color: #00ff00;
+}
+
+span.required {
+  color: #000000;
 }
 
 /*@media all and (max-width: 480px) { }*/
