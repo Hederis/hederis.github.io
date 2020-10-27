@@ -386,6 +386,13 @@ div.two-col-text-block div.col-md-6 {
   margin-bottom: 0.75em;
 }
 
+/* Newsletter signup */
+#mc_embed_signup label {
+  font-weight: normal;
+  font-size: 14px;
+  padding-bottom: 0px;
+}
+
 
 
 @media all and (max-width: 767px) {
