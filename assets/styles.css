@@ -624,6 +624,7 @@ span.required {
 
 #mc_embed_signup input.email {
   width: 90%;
+  font-family: inherit;
 }
 
 /*@media all and (max-width: 480px) { }*/

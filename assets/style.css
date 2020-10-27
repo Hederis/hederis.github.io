@@ -395,6 +395,7 @@ div.two-col-text-block div.col-md-6 {
 
 #mc_embed_signup input.email {
   width: 90%;
+  font-family: inherit;
 }
 
 
