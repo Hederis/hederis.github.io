@@ -387,6 +387,10 @@ div.two-col-text-block div.col-md-6 {
 }
 
 /* Newsletter signup */
+#mc_embed_signup form {
+  padding-left: 0;
+}
+
 #mc_embed_signup label {
   font-weight: normal;
   font-size: 14px;
