@@ -620,6 +620,10 @@ span.required {
   padding-left: 0;
 }
 
+#team #mc_embed_signup form {
+  padding: 0 0 0 0;
+}
+
 #mc_embed_signup label {
   font-weight: normal;
   font-size: 14px;
