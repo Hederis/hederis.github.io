@@ -458,4 +458,12 @@ div.two-col-text-block div.col-md-6 {
     font-size: 1em;
   }
 
+  #mc_embed_signup {
+    display: none;
+  }
+
+  #team #mc_embed_signup {
+    display: initial;
+  }
+
 }

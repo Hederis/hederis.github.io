@@ -825,4 +825,12 @@ span.required {
     padding-top: 80px;
     padding-bottom: 80px;
   }
+
+  #mc_embed_signup {
+    display: none;
+  }
+
+  #team #mc_embed_signup {
+    display: initial;
+  }
 }
