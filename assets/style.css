@@ -393,6 +393,10 @@ div.two-col-text-block div.col-md-6 {
   padding-bottom: 0px;
 }
 
+#mc_embed_signup input.email {
+  width: 90%;
+}
+
 
 
 @media all and (max-width: 767px) {
