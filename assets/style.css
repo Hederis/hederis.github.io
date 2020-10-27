@@ -398,6 +398,14 @@ div.two-col-text-block div.col-md-6 {
   font-family: inherit;
 }
 
+#mc_embed_signup {
+  border-top: 1px solid #585162 !important;
+}
+
+#team #mc_embed_signup {
+  border-top: 0px solid #585162 !important;
+}
+
 
 
 @media all and (max-width: 767px) {
