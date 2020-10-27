@@ -386,6 +386,30 @@ div.two-col-text-block div.col-md-6 {
   margin-bottom: 0.75em;
 }
 
+/* Newsletter signup */
+#mc_embed_signup form {
+  padding-left: 0;
+}
+
+#mc_embed_signup label {
+  font-weight: normal;
+  font-size: 14px;
+  padding-bottom: 0px;
+}
+
+#mc_embed_signup input.email {
+  width: 90%;
+  font-family: inherit;
+}
+
+#mc_embed_signup {
+  border-top: 1px solid #585162 !important;
+}
+
+#team #mc_embed_signup {
+  border-top: 0px solid #585162 !important;
+}
+
 
 
 @media all and (max-width: 767px) {
