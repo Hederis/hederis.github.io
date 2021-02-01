@@ -1,0 +1,76 @@
+p.case-study span {
+  font-size: 1.5em;
+  background-color: #21172E;
+  color: #fff;
+  font-weight: bold;
+  display: inline-block;
+  padding: 3px 6px 3px;
+  border-radius: 3px;
+}
+
+.panel-dark p.case-study span {
+  background-color: #00ff00;
+  color: #21172E;
+}
+
+#services {
+  padding-top: 3em;
+  padding-bottom: 0em;
+}
+
+#services h2, 
+#services h3, 
+#services p, 
+#services li, 
+#services a, 
+#services a.collapsible-section {
+  color: #000;
+}
+
+.panel-dark#services h2 {
+  color: #00ff00;
+}
+
+#pricing {
+  padding-bottom: 1em;
+}
+
+div.two-col-text-block div.row {
+  margin-bottom: 0px;
+}
+
+a.collapsible-section {
+  color: #21172E;
+}
+
+a.collapsible-section::before {
+  content:"\25BA ";
+  font-size: 0.75em;
+  color: #00ff00;
+  margin-right: 10px;
+}
+
+a.collapsible-section[aria-expanded=true]::before {
+  content:"\25BC ";
+}
+
+#other-options {
+  margin-top: 1em;
+  padding-top: 3em;
+}
+
+#other-options h2, 
+#other-options h3, 
+#other-options p, 
+#other-options li, 
+#other-options a, 
+#other-options a.collapsible-section {
+  color: #CECAD1;
+}
+
+#other-options p, 
+#other-options li, 
+#other-options a, 
+#other-options a.collapsible-section {
+  font-size: 1.25em;
+}
