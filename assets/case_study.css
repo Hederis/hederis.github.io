@@ -69,8 +69,10 @@ a.collapsible-section[aria-expanded=true]::before {
 }
 
 #other-options p, 
-#other-options li, 
-#other-options a, 
-#other-options a.collapsible-section {
+#other-options li {
   font-size: 1.25em;
+}
+
+#other-options h3 {
+  font-size: 2rem;
 }
