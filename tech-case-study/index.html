@@ -96,83 +96,110 @@
     <div class="col-md-8 offset-md-3 two-col-text-block" id="main_content">
       <div class="container">
 
-    <div class="row" id="options">
-    <div class="col-md-12">
-        <p class="case-study"><span>Case Study</span></p>
-        <h2>Mid-Sized Publisher Implementing an Automated Workflow</h2>
-          <p>In this case study, we consider the example of an educational publishing company, interested in streamlining their entire book production workflow. They’ve heard about “Digital First” workflows, and are interested in potentially implementing something like that at their organization, though they don’t have a clear idea of what exactly they’re looking for. This company already uses Word Styles to tag their manuscripts, and have been laying out their print books in InDesign, and then making adjustments to the InDesign file before exporting to EPUB, and finally doing some extra cleanup on the EPUB files to make them meet internal and external requirements.</p>
-          <h3><a class="collapsible-section" data-toggle="collapse" href="#benefits" aria-expanded="true" aria-controls="benefits">Potential benefits of choosing an automated workflow</a></h3>
-          <div class="collapse show" id="benefits">
-            <ul>
-              <li>Reduced composition costs</li>
-              <li>Reduced composition time, leading to potential increase in speed to market</li>
-              <li>Simultaneous print and ebook conversion</li>
-              <li>Toolchain can be constructed to satisfy printer and ebook retailer requirements for every conversion, leading to a reduction in file returns/corrections requests from vendors</li>
-            </ul>
+        <div class="row" id="options">
+          <div class="col-md-12">
+            <p class="case-study"><span>Case Study</span></p>
+            <h2>Mid-Sized Publisher Implementing an Automated Workflow</h2>
+            <p>In this case study, we consider the example of an educational publishing company, interested in streamlining their entire book production workflow. They’ve heard about “Digital First” workflows and are interested, but they don’t have a clear idea of how to bring about this transformation to their organization. This company uses Microsoft Word Styles to tag their manuscripts and have been laying out their print books in InDesign.They make adjustments to the InDesign file before exporting to EPUB, but they still have to do some extra cleanup on the EPUB files to make them meet internal and external requirements. They’d like to spend less time adjusting and validating their EPUB files, and they’d also like to be able to generate HTML files for the Web at the same time that they create EPUB and print-ready files.</p>
+            <h3>Potential benefits of choosing an automated workflow</h3>
+            <p>The publisher knows that going “Digital First” can’t just be about making clean EPUB and HTML files--their investment in any new processes has to make sense for their bottom line, reducing composition time and costs and hopefully reducing time to market for their content across formats. Because they are in the educational space, meeting accessibility standards is crucial, and they expect any new process to consistently incorporate accessibility standards into every file. Some of the things they’re hoping to gain are:</p>
+              <ul>
+                <li>Reduced composition costs</li>
+                <li>Reduced composition time, leading to potential increase in speed to market</li>
+                <li>Simultaneous print and ebook conversion</li>
+                <li>Simultaneous conversion to HTML, which provides a path for using the content in a variety of different ways</li>
+                <li>Files that meet all validation and accessibility requirements</li>
+              </ul>
+            <h3>Challenges to consider when choosing an automated workflow</h3>
+            <p>The production director is in favor of the Digital First initiative, but she is concerned that it could result in an automated “black box” workflow that will make it difficult for the production team to design and fine-tune layouts that match the quality her team is known for. She knows that many automated workflows require custom scripting and technological expertise, and she’s concerned that the publisher is not likely to hire the staff needed to maintain the toolchain and train staff, leaving the burden on an already-stretched production department.</p>
           </div>
-          <h3><a class="collapsible-section" data-toggle="collapse" href="#challenges" aria-expanded="false" aria-controls="challenges">Challenges to consider when choosing an automated workflow</a></h3>
-          <div class="collapse" id="challenges">
-            <ul>
-              <li>Many automated workflows exist as a “black box,” providing little to no insight into how pages are being laid-out until the process is complete. This makes it difficult to adjust page layout to meet professional design requirements.</li>
-              <li>Many automated workflows require custom scripting and technological expertise, leading to potential increase in staffing needs to maintain the automated toolchain and train staff.</li>
-            </ul>
-          </div>
-          <h3><a class="collapsible-section" data-toggle="collapse" href="#requirements" aria-expanded="false" aria-controls="requirements">Their requirements</a></h3>
-          <div class="collapse" id="requirements">
-            <ul>
-              <li>Create clean, accessible EPUB files that don’t require extra editing</li>
-              <li>Create a laid-out PDF of each book, ideally as part of the same process that creates the EPUB</li>
-              <li>EPUBs meet all current accessibility requirements</li>
-              <li>They can include additional metadata in their EPUBs</li>
-              <li>Control over adjusting the page layout</li>
-              <li>Ability to customize the design for each book, as needed</li>
-              <li>Support for images</li>
-              <li>Support for background images</li>
-              <li>Support for custom fonts</li>
-              <li>Preserve their internal Word style set</li>
-            </ul>
-          </div>
+
+          <div class="cta">
+            <p>Want to talk about your unique needs and how we might be able to help?</p>
+            <p><a href="/products.html" target="_blank" class="button small" data-toggle="modal" data-target="#scheduleCallModal">Schedule a call</a></p>
+
+            <!-- Modal -->
+            <div class="modal fade" id="scheduleCallModal" tabindex="-1" role="dialog" aria-labelledby="scheduleCallModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="scheduleCallModalLabel">Schedule a Call</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <form id="schedulecall">
+                      <div class="form-group">
+                        <label for="inputName">Your Name</label>
+                        <input type="text" name="name" class="form-control" id="inputName" placeholder="Enter Your Name">
+                      </div>
+                      <div class="form-group">
+                        <label for="inputEmail1">Email address</label>
+                        <input type="email" name="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                      </div>
+                      <div class="form-group">
+                        <label for="inputCompany">Company</label>
+                        <input type="text" name="company" class="form-control" id="inputCompany" placeholder="The company you want to chat about">
+                      </div>
+                      <div class="form-group">
+                        <label for="inputSize">Company Size</label>
+                        <input type="text" name="size" class="form-control" id="inputSize" placeholder="E.g., 5-10 employees, 20 titles per year">
+                      </div>
+                      <div class="form-group">
+                        <label for="inputTopic">Is there something specific you'd like to chat about?</label>
+                        <input type="text" name="topic" class="form-control" id="inputTopic" placeholder="How can we help?">
+                      </div>
+                      <div class="form-group">
+                        <label for="inputProblem">What's your biggest hurdle right now?</label>
+                        <input type="text" name="hurdle" class="form-control" id="inputProblem" placeholder="What are you struggling with?">
+                      </div>
+                      <div class="form-row">
+                        <div class="col">
+                          <button type="submit" id="submit-form" class="btn btn-primary" data-dismiss="modal">Submit</button>
+                        </div>
+                        <div class="col-9">
+                          <input type="text" readonly class="form-control-plaintext" id="staticNote" value="We'll send you an email to setup a meeting :)">
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
-
       </div>
     </div>
   </div>
 
-  <div class="row panel-dark header" id="services">
-    <div class="col-md-8 offset-md-3">
-      <p class="case-study"><span>Winning Solution<span></p>
-      <h2>Use Hederis as an out-of-the-box solution</h2>
+<!--   <div class="row" id="services">
+    <div class="col-md-8 dark offset-md-3">
+      
     </div>
-  </div>
+  </div> -->
 
   <div class="row" id="services">
     <div class="col-md-8 offset-md-3">
+      <p class="case-study highlight"><span>Winning Solution<span></p>
+      <h2>Use Hederis as an out-of-the-box solution</h2>
       <h3 class="winning"><span>Their workflow with Hederis:</span></h3>
       <h4>One-time setup:</h4>
       <ol>
-        <li>The publishing company’s in-house designer designs an interior template within the Hederis system, that they can reuse for any number of projects. (Hederis staff available to support/assist with this as needed.)</li>
+        <li>The publishing company’s in-house designer designs an interior template within the Hederis system that they can reuse for any number of projects. (Hederis staff available to support/assist with this as needed.)</li>
       </ol>
       <h4>Steps for each book project:</h4>
       <ol>
         <li>Publishing company’s editorial staff creates the book project in the Hederis system.</li>
-        <li>Publishing company’s production staff upload any image files to their Hederis project via the UI.</li>
-        <li>Publishing company’s editorial staff prepares the book’s Word manuscript according to their established process, and uploads it to the Hederis project via the UI.</li>
+        <li>Production staff upload any image files to their Hederis project via the UI.</li>
+        <li>Editorial staff prepares the book’s Word manuscript according to their established process, and uploads it to the Hederis project via the UI.</li>
         <li>The Hederis system maps the manuscript tags to Hederis tags, and then converts the manuscript to print and digital layouts.</li>
-        <li>Publishing company’s production staff views the layouts in the Hederis user interface, and adjusts the design, line breaks, and page breaks as needed for this specific book.</li>
+        <li>Production staff views the layouts in the Hederis user interface, and adjusts the design, line breaks, and page breaks as needed for this specific book.</li>
         <li>Publishing company’s production and/or editorial staff makes any required text edits directly in the app.</li>
-        <li>Publishing company’s production staff exports to PDF, EPUB, and updated Word document (for archival purposes).</li>
+        <li>Production staff exports to PDF, EPUB, and updated Word document (for archival purposes).</li>
       </ol>
-      <h4 class="winning"><span>Requirements to get started:</span></h4>
-      <ul>
-        <li>Publishing company will review existing Hederis documentation (docs.hederis.com) and put together training syllabus for internal staff</li>
-        <li>Publishing company will determine workflow steps</li>
-        <li>A delegate for the publishing company will create the company group within the Hederis system, under which all future projects will be collected</li>
-        <li>A delegate for the publishing company will enter company credit card information in the Hederis system, for billing purposes</li>
-      </ul>
-      <h4 class="winning"><span>Costs:</span></h4>
-      <p>With Hederis, the first project is free, which allows them to test the tool and workflow with zero risk.
-      Base price for subsequent projects is <a href="https://www.hederis.com/pricing.html">$229 per project</a>, with no limits on the number of conversions and users. Hederis also offers various levels of discounts depending on how many projects will be put through the system, and also offers discounted project bundles (e.g., buy 12 projects in advance for a 15% discount).</p>
     </div>
     <div class="col-md-4 offset-md-3">
       <h4 class="winning"><span>Pros:</span></h4>
@@ -182,7 +209,7 @@
         <li>Opportunity to influence Hederis development decisions about which new features to prioritize, with no extra cost</li>
         <li>No need for internal tech staff</li>
         <li>No maintenance costs</li>
-        <li>In-app chat support for all users</li>
+        <li>Built-in support for all users</li>
         <li>No added cost for additional users</li>
         <li>A large library of existing documentation (http://docs.hederis.com)</li>
       </ul>
@@ -190,11 +217,19 @@
     <div class="col-md-4">
       <h4 class="winning"><span>Cons:</span></h4>
       <ul>
-        <li>Higher overall spend the more projects they do (since the tool is priced per project)</li>
         <li>Not as customizable as an internal tool</li>
         <li>May require some workflow changes</li>
         <li>May have some design limitations compared to InDesign</li>
       </ul>
+    </div>
+    <div class="col-md-8 offset-md-3">
+      <div class="cta">
+        <p>
+          <a href="https://app.hederis.com" target="_blank" class="button small">Try It Now</a> or 
+          <a href="/products.html" class="button small">Learn More</a>
+        </p>
+        <p>No credit card required to try our app.</p>
+      </div>
     </div>
   </div>
 
@@ -227,7 +262,7 @@
           <li>Publishing company will determine workflow steps</li>
         </ul>
         <h4>Costs</h4>
-        <p>Estimate between $2k-$5k development costs (depending on how much customization is required, and what kind of API connection tool will be used), plus a per-project $119 fee for using the Hederis API, and then ongoing costs to maintain the custom scripts (either contractually through the development firm, or for new in-house staff).</p>
+        <p>Estimate between $2k-$10k development costs (depending on how much customization is required, and what kind of API connection tool will be used), plus a per-project $119 fee for using the Hederis API, and then ongoing costs to maintain the custom scripts (either contractually through the development firm, or for new in-house staff).</p>
         <div class="row">
           <div class="col-md-6">
             <h4>Pros</h4>
@@ -277,7 +312,7 @@
           <li>Publishing company will determine workflow steps</li>
         </ul>
         <h4>Costs</h4>
-        <p>Estimate between $10k-$15k upfront for toolchain development by a contractor or development firm (final amount depends on scripting language, feature requirements, and user interaction requirements), and then an investment in at least one full-time developer staff member to maintain the tool and support users. Alternately, publishing company may be able to set up a contract with the development firm to maintain the tool for a fee (though the external developers won’t be able to respond as promptly as an in-house staff member).</p>
+        <p>Estimate between $10k-$50k upfront for toolchain development by a contractor or development firm (final amount depends on scripting language, feature requirements, and user interaction requirements), and then an investment in at least one full-time developer staff member to maintain the tool and support users. Alternately, publishing company may be able to set up a contract with the development firm to maintain the tool for a fee (though the external developers won’t be able to respond as promptly as an in-house staff member).</p>
         <div class="row">
           <div class="col-md-6">
             <h4>Pros</h4>
@@ -330,9 +365,25 @@
 </div>
 </div>
 
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="../assets/jquery-3.5.1.min.js"></script>
+<script src="../assets/jquery.serialize-object.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<script>
+var $form = $('form#schedulecall'),
+  url = 'https://script.google.com/macros/s/AKfycbwpMgKUAC4czQZwEXksBhbHrKoZeZSBaUW5p_jkX2Ue0Obppz2n/exec';
+
+  $('#submit-form').on('click', function(e) {
+    e.preventDefault();
+    var jqxhr = $.ajax({
+      url: url,
+      method: "GET",
+      dataType: "json",
+      data: $form.serializeObject()
+    });
+  })
+</script>
 
 <script>
   $(function () {

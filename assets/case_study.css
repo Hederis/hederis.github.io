@@ -8,13 +8,12 @@ p.case-study span {
   border-radius: 3px;
 }
 
-.panel-dark p.case-study span {
-  background-color: #00ff00;
-  color: #21172E;
-}
+/*p.case-study.highlight span {
+  color: #00ff00;
+}*/
 
 #services {
-  padding-top: 3em;
+  padding-top: 0;
   padding-bottom: 0em;
 }
 
@@ -25,16 +24,18 @@ p.case-study span {
 #services a, 
 #services a.collapsible-section {
   color: #000;
+  font-weight: normal;
 }
 
-.panel-dark#services h2 {
+.panel-dark#services h2,
+#services .dark h2 {
   color: #00ff00;
 }
 
 .winning, #services h3.winning {
   background-color: #21172E;
-  color: #00ff00;
-  font-weight: bold;
+/*  color: #00ff00;*/
+  color: #fff;
   padding: 3px 6px 3px;
   margin: 20px 0 20px;
   border-radius: 3px;
@@ -84,4 +85,27 @@ a.collapsible-section[aria-expanded=true]::before {
 
 #other-options h3 {
   font-size: 2rem;
+}
+
+.cta {
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+}
+
+.cta form,
+.modal h5,
+.modal p {
+  text-align: left;
+  font-style: normal;
+}
+
+#services .modal p {
+  font-size: 0.5em;
+  display: inline;
+}
+
+a.button.small {
+  font-size: 1em;
+  font-style: normal;
 }
