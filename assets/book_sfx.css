@@ -25,6 +25,10 @@
 	background-position:left bottom;
 }
 
+.book.gray {
+	opacity: 0.7;
+}
+
 .book_cover {
 	position:absolute;
 	top:0px;
@@ -40,6 +44,10 @@
 	will-change: transform;
 	transform-origin: 0% 200%;
 	transform: perspective(1600px) rotateY(0deg);
+}
+
+.book_cover.gray {
+	background-image:url('../images/book_cover_gray.svg');
 }
 
 #bookcloser #book_wrapper {
