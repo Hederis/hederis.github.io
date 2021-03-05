@@ -547,16 +547,11 @@ div.footer {
 }
 
 #products .underline {
-/*  background-color: #00ff00;
-  color: #fff;
-  padding: 5px 10px 5px;*/
   border-bottom: 1pt solid #21172E;
 }
 
 .feature-section.row {
-  /* border-top: 1px dashed #585162;*/
   border-radius: 0px 4px 0px 0px;
-  /*ackground-color: #efebf2;*/
   padding: 20px;
   margin-bottom: 0px;
 }
@@ -564,9 +559,6 @@ div.footer {
 .feature-section h4 {
   font-size: 3em;
   margin-bottom: 20px;
-/*  background-size: auto 100px;
-  background-repeat: no-repeat;
-  padding: 25px 0px 25px 130px;*/
 }
 
 .features:nth-of-type(2),
@@ -583,10 +575,6 @@ div.footer {
   background-repeat: no-repeat;
   background-position: 150% 0px;
   background-size: auto 100%;
-}
-
-.product-features {
-  /*border: 1px solid #21172E;*/
 }
 
 .product-features.centered {
@@ -607,15 +595,12 @@ div.footer {
 }
 
 .feature-section .prop.selected {
-  /*border: 1px solid #585162;*/
-  /*background-color: #efebf2;*/
   background-color: #00ff00;
   font-weight: bold;
 }
 
 .feature-section p.pullquote {
   font-size: 1.25em;
-  /*background-color: #CECAD1;*/
 }
 
 .feature-section .prop h5 {
@@ -645,7 +630,6 @@ div.footer {
   background-color: #21172E;
   padding: 10px 10px 1px;
   margin-bottom: 40px;
-  border-radius: 0px 0px 4px 0px;
 }
 
 .row.cta-divider p {
