@@ -452,24 +452,29 @@ div.footer {
 }
 
 #products tr:nth-of-type(odd),
-#pricing tr:nth-of-type(odd) {
+#pricing tr:nth-of-type(odd),
+.product-features tr:nth-of-type(odd) {
   background-color: #F5F5F5;
 }
 
 #products tr:first-of-type,
-#pricing tr:first-of-type {
+#pricing tr:first-of-type,
+.product-features tr:first-of-type {
   background-color: transparent;
 }
 
 #products tr:last-of-type,
 #pricing tr.last,
-#pricing tr:last-of-type {
+#pricing tr:last-of-type,
+.product-features tr:last-of-type {
   background-color: transparent;
   border-width: 0px;
 }
 
 #products td, #products th,
-#pricing td, #pricing th {
+#pricing td, #pricing th,
+.product-features td,
+.product-features th {
   font-size: 1.25em;
   border: 1px solid #CECAD1;
   padding: 2px 10px 2px 10px;
@@ -478,23 +483,27 @@ div.footer {
 
 #products tr:last-of-type td,
 #pricing tr.last td,
-#pricing tr:last-of-type td {
+#pricing tr:last-of-type td,
+.product-features tr:last-of-type td {
   border-width: 0px;
 }
 
-#pricing tr.footnote p {
+#pricing tr.footnote p,
+.product-features tr.footnote p {
   font-size: 0.8em;
   text-align: center;
 }
 
-#products th, #pricing th {
+#products th, #pricing th,
+.product-features th {
   background-color: #21172E;
   color: #00ff00;
   min-width: 120px;
 }
 
 #products th:first-child,
-#pricing th:first-child {
+#pricing th:first-child,
+.product-features th:first-child {
   color: #000000;
   text-align: left;
   border-width: 0px;
@@ -502,12 +511,14 @@ div.footer {
 }
 
 #products td:first-child,
-#pricing td:first-child {
+#pricing td:first-child,
+.product-features td:first-child {
   text-align: left;
 }
 
 #products td a.button,
-#pricing td a.button {
+#pricing td a.button,
+.product-features td a.button {
   font-size: 1em;
 }
 
@@ -522,9 +533,24 @@ div.footer {
 }
 
 #products .highlight {
-  background-color: #21172E;
+  background-color: #f2f2f2;
+  color: #21172E;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+#products .pullquote {
+  text-align: center;
+  font-size: 1.4em;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#products .underline {
+/*  background-color: #00ff00;
   color: #fff;
-  padding: 5px 10px 5px;
+  padding: 5px 10px 5px;*/
+  border-bottom: 1pt solid #21172E;
 }
 
 .feature-section.row {
@@ -561,6 +587,19 @@ div.footer {
 
 .product-features {
   /*border: 1px solid #21172E;*/
+}
+
+.product-features.centered {
+  text-align: center;
+}
+
+.product-features table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product-features .larger {
+  font-size: 1.25em;
 }
 
 .feature-section .prop {
