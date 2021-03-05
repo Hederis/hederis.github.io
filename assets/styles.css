@@ -522,6 +522,12 @@ div.footer {
   font-size: 1em;
 }
 
+@media all and (max-width: 768px) {
+  #products {
+    padding-top: 50px;
+  }
+}
+
 #products figure p {
   font-style: italic;
   font-size: 0.9em;
@@ -563,16 +569,16 @@ div.footer {
 
 .features:nth-of-type(2),
 .features:nth-of-type(6) {
-  background-image: url("../images/gray-dot.png");
-  background-repeat: no-repeat;
+/*  background-image: url("../images/gray-dot.png");
+*/  background-repeat: no-repeat;
   background-position: -400px 0px;
   background-size: auto 100%;
 }
 
 .features:nth-of-type(4),
 .features:nth-of-type(8) {
-  background-image: url("../images/gray-dot.png");
-  background-repeat: no-repeat;
+/*  background-image: url("../images/gray-dot.png");
+*/  background-repeat: no-repeat;
   background-position: 150% 0px;
   background-size: auto 100%;
 }
@@ -632,6 +638,19 @@ div.footer {
   margin-bottom: 40px;
 }
 
+.row.cta-divider.gray {
+  text-align: center;
+  color: #000;
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+.row.cta-divider.gray h3 {
+  width: 100%;
+  margin-bottom: 0;
+}
+
 .row.cta-divider p {
   width: 100%;
 }
@@ -649,11 +668,11 @@ div.footer {
   max-width: 100%;
 }
 
-@media all and (max-width: 768px) {
+/*@media all and (max-width: 768px) {
   .slideshow {
     display: none;
   }
-}
+}*/
 
 .pricing-details {
   margin-bottom: 40px;
