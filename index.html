@@ -62,15 +62,11 @@
   <link rel="stylesheet" type="text/css" href="assets/book_sfx.css" />
 
   <style>
-/*    .nav-pills .nav-link {
-      font-size: 1.25em;
-    }*/
-
     .nav-pills .nav-link.active {
       background-color: #21172E;
     }
 
-    #whyswitch .nav-pills .nav-link.active {
+    .whyswitch .nav-pills .nav-link.active {
       color: #ffffff;
     }
 
@@ -127,8 +123,6 @@
 <body>
 <div class="container-fluid" id="main">
 
-
-
   <div class="row page panel-dark" id="home">
 
     <div class="nav blue primary" id="home_nav">
@@ -137,16 +131,17 @@
       <nav class="navbar">
         <div class="mobile_nav_hider" id="navbarTogglerDemo02">
           <ul class="navbar-nav nav flex-column">
-            <li class="nav-item active"><a class="nav-link pl-0" href="/index.html#home">Home</a></li>
             <li class="nav-item"><a class="nav-link pl-0" href="/products.html">Products</a></li>
             <li class="nav-item"><a class="nav-link pl-0" href="/about.html">Team &amp; Company</a></li>
-            <li class="nav-item active"><a class="nav-link pl-0" href="/pricing.html">Pricing</a></li>
+            <li class="nav-item"><a class="nav-link pl-0" href="/pricing.html">Pricing</a></li>
             <li class="nav-item"><a class="nav-link pl-0" href="/partner.html#services">Services</a></li>
-            <!-- <li class="nav-item"><a class="nav-link pl-0" href="">Resources</a></li> -->
-            <li class="nav-item"><a class="nav-link pl-0" href="http://app.hederis.com">Sign up now</a></li>
           </ul>
         </div>
       </nav>
+      <div class="app-gateway mt-4">
+        <p class="mb-0"><a class="button" id="signup-top" href="http://app.hederis.com">Sign up</a></p>
+        <p class="mt-2"><a class="" id="signin-top" href="http://app.hederis.com">or sign in</a></p>
+      </div>
       <!-- Begin Mailchimp Signup Form -->
       <div id="mc_embed_signup" class="dark my-4 py-2 px-0">
       <form action="https://hederis.us17.list-manage.com/subscribe/post?u=c5bc6d6d58d3a6ca885eea897&amp;id=5ba347e4f2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -182,254 +177,249 @@
         </div>
       </div>
     </div>
-    <div class="navarrow"><a href="#" data-toggle="tooltip" data-placement="left" title="Keep scrolling!"><img src="images/down-arrow.png" alt="Keep scrolling for more"/></a></div>
   </div>
 
-  <div class="row page" id="whyswitch">
+  <div class="row page whyswitch" id="home-intro">
 
-    <div class="nav white secondary" id="whyswitch_nav">
+<!--     <div class="nav white secondary" id="whyswitch_nav">
       <h1 class=""><a href="#main"></a></h1>
       <div class="mobile_nav_btn"><span id="stripe_1"></span><span id="stripe_2"></span><span id="stripe_3"></span></div>
       <nav class="navbar">
         <div class="mobile_nav_hider" id="navbarTogglerDemo03">
           <ul class="navbar-nav nav flex-column">
-            <li class="nav-item active"><a class="nav-link pl-0" href="/index.html#home">Home</a></li>
             <li class="nav-item"><a class="nav-link pl-0" href="/products.html">Products</a></li>
             <li class="nav-item"><a class="nav-link pl-0" href="/about.html">Team &amp; Company</a></li>
             <li class="nav-item"><a class="nav-link pl-0" href="/pricing.html">Pricing</a></li>
             <li class="nav-item"><a class="nav-link pl-0" href="/partner.html#services">Services</a></li>
-            <!-- <li class="nav-item"><a class="nav-link pl-0" href="">Resources</a></li> -->
-            <li class="nav-item"><a class="nav-link pl-0" href="http://app.hederis.com">Sign up now</a></li>
           </ul>
         </div>
       </nav>
+      <div class="app-gateway mt-4">
+        <p class="mb-0"><a class="button" id="signup" href="http://app.hederis.com">Sign up</a></p>
+        <p class="mt-2"><a class="" id="signin" href="http://app.hederis.com">or sign in</a></p>
+      </div> -->
 
       <!-- Begin Mailchimp Signup Form -->
-      <div id="mc_embed_signup" class="light my-4 py-2 px-0">
+<!--       <div id="mc_embed_signup" class="light my-4 py-2 px-0">
       <form action="https://hederis.us17.list-manage.com/subscribe/post?u=c5bc6d6d58d3a6ca885eea897&amp;id=5ba347e4f2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
           <div id="mc_embed_signup_scroll">
         <label for="mce-EMAIL">Stay in the know!</label>
         <label>Get updates about new features <br/>and publishing news.</label>
-        <input type="email" value="" name="EMAIL" class="email mb-2" id="mce-EMAIL" placeholder="email address" required>
+        <input type="email" value="" name="EMAIL" class="email mb-2" id="mce-EMAIL" placeholder="email address" required> -->
           <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c5bc6d6d58d3a6ca885eea897_5ba347e4f2" tabindex="-1" value=""></div>
+<!--           <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c5bc6d6d58d3a6ca885eea897_5ba347e4f2" tabindex="-1" value=""></div>
           <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
           </div>
       </form>
-      </div>
+      </div> -->
       <!--End mc_embed_signup-->
-    </div>
+<!--     </div> -->
 
-    <div class="col-lg-9 offset-md-3 two-col-text-block">
+    <div class="col-lg-8 offset-lg-2 two-col-text-block">
       <div class="container">
         <div class="row">
           <div class="col-lg-8">
-            <p>As a book maker, you&rsquo;re crafting a product that&rsquo;s been perfected over centuries, and technology shouldn&rsquo;t get in your way. Hederis gives you book production and design tools to create high-quality print-ready PDFs and ebook files, ready for distribution, in a fraction of the time it takes with traditional book-production processes.</p>
-            <p><a href="/products.html" class="button small">Learn more</a></p>
+            <h2>Empowering publishers through automated production</h2>
+            <p>Our cloud-based tools help you quickly turn your content into books and other custom publications that can be exported to PDF, EPUB, and HTML. Whether you are producing an eye-catching advance reader copy, a scholarly monograph, or the next runaway bestseller, Hederis provides the ideal platform.</p>
+            <p class="mb-0"><a href="/products.html" class="button small">Learn more about the app</a></p>
           </div>
           <div class="col-lg-4">
             <p class="imageholder"><img src="images/hederis_olivebranch.png" alt="A bird carrying an olive branch, on one end of which a print book is attached, and on the other end is an e-reading device."/></p>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12">
-            <h2 class="my-5 text-center">Tools Built for Books, Teams, and People</h2>
-          </div>
-          <div class="col-lg-4">
-            <p class="imageholder"><img src="images/hederis_bookbinding.png" alt="Two birds working together to bind a printed book."/></p>
-          </div>
-          <div class="col-lg-8">
-            <p>Our tools are built <a href="/about.html">by publishing professionals</a> for real book-making workflows. We give you a suite of intuitive tools centralized in one place, so that each person on your team can do their job and instantly share their work with the other members of their book-making team. And there&rsquo;s no need to become a computer programmer or learn a whole new set of terminology! Our tools reflect our dozens of years of publishing experience, so that you can start making books fast.</p>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-12">
-            <h3 class="">Featuring:</h3>
-          </div>
-          <div id="featurespills" class="col-lg-4 d-none d-lg-block">
-            <div class="nav nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-              <a class="nav-link active" id="v-pills-spreads-tab" data-toggle="pill" href="#v-pills-spreads" role="tab" aria-controls="v-pills-spreads" aria-selected="true">Publisher-quality print layouts.</a>
-              <a class="nav-link" id="v-pills-ebooks-tab" data-toggle="pill" href="#v-pills-ebooks" role="tab" aria-controls="v-pills-ebooks" aria-selected="false">Ebooks with all the fixin&rsquo;s.</a>
-              <a class="nav-link" id="v-pills-ui-tab" data-toggle="pill" href="#v-pills-ui" role="tab" aria-controls="v-pills-ui" aria-selected="false">A simple interface with everything you need.</a>
-              <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Adjustable page layout.</a>
-              <a class="nav-link" id="v-pills-runheads-tab" data-toggle="pill" href="#v-pills-runheads" role="tab" aria-controls="v-pills-runheads" aria-selected="false">Standard print elements, inserted automatically.</a>
-              <a class="nav-link" id="v-pills-balance-tab" data-toggle="pill" href="#v-pills-balance" role="tab" aria-controls="v-pills-balance" aria-selected="false">Balanced pages, aligned to a grid.</a>
-            </div>
-            <p class="mt-4"><a href="https://app.hederis.com" class="button small">Try it now</a></p>
-          </div>
-          <div id="featurespillstext" class="col-lg-8 px-2 py-2 d-none d-lg-block">
-            <div class="tab-content" id="v-pills-tabContent">
-              <div class="tab-pane fade show active" id="v-pills-spreads" role="tabpanel" aria-labelledby="v-pills-spreads-tab">
-                <p><strong>Publisher-quality print layouts.</strong></p>
-                <p>Our print files are made for real publishing workflows. Set your PDF options (like trim marks, grayscaling, and bleed size), and create print-ready files that work for most professional printers.</p>
-                <img class="d-block w-100" src="/images/pages.png" alt="A PDF spread created by Hederis:Convert"/>
-                <p class="mt-2">Want to make sure our files will work for your printer? <a href="mailto:info@hederis.com">Email us (info@hederis.com)</a> and we&rsquo;ll let you know!</p>
-              </div>
-              <div class="tab-pane fade" id="v-pills-ebooks" role="tabpanel" aria-labelledby="v-pills-ebooks-tab">
-                <p><strong>Ebooks with all the fixin&rsquo;s.</strong></p>
-                <p>Stop worrying about whether or not your ebook files are up-to-date. We make sure that all our files conform to the latest standards, and include all the things your readers expect. Cover image? Check! Built-in table of contents? Check! Embedded author name and title metadata? Check! Accessible text? Check!</p>
-                <img class="d-block w-100" src="/images/epubs.png" alt="A PDF spread created by Hederis:Convert"/>
-              </div>
-              <div class="tab-pane fade" id="v-pills-ui" role="tabpanel" aria-labelledby="v-pills-ui-tab">
-                <p><strong>A simple interface with everything you need.</strong></p>
-                <p>Our app interface guides you through the process, with a handy link to the user guide right at the top. Upload a cover or interior images, pick a design template (or make your own!), adjust your export settings to add trim marks or change your margin sizes, and then upload your Microsoft Word manuscript to automatically create PDF, EPUB, and HTML versions of your book.</p>
-                <img class="d-block w-100" src="/images/simple_ui-01.png" alt="The Hederis:Convert dashboard"/>
-              </div>
-              <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-                <p><strong>Adjustable page layout.</strong></p>
-                <p>You can make common page adjustments right from your project dashboard. Adjust the trim size and page margins with just a few clicks. Printing in one color? Convert your interior images to grayscale for the print PDF by checking a box, but leave them in color for the ebook. You can also add gridlines to make sure all your text correctly aligns to the baseline grid, and choose whether or not to include printer trim marks.</p>
-                <img class="d-block w-100 border" src="/images/export_options-01.png" alt="A screenshot of the Export Options tab from the Hederis:Convert app"/>
-              </div>
-              <div class="tab-pane fade" id="v-pills-runheads" role="tabpanel" aria-labelledby="v-pills-runheads-tab">
-                <p><strong>Standard print elements, inserted automatically.</strong></p>
-                <p>Page numbering is built into our print layouts (including adding final page numbers to your <a href="https://docs.hederis.com/setup-a-toc/">table of contents</a>), and our app will do its best to find the important bits of metadata in your book (like the author name and book title), and use that in the running headers and footers. But don&rsquo;t worry: you can always <a href="https://docs.hederis.com/custom-style-library/">override that</a> with your own text if you need to.</p>
-                <img class="d-block w-100" src="/images/pages_runheads.png" alt="A PDF spread that highlights the automatically-generated running header text and page numbers"/>
-              </div>
-              <div class="tab-pane fade" id="v-pills-balance" role="tabpanel" aria-labelledby="v-pills-balance-tab">
-                <p><strong>Balanced pages, aligned to a grid.</strong></p>
-                <p>Balanced pages is one of those unassuming little details that gives books that professional feel. Our layout engine does its best to balance your pages, and we give you <a href="https://docs.hederis.com/page-layout-menu/">tools to make standard page adjustments</a> as needed to get the balance right. We also create all of our design templates to align to a baseline grid, so that your text flows cleanly across spreads.</p>
-                <img class="d-block w-100" src="/images/pages_balanced.png" alt="A PDF spread that highlights the balanced pages and lines that all align to a common baseline grid"/>
-              </div>
-            </div>
-          </div>
-
-          <div id="featuresaccordion" class="col-md-12 d-lg-none">
-          <div id="accordion">
-            <div class="card">
-              <div class="card-header" id="headingOne">
-                <h5 class="mb-0">
-                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Publisher-quality print layouts.
-                  </button>
-                </h5>
-              </div>
-              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                <div class="card-body">
-                  <p>Our print files are made for real publishing workflows. Choose whether or not to include trim marks, and then we&rsquo;ll create print-ready files that work for most professional printers.</p>
-                  <img class="d-block w-100" src="/images/pages.png" alt="A PDF spread created by Hederis:Convert"/>
-                  <p class="mt-2">Want to make sure our files will work for your printer? <a href="mailto:info@hederis.com">Email us (info@hederis.com)</a> and we&rsquo;ll let you know!</p>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header" id="headingTwo">
-                <h5 class="mb-0">
-                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Ebooks with all the fixin&rsquo;s.
-                  </button>
-                </h5>
-              </div>
-              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                <div class="card-body">
-                  <p>Stop worrying about whether or not your ebook files are up-to-date. We make sure that all our files conform to the latest standards, and include all the things your readers expect. Cover image? Check! Built-in table of contents? Check! Embedded author name and title metadata? Check! Accessible text? Check!</p>
-                  <img class="d-block w-100" src="/images/epubs.png" alt="A PDF spread created by Hederis:Convert"/>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header" id="headingThree">
-                <h5 class="mb-0">
-                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    A simple interface with everything you need.
-                  </button>
-                </h5>
-              </div>
-
-              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                <div class="card-body">
-                  <p>Our app interface guides you through the process, with a handy link to the user guide right at the top. Upload a cover or interior images, pick a design template (or make your own!), adjust your export settings to add trim marks or change your margin sizes, and then upload your Microsoft Word manuscript to automatically create PDF, EPUB, and HTML versions of your book.</p>
-                  <img class="d-block w-100" src="/images/simple_ui-01.png" alt="The Hederis:Convert dashboard"/>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header" id="headingFour">
-                <h5 class="mb-0">
-                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                    Adjustable page layout.
-                  </button>
-                </h5>
-              </div>
-              <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-                <div class="card-body">
-                  <p>You can make common page adjustments right from your project dashboard. Adjust the trim size and page margins with just a few clicks. Printing in one color? Convert your interior images to grayscale for the print PDF by checking a box, but leave them in color for the ebook. You can also add gridlines to make sure all your text correctly aligns to the baseline grid, and choose whether or not to include printer trim marks.</p>
-                  <img class="d-block w-100 border" src="/images/export_options-01.png" alt="A screenshot of the Export Options tab from the Hederis:Convert app"/>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header" id="headingFive">
-                <h5 class="mb-0">
-                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                    Standard print elements, inserted automatically.
-                  </button>
-                </h5>
-              </div>
-              <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
-                <div class="card-body">
-                  <p>Page numbering is built into our print layouts (including adding final page numbers to your <a href="https://docs.hederis.com/setup-a-toc/">table of contents</a>), and our app will do its best to find the important bits of metadata in your book (like the author name and book title), and use that in the running headers and footers. But don&rsquo;t worry: you can always <a href="https://docs.hederis.com/custom-style-library/">override that</a> with your own text if you need to.</p>
-                  <img class="d-block w-100" src="/images/pages_runheads.png" alt="A PDF spread that highlights the automatically-generated running header text and page numbers"/>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header" id="headingSix">
-                <h5 class="mb-0">
-                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                    Balanced pages, aligned to a grid.
-                  </button>
-                </h5>
-              </div>
-              <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
-                <div class="card-body">
-                  <p>Balanced pages is one of those unassuming little details that gives books that professional feel. Our layout engine does its best to balance your pages, and we give you <a href="https://docs.hederis.com/adjust-line-breaks/">tools to make standard page adjustments</a> as needed to get the balance right (and with <a href="/products.html">Hederis:Typeset</a>, you get full control over how your pages break). We also create all of our design templates to align to a baseline grid, so that your text flows cleanly across spreads.</p>
-                  <img class="d-block w-100" src="/images/pages_balanced.png" alt="A PDF spread that highlights the balanced pages and lines that all align to a common baseline grid"/>
-                </div>
-              </div>
-            </div>
-          </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-12">
-            <h2 class="my-5 text-center">Why Switch to Hederis?</h2>
-          </div>
-          <div class="col-md-6">
-            <h3>Get Books to Market Faster</h3>
-            <p>Access your projects anytime, anywhere, get paged files in minutes, and get final PDF and ebook files at the same time. Our browser-based book design and layout tools are built on standardized HTML and CSS, powered behind the scenes by automation that comes from years of publishing workflow experience. </p>
-          </div>
-          <div class="col-md-6">
-            <h3>Create Files that will Last</h3>
-            <p>Workflows change, standards evolve. With Hederis, you get standards-compliant ebooks, print-ready PDFs, styled Word files that can drop into conventional workflows, and well-formed semantic HTML for your website or XML-based tools.</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <h3>Reduce Bottlenecks</h3>
-            <p>Get a pagecount estimate instantly, see the design in real time and make castoff adjustments, and see your laid-out pages without needing to create a PDF. Our app is built for collaboration, but still lets you keep your workflow stages separate.</p>
-          </div>
-          <div class="col-md-6">
-            <h3>Skip the Boring Stuff</h3>
-            <p>Our app comes loaded with tools and shortcuts to speed up or even eliminate those tedious book-making time-sucks. We use AI and pattern recognition to help you tag and design your files, and let you do common book-making tasks with the click of a button. </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <p class="imageholder"><img src="images/hederis_bookface.png" alt="A bird looking at a book that bears the face of the mythical Green Man."/></p>
-          </div>
-          <div class="col-md-8 mt-5">
-            <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-            <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
-            <p><strong><a href="" onclick="Calendly.showPopupWidget('https://calendly.com/nelliemckesson');return false;">Click here to schedule a meeting with our CEO, Nellie McKesson,</a> to talk about your company&rsquo;s specific needs and current workflows.</strong></p>
+        <div class="row mb-0">
+          <div class='col-md-12'>
+            <hr class="divider" />
           </div>
         </div>
       </div>
     </div>
+
+    <div class="col-lg-10 offset-lg-1 two-col-text-block bookborder">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 offset-md-4">
+            <h2 class="mt-5 mb-3">Invest in your publishing workflow, <br />without the expense</h2>
+          </div>
+          <div class="col-md-3 offset-md-1">
+            <p class="imageholder"><img src="images/hederis_bookbinding.png" alt="Two birds working together to bind a printed book."/></p>
+          </div>
+          <div class="col-md-7">
+            <p>We want to help you join the growing number of successful publishers who are investing in their workflow. The Hederis app is ready for you to use out-of-the-box, with built-in support and learning resources so you never have to feel like you&rsquo;re on your own.</p>
+            <ul class="benefits">
+              <li class="benefits">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                   viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
+                <g id="endorsed_1_">
+                  <g>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M19.83,9.38L18.81,7.6V5.62c0-0.45-0.23-0.85-0.61-1.08l-1.71-1l-1.02-1.76c-0.23-0.38-0.63-0.61-1.08-0.61
+                      h-2.03l-1.74-1c-0.38-0.23-0.87-0.23-1.25,0l-1.74,1H5.65c-0.44,0-0.85,0.23-1.08,0.61L3.58,3.5l-1.8,1.04
+                      C1.4,4.78,1.16,5.18,1.16,5.62v2.06L0.17,9.4C0.06,9.59,0,9.8,0,10.01s0.06,0.42,0.17,0.61l0.99,1.72v2.06
+                      c0,0.45,0.23,0.85,0.61,1.08l1.78,1.02l0.99,1.72c0.23,0.38,0.63,0.61,1.08,0.61h1.99l1.74,1C9.54,19.94,9.76,20,9.97,20
+                      c0.21,0,0.42-0.06,0.61-0.17l1.74-1h2.03c0.44,0,0.85-0.23,1.08-0.61l1.02-1.76l1.71-1c0.38-0.23,0.61-0.64,0.61-1.08v-1.97
+                      l1.02-1.78C20.06,10.25,20.06,9.78,19.83,9.38z M14.75,8.67l-5.01,5.01c-0.18,0.18-0.43,0.29-0.71,0.29
+                      c-0.28,0-0.53-0.11-0.71-0.29l-3.01-3.01c-0.18-0.18-0.29-0.43-0.29-0.71c0-0.55,0.45-1,1-1c0.28,0,0.53,0.11,0.71,0.29l2.3,2.3
+                      l4.31-4.3c0.18-0.18,0.43-0.29,0.71-0.29c0.55,0,1,0.45,1,1C15.05,8.24,14.93,8.49,14.75,8.67z"/>
+                  </g>
+                </g>
+                </svg>
+                <span>No need to hire a developer</span>
+              </li>
+              <li class="benefits">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                   viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
+                <g id="endorsed_1_">
+                  <g>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M19.83,9.38L18.81,7.6V5.62c0-0.45-0.23-0.85-0.61-1.08l-1.71-1l-1.02-1.76c-0.23-0.38-0.63-0.61-1.08-0.61
+                      h-2.03l-1.74-1c-0.38-0.23-0.87-0.23-1.25,0l-1.74,1H5.65c-0.44,0-0.85,0.23-1.08,0.61L3.58,3.5l-1.8,1.04
+                      C1.4,4.78,1.16,5.18,1.16,5.62v2.06L0.17,9.4C0.06,9.59,0,9.8,0,10.01s0.06,0.42,0.17,0.61l0.99,1.72v2.06
+                      c0,0.45,0.23,0.85,0.61,1.08l1.78,1.02l0.99,1.72c0.23,0.38,0.63,0.61,1.08,0.61h1.99l1.74,1C9.54,19.94,9.76,20,9.97,20
+                      c0.21,0,0.42-0.06,0.61-0.17l1.74-1h2.03c0.44,0,0.85-0.23,1.08-0.61l1.02-1.76l1.71-1c0.38-0.23,0.61-0.64,0.61-1.08v-1.97
+                      l1.02-1.78C20.06,10.25,20.06,9.78,19.83,9.38z M14.75,8.67l-5.01,5.01c-0.18,0.18-0.43,0.29-0.71,0.29
+                      c-0.28,0-0.53-0.11-0.71-0.29l-3.01-3.01c-0.18-0.18-0.29-0.43-0.29-0.71c0-0.55,0.45-1,1-1c0.28,0,0.53,0.11,0.71,0.29l2.3,2.3
+                      l4.31-4.3c0.18-0.18,0.43-0.29,0.71-0.29c0.55,0,1,0.45,1,1C15.05,8.24,14.93,8.49,14.75,8.67z"/>
+                  </g>
+                </g>
+                </svg>
+                <span>No subscription fees</span>
+              </li>
+              <li class="benefits">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                   viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
+                <g id="endorsed_1_">
+                  <g>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M19.83,9.38L18.81,7.6V5.62c0-0.45-0.23-0.85-0.61-1.08l-1.71-1l-1.02-1.76c-0.23-0.38-0.63-0.61-1.08-0.61
+                      h-2.03l-1.74-1c-0.38-0.23-0.87-0.23-1.25,0l-1.74,1H5.65c-0.44,0-0.85,0.23-1.08,0.61L3.58,3.5l-1.8,1.04
+                      C1.4,4.78,1.16,5.18,1.16,5.62v2.06L0.17,9.4C0.06,9.59,0,9.8,0,10.01s0.06,0.42,0.17,0.61l0.99,1.72v2.06
+                      c0,0.45,0.23,0.85,0.61,1.08l1.78,1.02l0.99,1.72c0.23,0.38,0.63,0.61,1.08,0.61h1.99l1.74,1C9.54,19.94,9.76,20,9.97,20
+                      c0.21,0,0.42-0.06,0.61-0.17l1.74-1h2.03c0.44,0,0.85-0.23,1.08-0.61l1.02-1.76l1.71-1c0.38-0.23,0.61-0.64,0.61-1.08v-1.97
+                      l1.02-1.78C20.06,10.25,20.06,9.78,19.83,9.38z M14.75,8.67l-5.01,5.01c-0.18,0.18-0.43,0.29-0.71,0.29
+                      c-0.28,0-0.53-0.11-0.71-0.29l-3.01-3.01c-0.18-0.18-0.29-0.43-0.29-0.71c0-0.55,0.45-1,1-1c0.28,0,0.53,0.11,0.71,0.29l2.3,2.3
+                      l4.31-4.3c0.18-0.18,0.43-0.29,0.71-0.29c0.55,0,1,0.45,1,1C15.05,8.24,14.93,8.49,14.75,8.67z"/>
+                  </g>
+                </g>
+                </svg>
+                <span>Cheaper than the average typesetting cost</span>
+              </li>
+            </ul>
+            <p class="text-center mb-0"><a href="/pricing.html" class="button small">See our pricing options</a></p>
+          </div>
+        </div>
+
+        <div class="row mb-0">
+          <div class='col-md-12'>
+            <hr class="divider" />
+          </div>
+        </div>
+
+      </div>
+    </div>
   </div>
 
-  <div id="flowchart">
+  <div class="row page whyswitch pt-0" id="how-it-works">
+    <div class="col-lg-12 two-col-text-block">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-center">How it works</h2>
+        </div>
+      </div>
+      <div class="row workflow">
+        <div class="col-lg-2 offset-lg-1">
+          <div class="step-image-holder">
+<!--             <img class="stepbg" src="images/green-dot.png" />
+ -->            <img class="step" src="images/icon-word.png" />
+          </div>
+          <h3>Upload a manuscript</h3>
+          <p>Automated workflows depend on good manuscript structure. Our app helps discover your structure and applies tags to get you started. (Not sure what this means? <a href="https://docs.hederis.com">Learn more here.</a>)</p>
+        </div>
+        <div class="col-lg-2">
+          <div class="step-image-holder">
+<!--             <img class="stepbg" src="images/green-dot.png" />
+ -->            <img class="step" src="images/icon-eyes.png" />
+          </div>
+          <h3>Structure discovery</h3>
+          <p>Automated workflows depend on good manuscript structure. Our app helps discover your structure and applies tags to get you started. (Not sure what this means? <a href="https://docs.hederis.com">Learn more here.</a>)</p>
+        </div>
+        <div class="col-lg-2">
+          <div class="step-image-holder">
+<!--             <img class="stepbg" src="images/green-dot.png" />
+ -->            <img class="step" src="images/icon-spreads.png" />
+          </div>
+          <h3>Design your book</h3>
+          <p>Automated workflows depend on good manuscript structure. Our app helps discover your structure and applies tags to get you started. (Not sure what this means? <a href="https://docs.hederis.com">Learn more here.</a>)</p>
+        </div>
+        <div class="col-lg-2">
+          <div class="step-image-holder">
+<!--             <img class="stepbg" src="images/green-dot.png" />
+ -->            <img class="step" src="images/icon-review-design.png" />
+          </div>
+          <h3>Review the pages</h3>
+          <p>Automated workflows depend on good manuscript structure. Our app helps discover your structure and applies tags to get you started. (Not sure what this means? <a href="https://docs.hederis.com">Learn more here.</a>)</p>
+        </div>
+        <div class="col-lg-2">
+          <div class="step-image-holder">
+<!--             <img class="stepbg" src="images/green-dot.png" />
+ -->            <img class="step" src="images/icon-output.png" />
+          </div>
+          <h3>Publish</h3>
+          <p>Automated workflows depend on good manuscript structure. Our app helps discover your structure and applies tags to get you started. (Not sure what this means? <a href="https://docs.hederis.com">Learn more here.</a>)</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p class="text-center mb-0"><a href="/pricing.html" class="button small">Try it now for free</a></p>
+        </div>
+      </div>
+
+      <div class="row mb-0">
+        <div class='col-md-12'>
+          <hr class="divider" />
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="row page whyswitch pt-0" id="whyswitch">
+    <div class="col-lg-8 offset-lg-2 two-col-text-block">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="mb-5 text-center">Why Switch to Hederis?</h2>
+        </div>
+        <div class="col-md-6">
+          <h3>Get Books to Market Faster</h3>
+          <p>Access your projects anytime, anywhere, get paged files in minutes, and get final PDF and ebook files at the same time. Our browser-based book design and layout tools are built on standardized HTML and CSS, powered behind the scenes by automation that comes from years of publishing workflow experience. </p>
+        </div>
+        <div class="col-md-6">
+          <h3>Create Files that will Last</h3>
+          <p>Workflows change, standards evolve. With Hederis, you get standards-compliant ebooks, print-ready PDFs, styled Word files that can drop into conventional workflows, and well-formed semantic HTML for your website or XML-based tools.</p>
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col-md-6">
+          <h3>Reduce Bottlenecks</h3>
+          <p>Get a pagecount estimate instantly, see the design in real time and make castoff adjustments, and see your laid-out pages without needing to create a PDF. Our app is built for collaboration, but still lets you keep your workflow stages separate.</p>
+        </div>
+        <div class="col-md-6">
+          <h3>Skip the Boring Stuff</h3>
+          <p>Our app comes loaded with tools and shortcuts to speed up or even eliminate those tedious book-making time-sucks. We use AI and pattern recognition to help you tag and design your files, and let you do common book-making tasks with the click of a button. </p>
+        </div>
+      </div>
+      <div class="row closer mb-0">
+        <div class="col-md-12">
+          <p class="imageholder mb-0"><img src="images/hederis_bookface.png" alt="A bird looking at a book that bears the face of the mythical Green Man."/></p>
+        </div>
+<!--           <div class="col-md-8 mt-5">
+          <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+          <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+          <p><strong><a href="" onclick="Calendly.showPopupWidget('https://calendly.com/nelliemckesson');return false;">Click here to schedule a meeting with our CEO, Nellie McKesson,</a> to talk about your company&rsquo;s specific needs and current workflows.</strong></p>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- <div id="flowchart">
     <div id="flowchart_background" class="noclicks">
         <div id="circle" ></div>
     </div>
@@ -506,50 +496,65 @@
       </div>
     </div>
 
-  </div>
+  </div> -->
 
 <div class="row panel-dark" id="learnmore_container">
   <div class="container-fluid">
-      <div class="row page panel-dark" id="learnmore">
+    <div class="row page panel-dark" id="learnmore">
 
-    <div class="col-md-2 nav blue primary" id="learnmore_nav">
-      <h1 class=""><a href="/index.html#home"></a></h1>
-      <div class="mobile_nav_btn"><span id="stripe_1"></span><span id="stripe_2"></span><span id="stripe_3"></span></div>
-      <nav class="navbar">
-        <div class="mobile_nav_hider" id="navbarTogglerDemo04">
-          <ul class="navbar-nav nav flex-column">
-            <li class="nav-item active"><a class="nav-link pl-0" href="/index.html#home">About</a></li>
-            <li class="nav-item"><a class="nav-link pl-0" href="/products.html">Products</a></li>
-            <li class="nav-item"><a class="nav-link pl-0" href="/about.html">Team</a></li>
-            <!--<li class="nav-item active"><a class="nav-link pl-0" href="/pricing.html">Pricing</a></li>-->
-            <li class="nav-item"><a class="nav-link pl-0" href="/partner.html#services">Services</a></li>
-            <!-- <li class="nav-item"><a class="nav-link pl-0" href="">Resources</a></li> -->
-            <li class="nav-item"><a class="nav-link pl-0" href="http://app.hederis.com">Sign up now</a></li>
-          </ul>
+      <div class="col-md-2 nav blue primary" id="learnmore_nav">
+        <h1 class=""><a href="/index.html#home"></a></h1>
+        <div class="mobile_nav_btn"><span id="stripe_1"></span><span id="stripe_2"></span><span id="stripe_3"></span></div>
+        <nav class="navbar">
+          <div class="mobile_nav_hider" id="navbarTogglerDemo02">
+            <ul class="navbar-nav nav flex-column">
+              <li class="nav-item"><a class="nav-link pl-0" href="/products.html">Products</a></li>
+              <li class="nav-item"><a class="nav-link pl-0" href="/about.html">Team &amp; Company</a></li>
+              <li class="nav-item"><a class="nav-link pl-0" href="/pricing.html">Pricing</a></li>
+              <li class="nav-item"><a class="nav-link pl-0" href="/partner.html#services">Services</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="app-gateway mt-4">
+          <p class="mb-0"><a class="button" id="signup" href="http://app.hederis.com">Sign up</a></p>
+          <p class="mt-2"><a class="" id="signin" href="http://app.hederis.com">or sign in</a></p>
         </div>
-      </nav>
-    </div>
+        <!-- Begin Mailchimp Signup Form -->
+        <div id="mc_embed_signup" class="dark my-4 py-2 px-0">
+        <form action="https://hederis.us17.list-manage.com/subscribe/post?u=c5bc6d6d58d3a6ca885eea897&amp;id=5ba347e4f2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+          <label for="mce-EMAIL">Stay in the know!</label>
+          <label>Get updates about new features <br/>and publishing news.</label>
+          <input type="email" value="" name="EMAIL" class="email mb-2" id="mce-EMAIL" placeholder="email address" required>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c5bc6d6d58d3a6ca885eea897_5ba347e4f2" tabindex="-1" value=""></div>
+            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+            </div>
+        </form>
+        </div>
+        <!--End mc_embed_signup-->
+      </div>
 
-    <div class="col-lg-6 offset-lg-6 offset-md-3" id="learnmore_book">
-      <div class="pageframe" id="bookcloser">
-        <div id="book_wrapper">
-          <div class="book" id="bottom_book" >
-            <div class="book_cover"></div>
+      <div class="col-lg-6 offset-lg-6 offset-md-3" id="learnmore_book">
+        <div class="pageframe" id="bookcloser">
+          <div id="book_wrapper">
+            <div class="book" id="bottom_book" >
+              <div class="book_cover"></div>
+            </div>
+          </div>
+  <!--         <div id="book_wrapper">
+            <div class="book" id="bottom_book"><img class="book_cover" src="images/book_cover.svg"/><img class="book_interior" src="images/book_without_cover.svg"/></div>
+          </div> -->
+          <div class="bottom">
+            <h2>Hederis helps you eliminate technical distractions
+            so that you can publish all the books on your wishlist.</h2>
+            <a class="button" href="/products.html">Get Started Today</a>
           </div>
         </div>
-<!--         <div id="book_wrapper">
-          <div class="book" id="bottom_book"><img class="book_cover" src="images/book_cover.svg"/><img class="book_interior" src="images/book_without_cover.svg"/></div>
-        </div> -->
-        <div class="bottom">
-          <h2>Hederis helps you eliminate technical distractions
-          so that you can publish all the books on your wishlist.</h2>
-          <a class="button" href="/products.html">Get Started Today</a>
-        </div>
       </div>
-    </div>
 
+    </div>
   </div>
-</div>
 </div>
 
   <div class="row panel-dark" id="footer-full">
@@ -559,7 +564,6 @@
           <li class=""><a href="mailto:info@hederis.com">Contact Us</a></li>
         </ul>
         <p> </p>
-        <p><a class="highlight" href="https://www.kickstarter.com/projects/nelliemckesson/cartoonists-classics-a-high-tech-book-publishing-e" target="_blank">Check out our Kickstarter campaign!</a></p>
         <p><a href="terms.html">Terms of Service</a></p>
         <p><a href="privacy.html">Privacy Policy</a></p>
     </div>
@@ -567,7 +571,6 @@
     <div class="col-md-6">
         <ul class="mr-0 pr-0 mt-3 footer-credits">
           <li class="">Site Design by Ian Crowther</li>
-          <li class="">Development by Eric Jacobsen</li>
           <li class="">Bird illustrations by <a href="http://sinusproblem.tumblr.com/">Patrick Keck</a></li>
           <p></p>
 

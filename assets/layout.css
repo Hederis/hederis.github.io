@@ -19,9 +19,12 @@ div.page {
   position:relative;
   z-index:20;
   overflow:hidden;
-  min-height:100vh;
+  height: auto;
 }
 
+div.page#home {
+  height:90vh;
+}
 
 #home, #home_mask {
 	z-index:80;
@@ -42,4 +45,10 @@ div.page {
 
 #flowchart {
 	z-index:90;
+}
+
+@media all and (max-width: 767px) {
+  div.page#home {
+    height:auto;
+  }
 }

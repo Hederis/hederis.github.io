@@ -6,7 +6,7 @@ a.nav-link {
   color: #CECAD1;
 }
 
-#whyswitch a.nav-link, #pricing a.nav-link {
+#whyswitch a.nav-link, .whyswitch a.nav-link, #pricing a.nav-link {
   color: #21172E;
 }
 
@@ -14,7 +14,12 @@ a.nav-link {
     font-size: 1.5em;
 }
 
-#home a.nav-link:hover, #home_mask a.nav-link:hover, #learnmore a.nav-link:hover, #whyswitch a.nav-link:hover, #pricing a.nav-link:hover {
+#home a.nav-link:hover, 
+#home_mask a.nav-link:hover, 
+#learnmore a.nav-link:hover, 
+#whyswitch a.nav-link:hover, 
+.whyswitch a.nav-link:hover,
+#pricing a.nav-link:hover {
   font-weight: 300;
   color: #00FF00;
 }
@@ -82,11 +87,35 @@ a.nav-link.highlight,
   color: #00FF00;
 }
 
+.app-gateway p {
+  width: 100px;
+  text-align: center;
+}
+
+.app-gateway a.button {
+  font-size: 18px;
+  color: #21172E;
+  width: 100px;
+}
+
+.app-gateway a#signin-top,
+.app-gateway a#signin {
+  color: #21172E;
+  font-size: 15px;
+}
+
+.app-gateway a#signin-top,
+.app-gateway a#signin {
+  color: #00ff00;
+}
+
 .mobile_nav_btn { display:none; }
 
-
-
 @media all and (max-width: 767px) {
+
+  .app-gateway {
+    display: none;
+  }
 
   #whyswitch div.nav {
 
@@ -204,39 +233,39 @@ a.nav-link.highlight,
     div.nav.white .mobile_nav_btn span {
       border-color:#21172E;
     }
+}
 
-        .mobile_nav_btn #stripe_1 {
-            top:18px;
-            -webkit-transform-origin: left center;
-                    transform-origin: left center;
-            -webkit-transform:rotateZ(0deg);
-                    transform:rotateZ(0deg);
-            -webkit-transition:-webkit-transform 0.3s ease-out;
-                    transition:transform 0.3s ease-out;
-        }
-        .mobile_nav_btn #stripe_2 {
-            top:25px;
-            -webkit-transition:opacity 0.3s ease-out;
-                    transition:opacity 0.3s ease-out;
-        }
-        .mobile_nav_btn #stripe_3 {
-            top:32px;
-            -webkit-transform-origin: left center;
-                    transform-origin: left center;
-            -webkit-transform:rotateZ(0deg);
-                    transform:rotateZ(0deg);
-            -webkit-transition:-webkit-transform 0.3s ease-out;
-                    transition:transform 0.3s ease-out;
-        }
-            .mobile_nav_btn.active #stripe_1 {
-                -webkit-transform:rotateZ(45deg);
-                        transform:rotateZ(45deg);
-            }
-            .mobile_nav_btn.active #stripe_2 {
-                opacity:0;
-            }
-            .mobile_nav_btn.active #stripe_3 {
-                -webkit-transform:rotateZ(-45deg);
-                        transform:rotateZ(-45deg);
-            }
+.mobile_nav_btn #stripe_1 {
+    top:18px;
+    -webkit-transform-origin: left center;
+            transform-origin: left center;
+    -webkit-transform:rotateZ(0deg);
+            transform:rotateZ(0deg);
+    -webkit-transition:-webkit-transform 0.3s ease-out;
+            transition:transform 0.3s ease-out;
+}
+.mobile_nav_btn #stripe_2 {
+    top:25px;
+    -webkit-transition:opacity 0.3s ease-out;
+            transition:opacity 0.3s ease-out;
+}
+.mobile_nav_btn #stripe_3 {
+    top:32px;
+    -webkit-transform-origin: left center;
+            transform-origin: left center;
+    -webkit-transform:rotateZ(0deg);
+            transform:rotateZ(0deg);
+    -webkit-transition:-webkit-transform 0.3s ease-out;
+            transition:transform 0.3s ease-out;
+}
+.mobile_nav_btn.active #stripe_1 {
+    -webkit-transform:rotateZ(45deg);
+            transform:rotateZ(45deg);
+}
+.mobile_nav_btn.active #stripe_2 {
+    opacity:0;
+}
+.mobile_nav_btn.active #stripe_3 {
+    -webkit-transform:rotateZ(-45deg);
+            transform:rotateZ(-45deg);
 }
