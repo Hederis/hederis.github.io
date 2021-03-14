@@ -162,6 +162,7 @@ div.two-col-text-block div.col-md-6 {
 }
 
 #learnmore_container {
+  width: 100%;
   z-index: 100;
   height: auto;
   padding-bottom: 50px;
