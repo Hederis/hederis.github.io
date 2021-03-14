@@ -106,6 +106,11 @@ a.nav-link.highlight,
 
 .app-gateway a#signin-top,
 .app-gateway a#signin {
+  color: #21172E;
+}
+
+#home .app-gateway a#signin-top,
+#home .app-gateway a#signin {
   color: #00ff00;
 }
 
