@@ -27,7 +27,6 @@ div.page#home {
 }
 
 #home, #home_mask {
-	z-index:80;
 }
 
 #home_nav {
@@ -35,12 +34,10 @@ div.page#home {
 }
 
 #whyswitch {
-	z-index:70;
   min-height:0;
 }
 
 #whyswitch_nav {
-	z-index:71;
 }
 
 #flowchart {

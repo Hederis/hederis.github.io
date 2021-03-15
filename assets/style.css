@@ -163,7 +163,6 @@ div.two-col-text-block div.col-md-6 {
 
 #learnmore_container {
   width: 100%;
-  z-index: 100;
   height: auto;
   padding-bottom: 50px;
 }
@@ -325,6 +324,10 @@ img.stepbg {
 
 .workflow p {
   font-size: 1.1em;
+}
+
+.librarybook {
+  height: 250px;
 }
 /*.bookborder {
   border-top: 1px solid #21172E;
