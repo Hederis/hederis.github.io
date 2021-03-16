@@ -103,6 +103,10 @@ div.pageframe img {
   padding: 15% 15% 3rem 15%;
 }
 
+#learnmore div#bookcloser.pageframe {
+  padding-top: 10%;
+}
+
 div.bookframe {
   border: 1px solid #585162;
 }
@@ -134,7 +138,7 @@ div.two-col-text-block div.col-md-6 {
   padding-right: 25px;
 }
 
-#home, #home_mask, #pricing, #learnmore, #whyswitch, #services {
+#home, #home_mask, #pricing, #learnmore, #whyswitch, .whyswitch, #services {
   padding: 40px 53px 40px 53px;
 }
 
@@ -158,7 +162,7 @@ div.two-col-text-block div.col-md-6 {
 }
 
 #learnmore_container {
-  z-index: 100;
+  width: 100%;
   height: auto;
   padding-bottom: 50px;
 }
@@ -205,33 +209,141 @@ div.two-col-text-block div.col-md-6 {
   height: 128px;
 }
 
-#whyswitch {
+#whyswitch, .whyswitch {
   color: #21172E;
   background-color: #fff;
 }
 
-#whyswitch h2 {
+#whyswitch h2,
+.whyswitch h2 {
   font-size: 2.2em;
 }
 
-#whyswitch h3 #flowchart h3 {
+#whyswitch h3, 
+#flowchart h3,
+.whyswitch h3 {
   font-size: 2em;
   margin-bottom: 0.5em;
 }
 
-#whyswitch p, #flowchart p {
+#whyswitch p, 
+.whyswitch p, 
+#flowchart p {
   font-size: 1.25em;
 }
 
-#whyswitch p.imageholder {
+#whyswitch p.imageholder,
+.whyswitch p.imageholder {
   width: 100%;
   text-align: center;
   padding: 10px;
 }
 
-#whyswitch p.imageholder img {
+#whyswitch p.imageholder img,
+.whyswitch p.imageholder img {
   width: 100%;
   max-width: 250px;
+}
+
+.row.icons p {
+  text-align: center;
+}
+
+div.icon-holder {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  background-color: #21172E;
+  text-align: center;
+  vertical-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.whyswitch img.icon,
+.whyswitch div.icon-holder svg {
+  height: 30px;
+  margin-top: 10px;
+}
+
+.whyswitch div.icon-holder.smaller svg {
+  height: 20px;
+  margin-top: 15px;
+}
+
+.whyswitch div.icon-holder svg path {
+  fill: #00ff00;
+}
+
+.workflow p {
+  max-width: 300px;
+}
+
+ul.benefits {
+  list-style-position: outside;
+  padding-left: 0px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li.benefits {
+  font-size: 1.25em;
+  list-style-type: none;
+  vertical-align: middle;
+  margin-bottom: 10px;
+}
+
+li.benefits svg {
+  height: 25px;
+  fill: #21172E;
+}
+
+div.step-image-holder {
+  height: 160px;
+/*  background-image: url("../images/green-dot.png");
+  background-size: auto 100%;
+  background-repeat: no-repeat;*/
+}
+
+img.stepbg {
+  max-width: 100%;
+  height: 150px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#how-it-works img.step {
+  height: 150px;
+}
+#how-it-works img.arrow {
+  width: 25%;
+}
+
+.workflow p {
+  font-size: 1.1em;
+}
+
+.librarybook {
+  height: 250px;
+}
+/*.bookborder {
+  border-top: 1px solid #21172E;
+  border-bottom: 1px solid #21172E;
+  border-radius: 0px 4px 4px 0px;
+}*/
+
+.closer .imageholder {
+  text-align: center;
+}
+
+.whyswitch hr.divider {
+  max-width: 600px;
+  border-top: 1px solid #21172E;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #learnmore_questions {
@@ -410,6 +522,18 @@ div.two-col-text-block div.col-md-6 {
   border-top: 0px solid #585162 !important;
 }
 
+@media all and (max-width: 1024px) {
+  .workflow > div {
+    text-align: center;
+  }
+  .workflow p,
+  .workflow div.step-image-holder,
+  .workflow h3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 
 
 @media all and (max-width: 767px) {
@@ -424,7 +548,7 @@ div.two-col-text-block div.col-md-6 {
 	  font-family: "Spinoza";
 	}
 
-  #home, #home_mask, #pricing, #learnmore, #whyswitch, #services {
+  #home, #home_mask, #pricing, #learnmore, #whyswitch, .whyswitch, #services {
 		padding: 30px 0;
 	}
 
@@ -452,7 +576,7 @@ div.two-col-text-block div.col-md-6 {
     padding-right: 20px;
   }
 
-  #whyswitch h3 {
+  #whyswitch h3, .whyswitch h3 {
     margin-bottom: 0.5em;
   }
 

@@ -19,12 +19,14 @@ div.page {
   position:relative;
   z-index:20;
   overflow:hidden;
-  min-height:100vh;
+  height: auto;
 }
 
+div.page#home {
+  height:90vh;
+}
 
 #home, #home_mask {
-	z-index:80;
 }
 
 #home_nav {
@@ -32,14 +34,18 @@ div.page {
 }
 
 #whyswitch {
-	z-index:70;
   min-height:0;
 }
 
 #whyswitch_nav {
-	z-index:71;
 }
 
 #flowchart {
 	z-index:90;
+}
+
+@media all and (max-width: 767px) {
+  div.page#home {
+    height:auto;
+  }
 }

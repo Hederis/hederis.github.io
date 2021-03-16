@@ -1,8 +1,8 @@
 @media only screen and (min-width:769px) {
 
   #home .bookframe, #home_mask .bookframe {
-    height: 90vh;
-    overflow: auto;
+    height: 80vh;
+    overflow: hidden;
     border: 1px solid #585162;
     border-radius: 0px 4px 4px 0px;
   }
@@ -14,9 +14,8 @@
 
 
 #bookopener {
-  height:90vh;
-  min-height:650px;
-  padding:40px 15% 40px 15%;
+  height:80vh;
+  padding:30px 15% 30px 15%;
   display:flex;
   flex-direction:column;
   justify-content:space-between;
@@ -39,6 +38,7 @@
   font-weight: 400;
   font-size: 2em;
   line-height: 1.5em;
+  margin-bottom: 0;
 }
 
 @media all and (max-width: 767px) {
@@ -48,7 +48,7 @@
     height: auto;
     margin-top: 4.5rem;
     margin-bottom: 10px;
-    overflow: scroll;
+    overflow: hidden;
 /*    display:flex;
     flex-direction:column;
     align-items:center;*/
@@ -57,7 +57,7 @@
   #bookopener {
     height: auto;
     min-height:0;
-    padding:50px;
+    padding:30px;
   }
 
   #bookopener h2 {
