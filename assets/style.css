@@ -528,9 +528,21 @@ img.stepbg {
   }
   .workflow p,
   .workflow div.step-image-holder,
-  .workflow h3 {
+  .workflow h3,
+  .library-image-holder {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .library-image-holder {
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .librarybook {
+    height: auto;
+    width: 100%;
   }
 }
 
