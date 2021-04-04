@@ -160,6 +160,10 @@ a.button {
   display: inline-block;
 }
 
+span.longtext {
+  background-color: #00ff00;
+}
+
 .panel-dark {
   background-color: #21172E;
   color: #CECAD1;
@@ -396,6 +400,10 @@ div.footer {
 
 #pricing .splash {
   text-align: center;
+}
+
+#pricing .splash img {
+  max-width: 150px;
 }
 
 #pricing #options img {
