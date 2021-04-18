@@ -1,5 +1,6 @@
 #book_wrapper {
 	height:35vh;
+	min-height: 132px;
 	display:flex;
 	align-items:center;
 }
@@ -18,6 +19,7 @@
 	position:relative;
 	width:calc(0.73 * 30vh);
 	height:30vh;
+	min-height: 127px;
 
 	background-image:url('../images/book_without_cover.svg');
 	background-size:contain;
@@ -35,6 +37,7 @@
 	left:0px;
 	width:calc(0.70 * 30vh);
 	height:calc(0.96 * 30vh);
+	min-height: 127px;
 
 	background-image:url('../images/book_cover.svg');
 	background-size:contain;

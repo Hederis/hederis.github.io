@@ -24,6 +24,7 @@ div.page {
 
 div.page#home {
   height:90vh;
+  min-height: 640px;
 }
 
 #home, #home_mask {
