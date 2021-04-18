@@ -2,6 +2,7 @@
 
   #home .bookframe, #home_mask .bookframe {
     height: 80vh;
+    min-height: 500px;
     overflow: hidden;
     border: 1px solid #585162;
     border-radius: 0px 4px 4px 0px;
