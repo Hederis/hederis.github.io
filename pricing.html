@@ -110,7 +110,7 @@
     <div class="col-md-8 offset-md-3 two-col-text-block" id="main_content">
       <div class="container">
         <div class="row" id="options">
-          <div class="col-md-8">
+          <div class="col-lg-8">
             <h2>Pricing Options</h2>
             <p>Hederis is a web-based book design app that lets you create professional-quality print and ebook layouts at the same time. With Hederis, you’re getting a full-featured, cloud-based book production platform. Read more about all the features of our app <a href="/products.html">here</a>.</p>
 
@@ -233,7 +233,7 @@
         </div> -->
 
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-lg-6">
             <div class="packagebox shaded">
               <p class="info">FREE</p>
               <h3>Your First Project</h3>
@@ -247,7 +247,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-lg-6">
             <div class="packagebox shaded">
               <p class="info">NO COMMITMENT</p>
               <h3>Pay-Per-Project</h3>
@@ -271,7 +271,7 @@
             <p>Purchase multiple projects in advance and save on the per-project price. Bundles also include full service email support for all included projects.</p>
           </div>
 
-          <div class="col-md-6" id="six">
+          <div class="col-lg-6" id="six">
             <div class="packagebox">
               <p class="info">10% DISCOUNT</p>
               <h3>6-Project Bundle</h3>
@@ -294,7 +294,7 @@
               <p><strong>$1,074 total</strong> <span class="text-secondary">($642 for Galley/Digital Mode)</span></p>
             </div>
           </div>
-          <div class="col-md-6" id="twelve">
+          <div class="col-lg-6" id="twelve">
             <div class="packagebox">
               <p class="info">15% DISCOUNT</p>
               <h3>12-Project Bundle</h3>
@@ -584,10 +584,12 @@
   <script type="text/javascript" src="assets/book_sfx.js"></script>
   <script>
   function addPadding(marg) {
-    var myBook = document.querySelectorAll("#six img.book_interior")[0];
-    var bookStyle = window.getComputedStyle(myBook);
-    var bookHeight = bookStyle.getPropertyValue('height');
-    $("#six a.button").css("margin-top",parseInt(bookHeight, 10) + parseInt(marg, 10) + "px");
+    if (parseInt($( window ).width()) > 980) {
+      var myBook = document.querySelectorAll("#six img.book_interior")[0];
+      var bookStyle = window.getComputedStyle(myBook);
+      var bookHeight = bookStyle.getPropertyValue('height');
+      $("#six a.button").css("margin-top",parseInt(bookHeight, 10) + parseInt(marg, 10) + "px");
+    }
   }
 
   $( document ).ready(function() {

@@ -106,6 +106,8 @@
 	margin-right:1%;
 	margin-bottom:0px;
 	height: 100%;
+	background-image: none;
+	min-height: auto;
 /*	width:50px;
 	height:68px;*/
 }
@@ -138,6 +140,7 @@
 	background-image: none;
 	z-index: 10;
 	width: 93%;
+	min-height: auto;
 }
 
 #six .book_row {

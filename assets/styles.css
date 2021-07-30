@@ -809,7 +809,19 @@ span.required {
 }
 
 /*@media all and (max-width: 480px) { }*/
-@media all and (max-width: 980px) {}
+@media all and (max-width: 980px) {
+  #pricing .packagebox.shaded {
+    height: auto;
+    margin-bottom: 30px;
+  }
+  #pricing .packagebox.shaded div.details {
+    position: relative;
+    padding-bottom: 0px;
+  }
+  #pricing #bundles #six {
+    margin-bottom: 47px;
+  }
+}
 @media all and (max-width: 768px) {
   .sm-dnone {
     display: none;
