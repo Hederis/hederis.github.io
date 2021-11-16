@@ -114,16 +114,16 @@ p.pullquote,
 #pricing p.pullquote {
   font-size: 2em;
   text-align: center;
-  color: #CECAD1;
-  margin-left: 50px;
-  margin-right: 50px;
+  color: #635C6C;
+  margin: 20px 50px 20px;
 }
 
 p.extract,
 #pricing p.extract {
+  margin-left: 30px;
 }
 
 p.description,
 #pricing p.description {
-  font-style: italic;
+  font-size: 1.5em;
 }
