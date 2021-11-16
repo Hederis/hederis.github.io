@@ -109,3 +109,17 @@ a.button.small {
   font-size: 1em;
   font-style: normal;
 }
+
+p.pullquote,
+#pricing p.pullquote {
+  font-size: 2em;
+  text-align: center;
+  color: gray;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+p.description,
+#pricing p.description {
+  font-style: italic;
+}
