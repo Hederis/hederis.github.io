@@ -25,6 +25,14 @@ h3 {
   margin-bottom: 1em;
 }
 
+span.inline-head {
+  font-weight: bold;
+}
+
+p.smaller, #pricing p.smaller {
+  font-size: 0.8em;
+}
+
 #home_content {
   position: absolute;
   overflow-y: scroll;
