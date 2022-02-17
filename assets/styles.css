@@ -168,6 +168,10 @@ a.button {
   display: inline-block;
 }
 
+a.button.small {
+  font-size: 1em;
+}
+
 span.longtext {
   background-color: #00ff00;
 }
@@ -851,6 +855,61 @@ span.required {
 
 #team #mc_embed_signup {
   border-top: 0px solid #585162 !important;
+}
+
+/* TESTIMONIALS */
+
+.testimonial {
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.bubble {
+  border: 3px solid #00ff00;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.bubble p {
+  margin-bottom: 0;
+  font-size: 1.3em;
+}
+
+.testimonial .attribution {
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.pointer {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border-bottom-left-radius: 10px;
+  border-left: 3px solid #00ff00;
+  border-bottom: 3px solid #00ff00;
+  margin-right: 5px;
+}
+
+.big {
+  font-size: 1.5rem;
+  line-height: 1rem;
+}
+
+.green {
+  color: #00ff00;
+}
+
+.right {
+  text-align: right;
+}
+
+#products .largelist {
+  font-size: 1.25em;
+}
+
+#products .largelist li {
+  font-size: 1em;
 }
 
 /*@media all and (max-width: 480px) { }*/
