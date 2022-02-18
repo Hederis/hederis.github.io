@@ -110,6 +110,51 @@
     <div class="col-md-8 offset-md-3 two-col-text-block" id="products">
       <h2>Create an Eye-Catching Galley or ARC in Minutes</h2>
 
+      <div class="testimonial sidebar mb-4">
+        <div class="bubble">
+          <p class="headline">Get 20% Off Your Next Galley</p>
+          <p class="mb-3">Your first project is always free in Hederis, but you can get 20% off your next project by signing up for our newsletter here:</p>
+
+          <!-- Begin Mailchimp Signup Form -->
+            <link href="//cdn-images.mailchimp.com/embedcode/naked-10_7.css" rel="stylesheet" type="text/css">
+            <style type="text/css">
+              #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+              /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+                 We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+            </style>
+            <div id="mc_embed_signup">
+            <form action="https://hederis.us17.list-manage.com/subscribe/post?u=c5bc6d6d58d3a6ca885eea897&amp;id=5ba347e4f2" method="post" id="mc-embedded-subscribe-form-2" name="mc-embedded-subscribe-form-2" class="validate" target="_blank">
+            <div id="mc_embed_signup_scroll">
+            <div class="mc-field-group">
+              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email address">
+            </div>
+            <div class="mc-field-group" style="display:none;">
+              <label for="mce-group[341676]">Typesetting </label>
+              <select name="group[341676]" class="REQ_CSS" id="mce-group[341676]">
+                <option value=""></option>
+                <option value="1" selected>Galleys</option>
+                <option value="2">FullTypeset</option>
+              </select>
+            </div>
+              <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+              </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c5bc6d6d58d3a6ca885eea897_5ba347e4f2" tabindex="-1" value=""></div>
+                <div class="clear"><input onClick="submitForm()" type="submit" value="Get 20% Off" name="subscribe" id="mc-embedded-subscribe" class="button small mt-3"></div>
+                </div>
+            </form>
+            </div>
+            <!--End mc_embed_signup-->
+            <div id="formResults">
+              <p class="headline">Thanks!</p>
+              <p>Here's your discount code:</p>
+              <p class="headline">HEDGALLEY20</p>
+            </div>
+
+        </div>
+      </div>
+
       <p><strong>Picture this:</strong> A trade show is fast approaching, and you've got a hot new title with slipping production dates. An editorial assistant is scrambling to create an ARC, but Microsoft Word is the only tool they have access to, and so they spend a full day just to get an imperfect PDF. Or maybe all galleys go through that one in-house designer whose plate is already too full, and you know they're daydreaming about quitting just so they can find some space to breath.</p>
 
       <h3 class="">Hederis Can Help.</h3>
@@ -122,6 +167,8 @@
         </div>
         <p class="attribution right"><span class="pointer"></span>Cass, Production Manager</p>
       </div>
+
+      <p class="text-center mt-4 mb-5"><a id="generic-try-it-now" href="https://app.hederis.com" class="button small">Make a Galley or ARC Now!</a></p>
 
       <p>What do you get when you make a galley with Hederis?</p>
 
@@ -180,18 +227,10 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 <script>
-var $form = $('form#schedulecall'),
-  url = 'https://script.google.com/macros/s/AKfycbwpMgKUAC4czQZwEXksBhbHrKoZeZSBaUW5p_jkX2Ue0Obppz2n/exec';
-
-  $('#submit-form').on('click', function(e) {
-    e.preventDefault();
-    var jqxhr = $.ajax({
-      url: url,
-      method: "GET",
-      dataType: "json",
-      data: $form.serializeObject()
-    });
-  })
+  function submitForm() {
+    document.getElementById("mc-embedded-subscribe-form-2").submit();
+    document.getElementById("formResults").setAttribute("class","submitted");
+  }
 </script>
 
 </body>

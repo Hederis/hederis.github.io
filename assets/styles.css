@@ -157,7 +157,8 @@ a.nav-link:hover {
   font-weight: 300;
 }
 
-a.button {
+a.button,
+.sidebar input.button {
   font-family: "Robinson Web";
   font-size: 1.75em;
   line-height: 1.4em;
@@ -168,8 +169,14 @@ a.button {
   display: inline-block;
 }
 
-a.button.small {
+a.button.small,
+.sidebar input.button.small {
   font-size: 1em;
+}
+
+.sidebar input.button {
+  border-width: 0px;
+  cursor: pointer;
 }
 
 span.longtext {
@@ -853,6 +860,10 @@ span.required {
   border-top: 1px solid #585162 !important;
 }
 
+.sidebar #mc_embed_signup {
+  border-top-width: 0px !important;
+}
+
 #team #mc_embed_signup {
   border-top: 0px solid #585162 !important;
 }
@@ -864,6 +875,13 @@ span.required {
   margin-right: 70px;
 }
 
+.testimonial.sidebar {
+  margin-top: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+}
+
 .bubble {
   border: 3px solid #00ff00;
   border-radius: 20px;
@@ -872,6 +890,15 @@ span.required {
 
 .bubble p {
   margin-bottom: 0;
+  font-size: 1.3em;
+}
+
+#pricing .testimonial.sidebar .bubble p {
+  font-size: 1em;
+}
+
+#pricing .testimonial.sidebar p.headline {
+  font-weight: bold;
   font-size: 1.3em;
 }
 
@@ -912,6 +939,15 @@ span.required {
   font-size: 1em;
 }
 
+#formResults {
+  display: none;
+  margin-top: 15px;
+}
+
+#formResults.submitted {
+  display: block;
+}
+
 /*@media all and (max-width: 480px) { }*/
 @media all and (max-width: 980px) {
   #pricing .packagebox.shaded {
@@ -924,6 +960,14 @@ span.required {
   }
   #pricing #bundles #six {
     margin-bottom: 47px;
+  }
+  .testimonial {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .testimonial.sidebar {
+    margin-left: 50px;
+    margin-right: 50px;
   }
 }
 @media all and (max-width: 768px) {
@@ -1141,5 +1185,13 @@ span.required {
 
   #team #mc_embed_signup {
     display: initial;
+  }
+  .testimonial {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .testimonial.sidebar {
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
