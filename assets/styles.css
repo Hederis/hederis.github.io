@@ -177,6 +177,8 @@ a.button.small,
 .sidebar input.button {
   border-width: 0px;
   cursor: pointer;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 span.longtext {
@@ -1183,7 +1185,8 @@ span.required {
     display: none;
   }
 
-  #team #mc_embed_signup {
+  #team #mc_embed_signup, 
+  .testimonial #mc_embed_signup {
     display: initial;
   }
   .testimonial {
