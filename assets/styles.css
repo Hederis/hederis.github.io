@@ -697,14 +697,16 @@ span.highlight.green {
 }
 
 .row.cta-divider {
+  font-size: 1.25em;
   text-align: center;
   color: #00ff00;
   background-color: #21172E;
-  padding: 10px 10px 1px;
+  padding: 10px 10px 0px;
   margin-bottom: 40px;
 }
 
 .row.cta-divider.gray {
+  font-size: 1em;
   text-align: center;
   color: #000;
   background-color: #f2f2f2;
