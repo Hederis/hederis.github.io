@@ -585,6 +585,9 @@ img.stepbg {
 }
 
 @media all and (max-width: 1024px) {
+  body {
+    padding-top: 50px;
+  }
   .workflow > div {
     text-align: center;
   }
@@ -606,12 +609,6 @@ img.stepbg {
     height: auto;
     width: 100%;
   }
-}
-
-
-
-@media all and (max-width: 767px) {
-
 
   .no_mobile {
     display:none !important;
