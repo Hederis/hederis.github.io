@@ -42,6 +42,36 @@ p.smaller, #pricing p.smaller {
   height: 90vh;
 }
 
+li.heddropdown {
+  height: auto;
+}
+
+li.heddropdown.collapsed {
+  height: calc(0.5rem + 1.5em);
+}
+
+li.heddropdown > ul {
+  visibility: visible;
+}
+
+li.heddropdown.collapsed > ul {
+  visibility: hidden;
+}
+
+li.heddropdown > a::before {
+  content: "\25BC\2002";
+  font-size: 0.5em;
+  color: #00ff00;
+}
+
+li.heddropdown.collapsed > a::before {
+  content: "\25B6\2002";
+}
+
+li.heddropdown > a:hover {
+  cursor: pointer;
+}
+
 div.pageframe p.navlink {
   font-size: 1em;
   text-align: center;
@@ -585,6 +615,9 @@ img.stepbg {
 }
 
 @media all and (max-width: 1024px) {
+  body {
+    padding-top: 50px;
+  }
   .workflow > div {
     text-align: center;
   }
@@ -606,12 +639,6 @@ img.stepbg {
     height: auto;
     width: 100%;
   }
-}
-
-
-
-@media all and (max-width: 767px) {
-
 
   .no_mobile {
     display:none !important;

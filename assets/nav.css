@@ -116,7 +116,7 @@ a.nav-link.highlight,
 
 .mobile_nav_btn { display:none; }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: 1024px) {
 
   .app-gateway {
     display: none;
