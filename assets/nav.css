@@ -2,6 +2,40 @@ a.nav-link {
   font-weight: 400;
 }
 
+li.heddropdown {
+  height: auto;
+}
+
+li.heddropdown.collapsed {
+  height: calc(0.5rem + 1.5em);
+}
+
+li.heddropdown > ul {
+  visibility: visible;
+}
+
+li.heddropdown.collapsed > ul {
+  visibility: hidden;
+}
+
+li.heddropdown > a::before {
+  content: "\25BC\2002";
+  font-size: 0.5em;
+  color: #00ff00;
+}
+
+li.heddropdown.collapsed > a::before {
+  content: "\25B6\2002";
+}
+
+li.heddropdown > a:hover {
+  cursor: pointer;
+}
+
+li.nav-item li {
+  font-size: 1em !important;
+}
+
 #home a.nav-link, #home_mask a.nav-link, #learnmore a.nav-link  {
   color: #CECAD1;
 }
