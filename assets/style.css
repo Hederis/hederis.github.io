@@ -315,6 +315,10 @@ li.benefits svg {
   fill: #21172E;
 }
 
+li.features {
+  font-size: 1.25em;
+}
+
 div.step-image-holder {
   height: 160px;
 /*  background-image: url("../images/green-dot.png");
