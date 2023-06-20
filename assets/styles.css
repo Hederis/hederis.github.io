@@ -965,8 +965,14 @@ span.required {
   display: block;
 }
 
+@media all and (max-width: 1024px) {
+  #mc_embed_signup {
+    display: none;
+  }
+}
+
 /*@media all and (max-width: 480px) { }*/
-@media all and (max-width: 980px) {
+
   #pricing .packagebox.shaded {
     height: auto;
     margin-bottom: 30px;
@@ -1194,10 +1200,6 @@ span.required {
   #services {
     padding-top: 80px;
     padding-bottom: 80px;
-  }
-
-  #mc_embed_signup {
-    display: none;
   }
 
   #team #mc_embed_signup, 
