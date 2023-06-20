@@ -161,6 +161,21 @@ div.two-col-text-block div.col-md-6 {
 #home, #home_mask, #learnmore, #flowchart {
 }
 
+#banner {
+  background-color: #00ff00;
+  height: 40px;
+}
+
+#banner p {
+  text-align: center;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+#banner p a {
+  color: #21172E;
+}
+
 #home .navarrow {
   position: absolute;
   bottom: 0;
