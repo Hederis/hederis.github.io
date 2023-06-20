@@ -17,7 +17,6 @@ body {
 
 div.page {
   position:relative;
-  z-index:20;
   overflow:hidden;
   height: auto;
 }

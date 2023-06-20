@@ -164,10 +164,6 @@ a.nav-link.highlight,
     z-index: 10;
   }
 
-  #learnmore_nav {
-    z-index: 10;
-  }
-
   #pricing_nav h1 {
     background-color: white;
   }
@@ -177,10 +173,17 @@ a.nav-link.highlight,
   div.nav.secondary,
   div.nav.relative {
     position:fixed;
-    left:0; top:0;
+    z-index:100;
+    left:0; 
+    top:0;
     width:100%;
+    height: 60px;
     box-sizing:border-box;
     padding:0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:#21172E;
   }
 
   div.nav.nav-pills {
@@ -189,42 +192,50 @@ a.nav-link.highlight,
 
   div.nav h1 {
     position:relative;
-    z-index:100;
     box-sizing:border-box;
-    width:100%;
     padding:10px 15px;
     background-color:#21172E;
     margin:0;
+    height: 60px;
   }
 
   div.nav h1 img {
     height: 30px;
   }
 
-  div.nav.white h1 {
+  div.nav.white, div.nav.white h1 {
     background-color:white;
   }
 
   div.nav nav.navbar,
   div.nav.primary nav.navbar,
   div.nav.secondary nav.navbar {
-    will-change:transform;
-    transform:translateY(-55vh);
-    transition: transform 0.2s ease-in-out;
+    box-sizing: border-box;
+    height: 60px;
+    -moz-transition: height 1s ease;
+    -webkit-transition: height 1s ease;
+    -o-transition: height 1s ease;
+    transition: height 1s ease;
     padding:10px 15px;
     background-color:#21172E;
-    border-bottom: 1px solid #ffffff;
+    overflow: hidden;
+    display: block;
   }
 
   div.nav.white nav.navbar {
     background-color:white;
-    border-bottom: 1px solid #21172E;
+    border-bottom: 0px solid #21172E;
   }
 
   div.nav.active nav.navbar,
   div.nav.primary.active nav.navbar,
   div.nav.secondary.active nav.navbar {
-    transform:translateY(0);
+    height: auto;
+    border: 1px solid #ffffff;
+  }
+
+  div.nav.white.active nav.navbar {
+    border: 1px solid #21172E;
   }
 
   button.navbar-toggler {
@@ -247,24 +258,18 @@ a.nav-link.highlight,
 
   .mobile_nav_btn {
       display:block;
-      position:absolute;
       z-index:99999;
-      top:4px;
-      right:-15px;
       width:30px;
-      height:30px;
-      text-indent:-1000px;
+      height:60px;
       overflow:hidden;
-      padding-top:15px;
-      padding-left:70px;
-      padding-bottom:20px;
-      pointer-events:none;
+      cursor: pointer;
+      position: relative;
+      margin-left: auto;
   }
 
     .mobile_nav_btn span {
         display:block;
         position:absolute;
-        right:30px;
         width:20px;
         height:1px;
         -webkit-transition:border 0.25s linear;
@@ -273,6 +278,10 @@ a.nav-link.highlight,
 
     div.nav.white .mobile_nav_btn span {
       border-color:#21172E;
+    }
+
+    #learnmore_container div.nav {
+      display: none;
     }
 }
 

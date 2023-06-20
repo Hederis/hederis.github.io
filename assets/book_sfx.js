@@ -48,11 +48,11 @@ $(function() {
 
 	/* nav */
 
-	$('div.nav h1').on('click', function() {
-		// console.log('click')
-		$('div.nav').toggleClass('active');
-		$('.mobile_nav_btn').toggleClass('active');
-	})
+	// $('div.nav h1').on('click', function() {
+	// 	// console.log('click')
+	// 	$('div.nav').toggleClass('active');
+	// 	$('.mobile_nav_btn').toggleClass('active');
+	// })
 
 
 
