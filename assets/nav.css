@@ -197,6 +197,7 @@ a.nav-link.highlight,
     background-color:#21172E;
     margin:0;
     height: 60px;
+    max-width: 49%;
   }
 
   div.nav h1 img {
@@ -212,6 +213,7 @@ a.nav-link.highlight,
   div.nav.secondary nav.navbar {
     box-sizing: border-box;
     height: 60px;
+    width: 60px;
     -moz-transition: height 1s ease;
     -webkit-transition: height 1s ease;
     -o-transition: height 1s ease;
@@ -232,6 +234,8 @@ a.nav-link.highlight,
   div.nav.secondary.active nav.navbar {
     height: auto;
     border: 1px solid #ffffff;
+    width: auto;
+    max-width: 49%;
   }
 
   div.nav.white.active nav.navbar {
