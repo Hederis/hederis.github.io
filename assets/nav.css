@@ -213,6 +213,7 @@ a.nav-link.highlight,
     transition: transform 0.2s ease-in-out;
     padding:10px 15px;
     background-color:#21172E;
+    border-bottom: 1px solid #ffffff;
   }
 
   div.nav.white nav.navbar {
