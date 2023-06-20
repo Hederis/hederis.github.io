@@ -218,6 +218,7 @@ a.nav-link.highlight,
 
   div.nav.white nav.navbar {
     background-color:white;
+    border-bottom: 1px solid #21172E;
   }
 
   div.nav.active nav.navbar,
