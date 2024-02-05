@@ -1,0 +1,43 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+div#banner {
+	width: 100%;
+	min-height: 600px;
+	background-image: url("../images/istockphoto-1321462048-1024x1024-flip.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	position: relative;
+}
+
+div#banner h2 {
+	font-family: sans-serif;
+	font-size: 32pt;
+	position: absolute;
+	bottom: 50px;
+	left: 50px;
+}
+
+div#main {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 80%;
+}
+
+div#main > * {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.headline {
+	border-top: 1px solid #b3b0c6;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.highlight {
+	color: #07c896;
+}

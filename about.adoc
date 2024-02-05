@@ -1,0 +1,32 @@
+---
+layout: page
+permalink: /about/
+---
+
+:figure-caption!:
+
+[role=headline plain]
+****
+[.highlight]*Hederis* _(pronounced “header-iss”)_, comes from the word _hedera_. Used primarily in ancient greek and latin texts, the hedera was a purely ornamental symbol used to mark a break between paragraphs [.icon]*&#9753;* It can also mean an ecosystem of vines or ivy.
+****
+
+[role=generic]
+****
+[.inlinehighlight]*Our goal is to empower publishers to have control over their processes and intellectual property, keeping their staff employed with fulfilling work that builds real skills.*
+****
+
+Some of our driving principles are to:
+
+[.goals]
+* *Help you succeed.* While we’re doing our best to build tools that we think can help the publishing community, our tools aren’t the right answer for everyone, and that’s ok. We’re always happy to help point you in the right direction and get you on the path to success.
+* *Support our community.* Embracing innovation can feel lonely, but rest assured you’re not alone. We’re genuinely passionate about book-making and love to share our knowledge and connect with other like-minded folks.
+* *Respect your knowledge and experience.* Book-making is a craft that has evolved over centuries, and involves a variety of different people with different skills. Newcomers and veterans alike have invaluable insights to share, and we want to hear them!
+
+.About Hederis
+[role=recognition generic]
+****
+.The Hederis team accepts the 2023 BISG Industry Innovator Award in New York, NY, April 2023.
+image::/images/BISG-team-award.jpg[]
+
+Hederis was built and is maintained by a collective of people passionate about book publishing. Originally founded by long-time publishing technologist Nellie McKesson in response to seeing many publishers struggle with inefficient and outdated production workflows, Hederis has brought together many people from all aspects of the publishing industry to build tools that solve real publishing issues.
+****

@@ -1,0 +1,330 @@
+---
+layout: app
+title: Products
+permalink: /app/products/
+---
+
+++++
+<div class="row mb-0 pb-0" id="pricing">
+
+    <div class="col-md-8 offset-md-3 two-col-text-block" id="products">
+      <h2>Products and Features</h2>
+      <p>Hederis is a cloud-based book production and design platform, providing state-of-the-art tools to publishers of every size. No longer reserved just for the biggest publishers with the biggest budgets, our combination of automation with hands-on design and layout tools is the evolution of our work with publishers throughout the industry.</p>
+
+      <p class="pullquote"><span class="highlight">Our goal is to help you own your book production workflow without needing to make a huge financial investment or become a technology guru.</span></p>
+
+<!--       <p class="mb-3"></p> -->
+
+      <p class="text-center"><a href="mailto:info@hederis.com">Contact us about your custom workflow needs</a></p>
+
+      <h3 class="mt-5">How it works</h3>
+
+      <p>With Hederis, you can upload a Microsoft Word manuscript file, and get professionally laid-out print and ebook files in a flash. Our design and layout interface allows you to create beautiful, custom book designs for every project. Adjust your page layout right in the browser, and automatically export to PDF, EPUB, Kindle-optimized EPUB, HTML, and an up-to-date Microsoft Word file that includes all your changes.</p>
+
+      <figure>
+        <img src="/apps/images/typeset-flow-01.png" />
+      </figure>
+
+      <h4 class="text-center mt-5">The Hederis app has two modes:</h4>
+
+        <div class="row mb-3 mt-3">
+          <div class="col-md-6">
+            <div class="packagebox shaded">
+              <h3>Galley &amp; Digital</h3>
+              <p><em>Galley &amp; Digital</em> mode is for folks who need a quick watermarked PDF to send to reviewers or to create bound galleys, or for folks who just want to make a beautiful, <a href="/app/accessibility/">accessible</a>, valid ebook (or both!).</p>
+              <div class="book gray withHover medium" >
+                <div class="book_cover gray"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="packagebox shaded">
+              <h3>Typesetting</h3>
+              <p><em>Typesetting</em> mode is geared towards the full book production process, and includes extra tools for all the fine-tuning that goes into creating final print files, like adjusting line breaks and page breaks.</p>
+              <div class="book withHover medium" >
+                <div class="book_cover"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p class="text-center"><a href="/app/pricing/" class="">See a side-by-side comparison of what’s included in each mode</a></p>
+
+        <div class="row mt-4 mb-2">
+          <div class="col-md-12">
+            <p><a href="/app/trade-case-study/" id="learn-more-button" class="button small"><span class="inline-head">Read the Case Study:</span> An independent publishing company who&rsquo;s been using Hederis to make their unique, ground-breaking books.</a> </p>
+          </div>
+        </div>
+
+      </div>
+  </div>
+
+<div class="row cta-divider gray text-center mt-5 mb-3">
+  <h3 class="text-center">Hederis is designed to work with your whole team:</h3>
+</div>
+
+  <div class="row features mt-3">
+    <div class="col-md-10 offset-md-1 product-features">
+
+      <div class="feature-section row">
+        <div class="col-md-3">
+          <img src="/apps/images/icon-word.png" width="100" />          
+          <h4 id="editorial">Editorial</h4>
+
+          <p class="pullquote">
+            Our tools are built by publishing professionals who understand publishing workflows and the challenges that new technology can bring.
+          </p>
+        </div>
+
+      <div class="col-md-9 slideshow">
+        <img src="/apps/images/product-dashboard.png" alt="An image of the Hederis app project dashboard">
+      </div>
+    </div>
+
+    <div class="feature-section row">
+      <div class="col-md-3 prop">
+        <h5>A simple interface, that guides you through the process</h5>
+        <p>Our app is built specifically for books, with workflow suggestions, tips, and links to documentation built-in.</p>
+      </div>
+
+      <div class="col-md-3 prop">
+        <h5>Help with manuscript tagging</h5>
+        <p>Hederis applies a first round of tags to your manuscript text, to help you with the styling process.</p>
+      </div>
+
+      <div class="col-md-3 prop">
+        <h5>In-app text editing</h5>
+        <p>Make text edits directly in the Hederis app, and they’ll sync automatically to the page layouts.</p>
+      </div>
+
+      <div class="col-md-3 prop">
+        <h5>Get an accurate page count in minutes</h5>
+        <p>Running long or short? Quickly adjust page margins, line heights, font sizes, or any other design setting, so that you can hit your target page count.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row cta-divider">
+  <p class="mb-2"><a id="editorial-try-it-now" href="https://app.hederis.com" target="_blank">Try it now for free</a></p>
+</div>
+
+<div class="row features">
+  <div class="col-md-10 offset-md-1 product-features">
+
+    <div class="feature-section row">
+      <div class="col-md-3">
+        <img src="/apps/images/icon-spreads.png" width="100" />  
+        <h4 id="editorial">Design</h4>
+
+        <p class="pullquote">
+          Hederis is different from most automation tools: we give you complete control over your book layout and design, so there’s no need to sacrifice quality.
+        </p>
+      </div>
+
+      <div class="col-md-9 slideshow">
+        <img src="/apps/images/product-design-preview.png" alt="An image of the Hederis app project dashboard">
+      </div>
+    </div>
+
+    <div class="feature-section row">
+      <div class="col-md-4 prop">
+        <h5>Live preview of your design and text changes</h5>
+        <p>Unlike other automated systems, Hederis shows you exactly what your PDF will look like, so that you can create book designs without any guesswork.</p>
+      </div>
+
+      <div class="col-md-4 prop">
+        <h5>Use design templates, or create a custom design for each book</h5>
+        <p>Design templates can be a big time-saver, and can give a shared visual feel to books within a series or imprint. With Hederis, you can share design templates between any book, customize a template, or create a completely new design with no constraints.</p>
+      </div>
+
+      <div class="col-md-4 prop">
+        <h5>Standard design tools</h5>
+        <p>Master pages, hyphenation controls, custom fonts, OpenType, and more: We’ve got everything you expect in a design tool.</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="row cta-divider">
+  <p class="mb-2"><a id="design-try-it-now" href="https://app.hederis.com" target="_blank">Try it now for free</a></p>
+</div>
+
+<div class="row features">
+  <div class="col-md-10 offset-md-1 product-features">
+
+    <div class="feature-section row">
+      <div class="col-md-3">
+        <img src="/apps/images/icon-output.png" width="100" />  
+        <h4 id="production">Production</h4>
+
+        <p class="pullquote">
+          We keep track of the different technical requirements for each book format, so that you can focus on getting your books out the door.
+        </p>
+      </div>
+
+      <div class="col-md-9 slideshow">
+        <img src="/apps/images/product-export-settings.png" alt="An image of just a few of the Hederis app export settings">
+      </div>
+    </div>
+
+    <div class="feature-section row">
+      <div class="col-md-3 prop">
+        <h5>Create PDF, EPUB, HTML, and Microsoft Word</h5>
+        <p>We provide all the standard output files for you to print and distribute your book, plus an HTML version that you can use to share excerpts on your website, and an up-to-date Microsoft Word file, so that you always have the latest version of the text.</p>
+      </div>
+
+      <div class="col-md-3 prop">
+        <h5>Born-accessible ebooks</h5>
+        <p>Born-accessible ebooks: Our ebooks come with standard accessibility features out-of-the-box, so that book-lovers of all types can enjoy your titles. <a href="/app/accessibility/">Learn more here.</a></p>
+      </div>
+
+      <div class="col-md-3 prop">
+        <h5>File validation</h5>
+        <p>PDF validation tools to check for missing fonts, layout errors, and a growing list of other issues. Plus, the industry-standard EPUB validator&mdash;EPUBCheck&mdash;is built-in.</p>
+      </div>
+
+      <div class="col-md-3 prop">
+        <h5>Adjust page breaks and line breaks to your liking</h5>
+        <p><em>(Typesetting mode only)</em> Unlike most automation systems, Hederis gives you tools to fix bad breaks right in the browser so you don’t have to sacrifice quality.</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="row cta-divider">
+  <p class="mb-2"><a id="production-try-it-now" href="https://app.hederis.com" target="_blank">Try it now for free</a></p>
+</div>
+
+<div class="row features">
+  <div class="col-md-10 offset-md-1 product-features">
+
+    <div class="feature-section row">
+      <div class="col-md-3">
+        <img src="/apps/images/icon-eyes.png" width="100" />  
+        <h4 id="editorial">Team Management</h4>
+
+        <p class="pullquote">
+          Our tools can fit into existing workflows, or can pave the way for you to streamline your process, and with our extensive learning resources and knowledgeable support team, you never have to feel like you’re on your own.
+        </p>
+      </div>
+
+      <div class="col-md-9 slideshow">
+        <img src="/apps/images/product-settings.png" alt="An image of the Hederis app project dashboard">
+      </div>
+    </div>
+
+    <div class="feature-section row">
+      <div class="col-md-4 prop">
+        <h5>As many users as you want, for no extra fees</h5>
+        <p>Pay only for the number of books you need to make, with no hidden fees or subscriptions. <a href="/app/pricing/">Learn more about our pricing.</a></p>
+      </div>
+
+      <div class="col-md-4 prop">
+        <h5>Groups</h5>
+        <p>Create a group for your imprint or company, and organize all your books with your group. Groups can share fonts, design templates, and billing information.</p>
+      </div>
+
+      <div class="col-md-4 prop">
+        <h5>Cloud-based</h5>
+        <p>no software to download or maintain. Sign up in the cloud, create a group, and invite internal staff and external freelancers to join your group for no extra fees. Invite individual users to collaborate on specific book projects as needed.</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="row cta-divider">
+  <p class="mb-2"><a id="teams-try-it-now" href="https://app.hederis.com" target="_blank">Try it now for free</a></p>
+</div>
+
+
+
+
+<div class="row features">
+  <div class="col-md-10 offset-md-1 product-features centered">
+
+      <h3>How does Hederis compare to InDesign?</h3>
+
+      <table class="mt-5">
+        <tr>
+          <th></th>
+          <th>Hederis Apps</th>
+          <th>InDesign</th>
+        </tr>
+        <tr>
+          <td>Designed specifically for book publishing</td>
+          <td><span class="larger">&bull;</span></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Export to PDF</td>
+          <td><span class="larger">&bull;</span></td>
+          <td><span class="larger">&bull;</span></td>
+        </tr>
+        <tr>
+          <td>Export to EPUB</td>
+          <td><span class="larger">&bull;</span></td>
+          <td><span class="larger">&bull;</span></td>
+        </tr>
+        <tr>
+          <td>Export to HTML</td>
+          <td><span class="larger">&bull;</span></td>
+          <td><span class="larger">&bull;</span></td>
+        </tr>
+        <tr>
+          <td>Export to Kindle-optimized ebook</td>
+          <td><span class="larger">&bull;</span></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Export to Microsoft Word (.docx)</td>
+          <td><span class="larger">&bull;</span></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Easily collaborate with anyone at your organization inside the app</td>
+          <td><span class="larger">&bull;</span></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Custom font support</td>
+          <td><span class="larger">&bull;</span></td>
+          <td><span class="larger">&bull;</span></td>
+        </tr>
+        <tr>
+          <td>Integrated EPUBCHECK validation</td>
+          <td><span class="larger">&bull;</span></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Automatic style tagging</td>
+          <td><span class="larger">&bull;</span></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Sync text edits to designed files</td>
+          <td><span class="larger">&bull;</span></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>User support</td>
+          <td><span class="larger">&bull;</span></td>
+          <td>&nbsp;</td>
+        </tr>
+
+        <tr>
+          <td>&nbsp;</td>
+          <td><a id="generic-try-it-now" href="https://app.hederis.com" class="button">Get started</a></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <p class="text-center mt-5 mb-5"><a href="mailto:info@hederis.com">Wondering about a specific tech feature, but not quite ready to dive in? Just ask!</a></p>
+
+    </div>
+  </div>
+++++

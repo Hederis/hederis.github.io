@@ -1,0 +1,38 @@
+---
+layout: app
+title: Forecasting and Supply Chain
+permalink: /app/castoffs/
+---
+
+++++
+  <div class="row mb-0 pb-0" id="pricing">
+
+    <div class="col-md-8 offset-md-3">
+        <h2>Hederis can help you forecast faster</h2>
+
+        <p>Hederis is a collaborative book production and design platform. Our app and APIs can help you increase your production speed, reduce your costs, and create high-quality distribution-ready print and ebook files.</p>
+
+        <p>Some of the difficulties we’ve seen production teams struggle with are:</p>
+
+        <ul>
+          <li>How to accurately estimate costs for book layout and comp</li>
+          <li>How to accurately predict a page count early in the book’s lifecycle</li>
+          <li>How to get updated page count estimates throughout the production process</li>
+          <li>How to quickly create and test alternate design specs, and apply those alternate design specs to meet target page counts</li>
+        </ul>
+
+        <p>Here’s how Hederis has tackled those issues:</p>
+
+        <p><b>Our “templates” feature allows users to create alternate versions of their unique book designs.</b> In Hederis, every project can have a custom design. In fact, as users work to nail down their final specs, they can create saved sets of different design specs within their project to test different settings for margins, line heights, fonts, and much more. Users can switch between different designs and instantly see how different specs will look in print and how they will affect their page count. Click the “Rebuild” button at any point in the process to get a new copy of the PDF and see the current page count.</p>
+
+        <img src="/apps/images/castoff1.png" alt="An image of the Hederis user interface, showing the options for creating and switching between design templates." style="width: 100%; border: 1px solid #d8d8d8;" />
+
+        <p class="mt-4"><b>Our collaborative platform allows production editors and managers to toggle between different designs without the need for a new comp process or a designer’s time, and to create new PDFs without waiting for a response from a composition vendor.</b> Page comp and testing design specs can be one of the biggest bottlenecks in the production process. Our tools are designed to be easy to learn so that folks at any stage in the production process can make changes as needed. <a href="/app/trade-case-study/">Here’s how one of our customers has broken free from the comp bottleneck.</a></p>
+
+        <p><b>Our pricing models are designed to fit into a standard P&amp;L.</b> In our app, users pay the same flat price for each project, regardless of page count or how many people are working on the project, allowing them to know exactly what their costs are going to be up front.</p>
+
+        <p>Email us for a demo, or to chat about your specific production needs: <a href="mailto:info@hederis.com">info@hederis.com</a></p>
+
+          </div>
+</div>
+++++

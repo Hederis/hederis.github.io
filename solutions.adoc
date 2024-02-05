@@ -1,0 +1,105 @@
+---
+layout: page
+permalink: /solutions/
+---
+
+[.pagebanner]
+****
+[.bg]
+******
+ 
+******
+
+[.inlinehighlight-white]*Helping publishers achieve* + 
+[.inlinehighlight-white]*their [.inlinehighlight]_workflow goals_*
+
+image::/images/istockphoto-1200075866-1024x1024.jpg[Two people collaborating happily]
+****
+
+[.headline]
+****
+At Hederis, we have decades of experience helping publishers of all sizes tackle technology, production, and workflow challenges—and you can leverage this experience directly with our consulting and development services.
+****
+
+[.button]
+****
+mailto:info@hederis.com[Contact us to discuss your unique workflow needs.]
+****
+
+.Why Automate?
+[.shaded]
+****
+[.cards]
+******
+.[.inlinehighlight]*Publish More Books*
+[role=card morebooks]
+********
+Hederis's automated tools have reduced production time by up to 50%, enabling your current staff to work on more books.
+********
+
+.[.inlinehighlight]*Publisher Faster*
+[role=card faster]
+********
+Shave days or even weeks off your schedule by introducing our optimized solutions.
+********
+
+.[.inlinehighlight]*Save Money*
+[role=card money]
+********
+Instead of paying vendors for every book, introduce Hederis's automated solutions to streamline your budget.
+********
+
+.[.inlinehighlight]*Empower Staff*
+[role=card staff]
+********
+Let our automated tools handle the tedious work so that staff can focus on creative tasks that require a human touch.
+********
+******
+****
+
+.Case Study
+[.recognition]
+****
+[.inlinehighlight]*Automating a Comic Book Publisher's Ebook Conversion*
+
+Hederis developed an automated conversion workflow to transform PDFs into fixed-layout EPUBs for a large comic book publisher. Our multi-phase solution enabled them to get up-and-running quickly, and included personalized needs assessment, custom code development, and one-on-one training with staff.
+
+.Savings
+[role=recognition minipoints]
+******
+[.cards]
+********
+Approx. $200,000 +
+per year
+
+Approx. 23,000 man-hours per year
+
+Release ebooks +
+2 weeks faster
+********
+******
+
+****
+
+[role=shaded flexrow]
+****
+[.pullquote]
+Past Work
+
+[.twocol]
+* Automated PDF-to-fixed layout EPUB conversion
+* Automated toolchain to convert documentation into PDF, EPUB, and website
+* Automated workflow to distribute audiobook files to all required endpoints, along with reformatting metadata as needed
+* Ebook workflow assessment and recommendations for file and workflow improvements
+* Conversion script to extract text and images from PDF and create .docx and XML files
+* Single-source toolchain for novels
+* Needs assessment for book and documentation production workflows
+* Live virtual training sessions
+* In-person training sessions
+* Custom text design templates
+****
+
+[role=button padded]
+****
+mailto:info@hederis.com[Contact us to discuss your unique workflow needs.]
+****

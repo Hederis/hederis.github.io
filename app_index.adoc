@@ -1,0 +1,353 @@
+---
+layout: app_index
+title: Hederis
+permalink: /app/
+---
+
+++++
+<div class="row page banner" id="banner">
+    <div class="col-lg-12">
+      <p><a href="https://www.bisg.org/news/hederis-to-receive-bisgs-industry-innovator-award" target="_blank">Winner of the 2023 BISG Industry Innovator Award</a></p>
+    </div>
+  </div>
+
+  <div class="row page whyswitch" id="home-intro">
+
+    <div class="col-lg-8 offset-lg-2 two-col-text-block">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <h2>Empowering publishers through single-source production</h2>
+            <p>Create ebooks and print-ready PDFs simultaneously, with a single-source workflow that gives you full control over the design of every single book. Our cloud-based tools help you quickly turn your content into books and other custom publications that can be exported to PDF, EPUB, HTML, and an always-up-to-date DOCX file. Whether you are producing an eye-catching advance reader copy, a scholarly monograph, a corporate whitepaper, or the next runaway bestseller, the Hederis app provides the ideal platform.</p>
+            <p class="mb-0"><a href="/app/products/" id="learn-more-button" class="button small">Learn more about the app</a></p>
+          </div>
+          <div class="col-lg-4">
+            <p class="imageholder"><img src="/apps/images/hederis_olivebranch.png" alt="A decorative image of a bird carrying an olive branch, on one end of which a print book is attached, and on the other end is an e-reading device."/></p>
+          </div>
+        </div>
+        <div class="row mb-0">
+          <div class='col-md-12'>
+            <hr class="divider" />
+          </div>
+        </div>
+
+        <!--New Section-->
+    
+        <div class="row mb-0">
+          <div class='col-md-12'>
+            <h2 class="text-center">Key Features</h2>
+            <ul class="benefits">
+              <li class="features">Print-ready PDFs with options for trim marks, 1-color printing, and more</li>
+              <li class="features"><a href="/app/accessibility/">Born-accessible EPUB files</a> to satisfy the latest legislation</li>
+              <li class="features">HTML files to add snippets to your website or newsletters</li>
+              <li class="features">Up-to-date Word .docx files that include all your latest changes</li>
+              <li class="features">Completely customizable design for every single book</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row mb-0">
+          <div class='col-md-12'>
+            <hr class="divider" />
+          </div>
+        </div>
+
+        <!--End New Section-->
+
+        <div class="row mb-0">
+          <div class='col-md-12'>
+            <h2 class="text-center">Say goodbye to waiting</h2>
+            <p class="text-center">With the Hederis app, you can see changes instantly&mdash;no more waiting days for new pages. Invite your vendors to collaborate in the Hederis app, or make edits in-house, and get pagecounts, galleys, and new PDFs and ebook files instantly.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-10 offset-lg-1 mt-4 mb-2 two-col-text-block bookborder">
+      <div class="container">
+
+        <div class="row testimonial">
+          <div class="col-md-8 offset-md-2">
+            <div class="bubble">
+              <p><span class="big">&ldquo;</span>While it is often the case that publishers must outsource their design processes, <strong>[with the Hederis app] we have the option as a team to keep that work in-house</strong>. We have a chance both to improve our knowledge of design &amp; layouts, and to use our skills on a new platform to craft beautiful, interesting books...</p>
+              <p class="mt-2">The help we get from the Hederis team is phenomenal.<span class="big">&rdquo;</span></p>
+            </div>
+            <p class="attribution right"><span class="pointer"></span>Cass, Production Manager</p>
+          </div>
+        </div>
+
+        <div class="row testimonial">
+          <div class="col-md-4 offset-md-2">
+            <div class="bubble">
+              <p><span class="big">&ldquo;</span>Hederis is really intuitive and very easy to work with.<span class="big">&rdquo;</span></p>
+            </div>
+            <p class="attribution right"><span class="pointer"></span>Abbas, Production Editor</p>
+          </div>
+          <div class="col-md-4">
+            <div class="bubble">
+              <p><span class="big">&ldquo;</span>Thank you for your patience and great customer support!<span class="big">&rdquo;</span></p>
+            </div>
+            <p class="attribution right"><span class="pointer"></span>Carey, Self-Publisher</p>
+          </div>
+        </div>
+
+        <div class="row mb-0">
+          <div class='col-md-12'>
+            <hr class="divider" />
+          </div>
+        </div>
+
+        <div class="row mt-4 mb-2">
+          <div class="col-md-8 offset-md-2">
+            <h2 class="mt-0 mb-5 text-center">Increase your speed to market. <br />Increase your frontlist. <br />Increase your staff happiness.</h2>
+            <p><a href="/app/trade-case-study/" id="learn-more-button" class="button small"><span class="inline-head">Read the Case Study:</span> An independent publishing company who&rsquo;s been using the Hederis app to make their unique, ground-breaking books.</a> </p>
+          </div>
+        </div>
+
+        <div class="row mb-0">
+          <div class='col-md-12'>
+            <hr class="divider" />
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="col-lg-10 offset-lg-1 two-col-text-block bookborder">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 offset-md-4">
+            <h2 class="mt-5 mb-3">Invest in your workflow, without the expense</h2>
+          </div>
+          <div class="col-md-3 offset-md-1">
+            <p class="imageholder"><img src="/apps/images/hederis_bookbinding.png" alt="A decorative image of two birds working together to bind a printed book."/></p>
+          </div>
+          <div class="col-md-7">
+            <p>We want to help you join the growing number of successful publishers who are investing in their workflow. The Hederis app is ready for you to use out-of-the-box, with built-in support and learning resources so you never have to feel like you&rsquo;re on your own.</p>
+            <ul class="benefits">
+              <li class="benefits">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                   viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
+                <g id="endorsed_1_">
+                  <title>A checkmark icon</title>
+                  <g>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M19.83,9.38L18.81,7.6V5.62c0-0.45-0.23-0.85-0.61-1.08l-1.71-1l-1.02-1.76c-0.23-0.38-0.63-0.61-1.08-0.61
+                      h-2.03l-1.74-1c-0.38-0.23-0.87-0.23-1.25,0l-1.74,1H5.65c-0.44,0-0.85,0.23-1.08,0.61L3.58,3.5l-1.8,1.04
+                      C1.4,4.78,1.16,5.18,1.16,5.62v2.06L0.17,9.4C0.06,9.59,0,9.8,0,10.01s0.06,0.42,0.17,0.61l0.99,1.72v2.06
+                      c0,0.45,0.23,0.85,0.61,1.08l1.78,1.02l0.99,1.72c0.23,0.38,0.63,0.61,1.08,0.61h1.99l1.74,1C9.54,19.94,9.76,20,9.97,20
+                      c0.21,0,0.42-0.06,0.61-0.17l1.74-1h2.03c0.44,0,0.85-0.23,1.08-0.61l1.02-1.76l1.71-1c0.38-0.23,0.61-0.64,0.61-1.08v-1.97
+                      l1.02-1.78C20.06,10.25,20.06,9.78,19.83,9.38z M14.75,8.67l-5.01,5.01c-0.18,0.18-0.43,0.29-0.71,0.29
+                      c-0.28,0-0.53-0.11-0.71-0.29l-3.01-3.01c-0.18-0.18-0.29-0.43-0.29-0.71c0-0.55,0.45-1,1-1c0.28,0,0.53,0.11,0.71,0.29l2.3,2.3
+                      l4.31-4.3c0.18-0.18,0.43-0.29,0.71-0.29c0.55,0,1,0.45,1,1C15.05,8.24,14.93,8.49,14.75,8.67z"/>
+                  </g>
+                </g>
+                </svg>
+                <span>No need to hire a developer</span>
+              </li>
+              <li class="benefits">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                   viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
+                <g id="endorsed_1_">
+                  <title>A checkmark icon</title>
+                  <g>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M19.83,9.38L18.81,7.6V5.62c0-0.45-0.23-0.85-0.61-1.08l-1.71-1l-1.02-1.76c-0.23-0.38-0.63-0.61-1.08-0.61
+                      h-2.03l-1.74-1c-0.38-0.23-0.87-0.23-1.25,0l-1.74,1H5.65c-0.44,0-0.85,0.23-1.08,0.61L3.58,3.5l-1.8,1.04
+                      C1.4,4.78,1.16,5.18,1.16,5.62v2.06L0.17,9.4C0.06,9.59,0,9.8,0,10.01s0.06,0.42,0.17,0.61l0.99,1.72v2.06
+                      c0,0.45,0.23,0.85,0.61,1.08l1.78,1.02l0.99,1.72c0.23,0.38,0.63,0.61,1.08,0.61h1.99l1.74,1C9.54,19.94,9.76,20,9.97,20
+                      c0.21,0,0.42-0.06,0.61-0.17l1.74-1h2.03c0.44,0,0.85-0.23,1.08-0.61l1.02-1.76l1.71-1c0.38-0.23,0.61-0.64,0.61-1.08v-1.97
+                      l1.02-1.78C20.06,10.25,20.06,9.78,19.83,9.38z M14.75,8.67l-5.01,5.01c-0.18,0.18-0.43,0.29-0.71,0.29
+                      c-0.28,0-0.53-0.11-0.71-0.29l-3.01-3.01c-0.18-0.18-0.29-0.43-0.29-0.71c0-0.55,0.45-1,1-1c0.28,0,0.53,0.11,0.71,0.29l2.3,2.3
+                      l4.31-4.3c0.18-0.18,0.43-0.29,0.71-0.29c0.55,0,1,0.45,1,1C15.05,8.24,14.93,8.49,14.75,8.67z"/>
+                  </g>
+                </g>
+                </svg>
+                <span>No subscription fees</span>
+              </li>
+              <li class="benefits">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                   viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
+                <g id="endorsed_1_">
+                  <title>A checkmark icon</title>
+                  <g>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M19.83,9.38L18.81,7.6V5.62c0-0.45-0.23-0.85-0.61-1.08l-1.71-1l-1.02-1.76c-0.23-0.38-0.63-0.61-1.08-0.61
+                      h-2.03l-1.74-1c-0.38-0.23-0.87-0.23-1.25,0l-1.74,1H5.65c-0.44,0-0.85,0.23-1.08,0.61L3.58,3.5l-1.8,1.04
+                      C1.4,4.78,1.16,5.18,1.16,5.62v2.06L0.17,9.4C0.06,9.59,0,9.8,0,10.01s0.06,0.42,0.17,0.61l0.99,1.72v2.06
+                      c0,0.45,0.23,0.85,0.61,1.08l1.78,1.02l0.99,1.72c0.23,0.38,0.63,0.61,1.08,0.61h1.99l1.74,1C9.54,19.94,9.76,20,9.97,20
+                      c0.21,0,0.42-0.06,0.61-0.17l1.74-1h2.03c0.44,0,0.85-0.23,1.08-0.61l1.02-1.76l1.71-1c0.38-0.23,0.61-0.64,0.61-1.08v-1.97
+                      l1.02-1.78C20.06,10.25,20.06,9.78,19.83,9.38z M14.75,8.67l-5.01,5.01c-0.18,0.18-0.43,0.29-0.71,0.29
+                      c-0.28,0-0.53-0.11-0.71-0.29l-3.01-3.01c-0.18-0.18-0.29-0.43-0.29-0.71c0-0.55,0.45-1,1-1c0.28,0,0.53,0.11,0.71,0.29l2.3,2.3
+                      l4.31-4.3c0.18-0.18,0.43-0.29,0.71-0.29c0.55,0,1,0.45,1,1C15.05,8.24,14.93,8.49,14.75,8.67z"/>
+                  </g>
+                </g>
+                </svg>
+                <span>Lower than the average typesetting cost</span>
+              </li>
+            </ul>
+            <p class="text-center mb-0"><a href="/app/pricing/" id="pricing-options-button" class="button small">See our pricing options</a></p>
+          </div>
+        </div>
+
+        <div class="row mb-0">
+          <div class='col-md-12'>
+            <hr class="divider" />
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="row page whyswitch pt-0" id="how-it-works">
+    <div class="col-lg-12 two-col-text-block">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-center">How it works</h2>
+        </div>
+      </div>
+      <div class="row workflow">
+        <div class="col-lg-2 offset-lg-1">
+          <div class="step-image-holder">
+            <img class="step" src="/apps/images/icon-word.png" alt="A decorative image of a Microsoft Word file" />
+          </div>
+          <h3>Upload a manuscript</h3>
+          <p>No need to disrupt your authoring or editorial process&mdash;you work with Word, so we do too. Once your Word manuscript is ready, simply drag-and-drop it into the Hederis app.</p>
+        </div>
+        <div class="col-lg-2">
+          <div class="step-image-holder">
+            <img class="step" src="/apps/images/icon-eyes.png" alt="A decorative image of HTML text being inspected" />
+          </div>
+          <h3>Structure discovery</h3>
+          <p>Automated workflows depend on good manuscript structure. Our app helps discover your structure and applies tags to get you started. (Not sure what this means? <a href="https://docs.hederis.com/docs/semantic-tagging/" id="docs-semantic-tagging-link" target="_blank">Learn more here.</a>)</p>
+        </div>
+        <div class="col-lg-2">
+          <div class="step-image-holder">
+            <img class="step" src="/apps/images/icon-spreads.png" alt="A decorative image of a book being laid out" />
+          </div>
+          <h3>Design your book</h3>
+          <p>The Hederis app gives you complete control over your book layout and design. Import a design template from another book (or from our pre-made book designs), or create a new design from scratch.</p>
+        </div>
+        <div class="col-lg-2">
+          <div class="step-image-holder">
+            <img class="step" src="/apps/images/icon-review-design.png" alt="A decorative image of a human eye reviewing book pages" />
+          </div>
+          <h3>Review the pages</h3>
+          <p>Generate a PDF (or EPUB) at any stage of the process to circulate to proofreaders and editors. Use the Hederis page layout tools to check line breaks and page breaks and make edits right in the app.</p>
+        </div>
+        <div class="col-lg-2">
+          <div class="step-image-holder">
+            <img class="step" src="/apps/images/icon-output.png" alt="A decorative image of an EPUB file and a PDF file" />
+          </div>
+          <h3>Publish your book</h3>
+          <p>Export final PDF and ebook files and send them to your manufacturer or distribution channels, and create a snapshot of the final book files for your archive.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p class="text-center mb-0"><a href="https://app.hederis.com" id="try-it-now-button" class="button small">Try it now for free</a></p>
+        </div>
+      </div>
+
+      <div class="row mb-0">
+        <div class='col-md-12'>
+          <hr class="divider" />
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="row page whyswitch pt-0" id="whyswitch">
+    <div class="col-lg-8 offset-lg-2 two-col-text-block">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="mb-5 text-center">Why Switch to Hederis?</h2>
+        </div>
+        <div class="col-md-6">
+          <h3>Get Books to Market Faster</h3>
+          <p>Access your projects anytime, anywhere, get paged files in minutes, and get final PDF and ebook files at the same time. Our browser-based book design and layout tools are built on standardized HTML and CSS, powered behind the scenes by automation that comes from years of publishing workflow experience. </p>
+        </div>
+        <div class="col-md-6">
+          <h3>Create Files That Will Last</h3>
+          <p>Workflows change, standards evolve. With the Hederis app, you get standards-compliant ebooks, print-ready PDFs, styled Word files that can drop into conventional workflows, and well-formed semantic HTML for your website or XML-based tools.</p>
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col-md-6">
+          <h3>Reduce Bottlenecks</h3>
+          <p>Get a pagecount estimate instantly, see the design in real time and make castoff adjustments, and see your laid-out pages without needing to create a PDF. Our app is built for collaboration, but still lets you keep your workflow stages separate.</p>
+        </div>
+        <div class="col-md-6">
+          <h3>Skip the Boring Stuff</h3>
+          <p>Our app comes loaded with tools and shortcuts to speed up or even eliminate those tedious book-making time-sucks. We use AI and pattern recognition to help you tag and design your files, and let you do common book-making tasks with the click of a button. </p>
+        </div>
+      </div>
+      <div class="row closer mb-0">
+        <div class="col-md-12">
+          <p class="imageholder mb-0"><img src="/apps/images/hederis_bookface.png" alt="A decorative image of a bird looking at a book that bears the face of the mythical Green Man."/></p>
+        </div>
+      </div>
+
+      <div class="row mb-0">
+        <div class='col-md-12'>
+          <hr class="divider" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row page whyswitch pt-0" id="library">
+    <div class="col-lg-12 two-col-text-block">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-center">Check out these books made by publishers using the Hederis app!</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-2 offset-lg-1">
+          <div class="library-image-holder">
+            <a href="https://bookshop.org/books/on-fragile-waves-9781645660323/9781645660095" target="_blank">
+              <img class="librarybook" src="https://images.squarespace-cdn.com/content/v1/5b3bac7df2e6b16362b73325/1607367257850-1M93R1QPVHRSF9NIK145/ke17ZwdGBToddI8pDm48kL4DoAl_mLI1Y_l-bfTCv4B7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UWTp8wstemQBJba-kaxPfKZk5Np2NHv1khGM1JnCjV_ipC969RuPXvt2ZwyzUXQf7Q/OnFragileWaves_Cover_20-11-25.png?format=750w" alt="The front cover of the book titled On Fragile Waves published by Erewhon Press" />
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-2">
+          <div class="library-image-holder">
+            <a href="https://bookshop.org/books/folklorn/9781645660163" target="_blank">
+              <img class="librarybook" src="https://images.squarespace-cdn.com/content/v1/5b3bac7df2e6b16362b73325/1607974618582-9K0YM3URNNEPOHO438CF/ke17ZwdGBToddI8pDm48kH-jwoi2y6yXtl3v0YyYyJx7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UTb4q0DmN31UfB4ZRjTtx-L8cYFZv4fU91_RIi_5GendoaB7cXlC74RGNr1M0KekWQ/Hur+-+Folklorn+-+cover+-+round+6a.jpg?format=1000w" alt="The front cover of the book titled Folklorn published by Erewhon Press" />
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-2">
+          <div class="library-image-holder">
+            <a href="https://bookshop.org/books/rise-of-the-red-hand-volume-1-9781645660330/9781645660101" target="_blank">
+              <img class="librarybook" src="https://images.squarespace-cdn.com/content/v1/5b3bac7df2e6b16362b73325/1611899804871-9KVL8UD10LUOA3SYTJ34/ke17ZwdGBToddI8pDm48kE7hjxBeOSvxoEwZY-E14tV7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UbSa1DUUtgW2XnoP1izvaUrfFNRZdNDrghmai-IfDNlsETgZ1M0luSsj-o69URGWyw/9781645660101.jpg?format=750w" alt="The front cover of the book titled Rise of the Red Hand published by Erewhon Press" />
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-2">
+          <div class="library-image-holder">
+            <a href="https://www.tiltedaxispress.com/black-box" target="_blank">
+              <img class="librarybook" src="https://images.squarespace-cdn.com/content/v1/565a42a7e4b0f06765f7b528/1617712437376-PXZ8G8UX9X5R9LKGZF4Z/9781911284598.jpg?format=1000w" alt="The front cover of the book titled Black Box published by Tilted Axis Press" />
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-2">
+          <div class="library-image-holder">
+            <a href="https://bookshop.org/books/the-midnight-bargain-9781645660293/9781645660071" target="_blank">
+              <img class="librarybook" src="https://images.squarespace-cdn.com/content/v1/5b3bac7df2e6b16362b73325/1599086511394-TGJUOEW1T1RH8W3YQVVI/ke17ZwdGBToddI8pDm48kC3y7GnFXCR2XbF5QDbU_2V7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZD61vijXk3Q64nZALLedl-gu2mi-kosotf7aMPCZn4lzbbVudNU-r5JQDE0QnfUYA/The+Midnight+Bargain+-+final+cover+-+high-res.jpg?format=1000w" alt="The front cover of the book titled The Midnight Bargain published by Erewhon Press" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+        </div>
+      </div>
+
+    </div>
+  </div>
+++++

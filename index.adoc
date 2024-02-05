@@ -1,0 +1,31 @@
+---
+layout: index
+---
+
+.Our automated solutions can help you publish faster, publish more, and spend less
+[.headline]
+****
+Hederis builds custom tools and out-of-the-box apps to solve modern publishing problems like content transformation, content workflows and distribution, layout and production, and more.
+****
+
+[.button]
+****
+mailto:info@hederis.com[Contact us about your unique publishing needs]
+****
+
+[.products]
+****
+[.custom]
+link:/solutions[Custom Solutions]
+
+[.apps]
+link:/app[Out-of-the-Box Apps]
+****
+
+.Recognized Publishing Expertise
+[.recognition]
+****
+Our extensive background in publishing enables us to quickly understand your unique needs and build tools that solve your real problems.
+
+*Hederis received the 2023 BISG Industry Innovator Award for our affordable single-source publishing tools.*
+****
