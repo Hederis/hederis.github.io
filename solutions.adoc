@@ -31,10 +31,10 @@ mailto:info@hederis.com[Contact us to discuss your unique workflow needs.]
 ****
 [.cards]
 ******
-.[.inlinehighlight]*Publish More Books*
+.[.inlinehighlight]*Publish More*
 [role=card morebooks]
 ********
-Hederis's automated tools have reduced production time by up to 50%, enabling your current staff to work on more books.
+Hederis's automated tools have reduced production time by up to 50%, enabling your current staff to work on more projects.
 ********
 
 .[.inlinehighlight]*Publisher Faster*
