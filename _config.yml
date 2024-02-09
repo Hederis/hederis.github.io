@@ -29,6 +29,7 @@ url: "http://hederis.com" # the base hostname & protocol for your site, e.g. htt
 # Build settings
 theme: minima
 plugins:
+  - jekyll-asciidoc
   - jekyll-feed
 
 # Exclude from processing.
