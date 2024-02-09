@@ -13,7 +13,7 @@ permalink: /solutions/
 [.inlinehighlight-white]*Helping publishers achieve* + 
 [.inlinehighlight-white]*their [.inlinehighlight]_workflow goals_*
 
-image::/images/istockphoto-1200075866-1024x1024.jpg[Two people collaborating happily]
+image::/images/fist-bump-banner.png[Two people collaborating happily]
 ****
 
 [.headline]

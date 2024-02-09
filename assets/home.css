@@ -1,8 +1,12 @@
 body {
-	font-family: sans-serif;
+	font-family: "Spinoza", serif;
 	padding: 0;
 	margin: 0;
 	color: #21172e;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: "Robinson Web", sans-serif;
 }
 
 p {
@@ -126,7 +130,7 @@ div.border {
 div#banner {
 	width: 100%;
 	min-height: 600px;
-	background-image: url("../images/istockphoto-1321462048-1024x1024.jpg");
+	background-image: url("../images/book-display-lg-screened.png");
 	background-repeat: no-repeat;
 	background-size: 100% auto;
 	background-position: bottom center;
@@ -223,6 +227,7 @@ div.pagebanner {
 }
 
 div.pagebanner p {
+	font-family: "Robinson Web", sans-serif;
 	text-align: left;
 	font-size: 3em;
 	line-height: 1.3em;
@@ -255,6 +260,7 @@ div.headline.plain {
 }
 
 div.headline div.title {
+	font-family: "Robinson Web", sans-serif;
 	font-size: 2em;
 	margin-bottom: 50px;
 }
@@ -286,6 +292,7 @@ div.products div.content > div.paragraph {
 }
 
 div.products div.content > div.paragraph p {
+	font-size: 1.4em;
 	font-weight: bold;
 	color: #ffffff;
 }
@@ -295,13 +302,13 @@ div.products div.content > div.paragraph:last-child {
 }
 
 div.products div.paragraph.custom {
-	background-image: url("../images/istockphoto-1200075866-1024x1024.jpg");
+	background-image: url("../images/fist-bump-screened-small.png");
 	background-size: auto 230px;
 	background-position: center center;
 }
 
 div.products div.paragraph.apps {
-	background-image: url("../images/istockphoto-1407695212-1024x1024.jpg");
+	background-image: url("../images/relaxing-screened-small.png");
 	background-size: auto 230px;
 	background-position: center center;
 }
@@ -368,6 +375,7 @@ div.recognition.minipoints div.cards div.paragraph:nth-of-type(3) {
 div.recognition div.title,
 div.shaded div.title, 
 .pullquote p {
+	font-family: "Robinson Web", sans-serif;
 	text-transform: uppercase;
 	font-size: 1em;
 	color: #07c896;
@@ -461,19 +469,19 @@ div.card div.imageblock div.content {
 
 
 div.card.morebooks {
-	background-image: url("../images/istockphoto-1411029939-1024x1024.jpg");
+	background-image: url("../images/iStock-1411029939-small.png");
 }
 
 div.card.faster {
-	background-image: url("../images/istockphoto-852010454-1024x1024.jpg");
+	background-image: url("../images/iStock-852010454-small.png");
 }
 
 div.card.money {
-	background-image: url("../images/istockphoto-1432903655-1024x1024.jpg");
+	background-image: url("../images/iStock-1432903655-small.png");
 }
 
 div.card.staff {
-	background-image: url("../images/istockphoto-621827458-1024x1024.jpg");
+	background-image: url("../images/iStock-1251533220-small.png");
 }
 
 div.card div.title {
