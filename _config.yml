@@ -23,7 +23,7 @@ email: nelliemckesson@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Hederis provides custom scripting and out of the box apps to help 
   publishers automate their workflows and tooling.
-baseurl: "" # the subpath of your site, e.g. /blog
+# baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://hederis.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
@@ -39,6 +39,13 @@ plugins:
 #
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
+
+exclude:
+  - LICENSE
+  - README.adoc
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
 #
 # exclude:
 #   - .sass-cache/
