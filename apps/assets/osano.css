@@ -1,0 +1,15 @@
+.osano-cm-dialog {
+  background: #fff;
+  color: #21172E;
+}
+
+.osano-cm-button {
+  border-color: #21172E;
+  color: #21172E;
+}
+
+.osano-cm-button--type_deny {
+  background-color: #989;
+  border-color: #fff;
+  color: #fff;
+}

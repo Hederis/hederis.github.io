@@ -1,0 +1,287 @@
+---
+layout: app
+title: Pricing
+permalink: /app/pricing/
+---
+
+++++
+  <div class="row" id="pricing">
+    <div class="col-md-8 offset-md-3 two-col-text-block" id="main_content">
+      <div class="container">
+        <div class="row" id="options">
+          <div class="col-lg-8">
+            <h2>Pricing Options</h2>
+            <p>Hederis is a web-based book design app that lets you create professional-quality print and ebook layouts at the same time. With Hederis, you’re getting a full-featured, cloud-based book production platform. Read more about all the features of our app <a href="/app/products/">here</a>.</p>
+
+            <p>Hederis gives you:</p>
+            <ul>
+              <li>A cloud-based production tool <em>(login anywhere)</em></li>
+              <li>Control over page counts and hyphenation <em>(ease in typesetting)</em></li>
+              <li>In-app text editing <em>(keep all your work in one place)</em></li>
+              <li>Export to print and digital files <em>(simultaneous distribution)</em></li>
+              <li>A digital archive <em>(repackage backlist and print on demand)</em></li>
+              <li>A collaborative workspace <em>(shorten the lines of communication)</em></li>
+            </ul>
+
+            <p>PLUS:</p>
+            <ul>
+              <li>Unlimited users (pay-per-project, not user)</li>
+              <li>A simple user interface </li>
+              <li>Documentation, training materials, and user-support provided</li>
+              <li>No software, no downloads, and no updating required</li>
+            </ul>
+
+          </div>
+          <div class="col-md-4 splash">
+<!--             <img src="images/hederisbook@2x.png" alt="A decorative image of a book"></img>
+ -->          </div>
+        </div>
+      </div>
+
+      <div class="pricing-details">
+        <p>There are two different pricing tiers to choose from: Galley/Digital mode, and the full Typeset app. Galley/Digital mode is perfect for folks looking to quickly create an eBook or a review copy of their book; the full Typeset app includes additional tools for bringing your print layout through the complete production cycle. Here's what's in each plan:</p>
+
+        <table class="mt-5">
+          <tr>
+            <th></th>
+            <th>Hederis Galley/<br/>Digital Mode</th>
+            <th>Hederis Typeset<br/>full app</th>
+          </tr>
+          <tr>
+            <td>Export to PDF, EPUB, Kindle EPUB, HTML and .DOCX</td>
+            <td><span class="larger">&bull;</span></td>
+            <td><span class="larger">&bull;</span></td>
+          </tr>
+          <tr>
+            <td>Easily collaborate with anyone at your organization inside the app</td>
+            <td><span class="larger">&bull;</span></td>
+            <td><span class="larger">&bull;</span></td>
+          </tr>
+          <tr>
+            <td>Custom fonts</td>
+            <td><span class="larger">&bull;</span></td>
+            <td><span class="larger">&bull;</span></td>
+          </tr>
+          <tr>
+            <td>Integrated EPUBCHECK validation</td>
+            <td><span class="larger">&bull;</span></td>
+            <td><span class="larger">&bull;</span></td>
+          </tr>
+          <tr>
+            <td>Automatic style tagging</td>
+            <td><span class="larger">&bull;</span></td>
+            <td><span class="larger">&bull;</span></td>
+          </tr>
+          <tr>
+            <td>Sync text edits to designed files</td>
+            <td><span class="larger">&bull;</span></td>
+            <td><span class="larger">&bull;</span></td>
+          </tr>
+          <tr>
+            <td>In-app user support</td>
+            <td><span class="larger">&bull;</span></td>
+            <td><span class="larger">&bull;</span></td>
+          </tr>
+<!--           <tr>
+            <td>Chat user support</td>
+            <td><span class="longtext">Included free for a <br />limited time</span></td>
+            <td><span class="longtext">Included free for a <br />limited time</span></td>
+          </tr> -->
+<!--           <tr>
+            <td>Prevent unanticipated reflow</td>
+            <td></td>
+            <td><span class="larger">&bull;</span></td>
+          </tr> -->
+          <tr>
+            <td>Adjust PDF line breaks and page breaks</td>
+            <td></td>
+            <td><span class="larger">&bull;</span></td>
+          </tr>
+          <tr>
+            <td>Watermark PDF files</td>
+            <td><span class="required">Required</span></td>
+            <td><span class="optional">Optional</span></td>
+          </tr>
+          <tr class="last">
+            <td>&nbsp;</td>
+            <td><a id="pricing-signup-galley" href="https://app.hederis.com" class="button">$119</a></td>
+            <td><a id="pricing-signup-typeset" href="https://app.hederis.com" class="button">$199</a></td>
+          </tr>
+          <tr class="footnote">
+            <td>&nbsp;</td>
+            <td colspan="2"><p>If you purchase a project in Galley/Digital Mode, <br/>you can upgrade to full Typeset mode </br>for an additional charge of $99.</p></td>
+          </tr>
+        </table>
+      </div>
+
+        <div id="accordion">
+
+<!--           <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseTypeset" aria-expanded="true" aria-controls="collapseTypeset">Print+Ebook Pricing</button>
+          <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseConvert" aria-expanded="false" aria-controls="collapseConvert">Ebook-only Pricing</button> -->
+
+        <div class="collapse show" id="collapseTypeset" data-parent="#accordion">
+
+<!--         <div class="row mb-0">
+          <div class="col-md-12 mt-5">
+            <p class="mt-2">All plans include:</p>
+            <ul>
+              <li>Access to the visual design and layout tools</li>
+              <li>The in-browser text editor</li>
+            </ul>
+          </div>
+        </div> -->
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="packagebox shaded">
+              <p class="info">FREE</p>
+              <h3>Your First Project</h3>
+              <p>Your first project is free!</p>
+              <div class="book withHover medium" >
+                <div class="book_cover"></div>
+              </div>
+              <div class="details">
+                <a id="pricing-signup-firstfree" href="https://app.hederis.com" class="button light">GET STARTED</a>
+                <p>Your first project includes 30-days of expert email support.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="packagebox shaded">
+              <p class="info">NO COMMITMENT</p>
+              <h3>Pay-Per-Project</h3>
+              <p class="mb-0"><strong>$199 per project</strong> <span class="text-secondary">(Galley/Digital Mode: $119)</span></p>
+              <p class="mt-0 text-secondary"> </p>
+
+              <div class="book withHover medium" >
+                <div class="book_cover"></div>
+              </div>
+              <div class="details">
+                <a id="pricing-signup-perproject" href="https://app.hederis.com" class="button light">BUY A PROJECT</a>
+                <p>You're charged only when you upload a Microsoft Word file for the first time.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row" id="bundles">
+          <div class="col-md-12">
+            <h3>Project Bundles</h3>
+            <p>Purchase multiple projects in advance and save on the per-project price. Bundles also include full service email support for all included projects.</p>
+          </div>
+
+          <div class="col-lg-6" id="six">
+            <div class="packagebox">
+              <p class="info">10% DISCOUNT</p>
+              <h3>6-Project Bundle</h3>
+              <p class="mb-0"><strong>Full Typeset Mode: $179 per project</strong></p>
+              <p class="mt-0 text-secondary"> </p>
+
+              <div class="books">
+                <div class="book_row">
+                  <div class="book withHover small"><img class="book_cover" src="/apps/images/book_cover.svg"/><img class="book_interior" src="/apps/images/book_without_cover.svg"/></div>
+                  <div class="book withHover small"><img class="book_cover" src="/apps/images/book_cover.svg"/><img class="book_interior" src="/apps/images/book_without_cover.svg"/></div>
+                  <div class="book withHover small"><img class="book_cover" src="/apps/images/book_cover.svg"/><img class="book_interior" src="/apps/images/book_without_cover.svg"/></div>
+                </div>
+                <div class="book_row">
+                  <div class="book withHover small"><img class="book_cover" src="/apps/images/book_cover.svg"/><img class="book_interior" src="/apps/images/book_without_cover.svg"/></div>
+                  <div class="book withHover small"><img class="book_cover" src="/apps/images/book_cover.svg"/><img class="book_interior" src="/apps/images/book_without_cover.svg"/></div>
+                  <div class="book withHover small"><img class="book_cover" src="/apps/images/book_cover.svg"/><img class="book_interior" src="/apps/images/book_without_cover.svg"/></div>
+                </div>
+              </div>
+              <a id="pricing-bundle-6" href="mailto:info@hederis.com?subject=Purchase a 6-Project Bundle" class="button light">BUY A 6-PROJECT BUNDLE</a>
+              <p><strong>$1,074 total</strong> <span class="text-secondary">($642 for Galley/Digital Mode)</span></p>
+            </div>
+          </div>
+          <div class="col-lg-6" id="twelve">
+            <div class="packagebox">
+              <p class="info">15% DISCOUNT</p>
+              <h3>12-Project Bundle</h3>
+              <p class="mb-0"><strong>Full Typeset Mode: $169 per project</strong></p>
+              <p class="mt-0 text-secondary"> </p>
+
+              <div class="books">
+                <div class="book_row">
+                  <div class="book withHover small"><img class="book_cover" src="/apps/images/book_cover.svg"/><img class="book_interior" src="/apps/images/book_without_cover.svg"/></div>
+                  <div class="book withHover small"><img class="book_cover" src="/apps/images/book_cover.svg"/><img class="book_interior" src="/apps/images/book_without_cover.svg"/></div>
+                  <div class="book withHover small"><img class="book_cover" src="/apps/images/book_cover.svg"/><img class="book_interior" src="/apps/images/book_without_cover.svg"/></div>
+                  <div class="book withHover small"><img class="book_cover" src="/apps/images/book_cover.svg"/><img class="book_interior" src="/apps/images/book_without_cover.svg"/></div>
+                </div>
+                <div class="book_row">
+                  <div class="book withHover small"><img class="book_cover" src="/apps/images/book_cover.svg"/><img class="book_interior" src="/apps/images/book_without_cover.svg"/></div>
+                  <div class="book withHover small"><img class="book_cover" src="/apps/images/book_cover.svg"/><img class="book_interior" src="/apps/images/book_without_cover.svg"/></div>
+                  <div class="book withHover small"><img class="book_cover" src="/apps/images/book_cover.svg"/><img class="book_interior" src="/apps/images/book_without_cover.svg"/></div>
+                  <div class="book withHover small"><img class="book_cover" src="/apps/images/book_cover.svg"/><img class="book_interior" src="/apps/images/book_without_cover.svg"/></div>
+                </div>
+                <div class="book_row">
+                  <div class="book withHover small"><img class="book_cover" src="/apps/images/book_cover.svg"/><img class="book_interior" src="/apps/images/book_without_cover.svg"/></div>
+                  <div class="book withHover small"><img class="book_cover" src="/apps/images/book_cover.svg"/><img class="book_interior" src="/apps/images/book_without_cover.svg"/></div>
+                  <div class="book withHover small"><img class="book_cover" src="/apps/images/book_cover.svg"/><img class="book_interior" src="/apps/images/book_without_cover.svg"/></div>
+                  <div class="book withHover small"><img class="book_cover" src="/apps/images/book_cover.svg"/><img class="book_interior" src="/apps/images/book_without_cover.svg"/></div>
+                </div>
+              </div>
+              <a id="pricing-bundle-12" href="mailto:info@hederis.com?subject=Purchase a 12-Project Bundle" class="button light">BUY A 12-PROJECT BUNDLE</a>
+              <p><strong>$2,028 total</strong> <span class="text-secondary">($1,213 for Galley/Digital Mode)</span></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12" id="twentyfour">
+            <div class="packagebox">
+              <p class="info">20% DISCOUNT - BEST VALUE</p>
+              <h3>24-Project Bundle</h3>
+              <p class="mb-0"><strong>Full Typeset Mode: $159 per project</strong></p>
+              <p class="mt-0 text-secondary"> </p>
+
+              <div class="books">
+                <div class="book_row">
+                  <div class="book withHover small"><img class="book_cover" src="/apps/images/book_cover.svg"/><img class="book_interior" src="/apps/images/book_without_cover.svg"/></div>
+                  <div class="book withHover small"><img class="book_cover" src="/apps/images/book_cover.svg"/><img class="book_interior" src="/apps/images/book_without_cover.svg"/></div>
+                  <div class="book withHover small"><img class="book_cover" src="/apps/images/book_cover.svg"/><img class="book_interior" src="/apps/images/book_without_cover.svg"/></div>
+                  <div class="book withHover small"><img class="book_cover" src="/apps/images/book_cover.svg"/><img class="book_interior" src="/apps/images/book_without_cover.svg"/></div>
+                  <div class="book withHover small"><img class="book_cover" src="/apps/images/book_cover.svg"/><img class="book_interior" src="/apps/images/book_without_cover.svg"/></div>
+                  <div class="book withHover small"><img class="book_cover" src="/apps/images/book_cover.svg"/><img class="book_interior" src="/apps/images/book_without_cover.svg"/></div>
+                  <div class="book withHover small"><img class="book_cover" src="/apps/images/book_cover.svg"/><img class="book_interior" src="/apps/images/book_without_cover.svg"/></div>
+                  <div class="book withHover small"><img class="book_cover" src="/apps/images/book_cover.svg"/><img class="book_interior" src="/apps/images/book_without_cover.svg"/></div>
+                </div>
+                <div class="book_row">
+                  <div class="book withHover small"><img class="book_cover" src="/apps/images/book_cover.svg"/><img class="book_interior" src="/apps/images/book_without_cover.svg"/></div>
+                  <div class="book withHover small"><img class="book_cover" src="/apps/images/book_cover.svg"/><img class="book_interior" src="/apps/images/book_without_cover.svg"/></div>
+                  <div class="book withHover small"><img class="book_cover" src="/apps/images/book_cover.svg"/><img class="book_interior" src="/apps/images/book_without_cover.svg"/></div>
+                  <div class="book withHover small"><img class="book_cover" src="/apps/images/book_cover.svg"/><img class="book_interior" src="/apps/images/book_without_cover.svg"/></div>
+                  <div class="book withHover small"><img class="book_cover" src="/apps/images/book_cover.svg"/><img class="book_interior" src="/apps/images/book_without_cover.svg"/></div>
+                  <div class="book withHover small"><img class="book_cover" src="/apps/images/book_cover.svg"/><img class="book_interior" src="/apps/images/book_without_cover.svg"/></div>
+                  <div class="book withHover small"><img class="book_cover" src="/apps/images/book_cover.svg"/><img class="book_interior" src="/apps/images/book_without_cover.svg"/></div>
+                  <div class="book withHover small"><img class="book_cover" src="/apps/images/book_cover.svg"/><img class="book_interior" src="/apps/images/book_without_cover.svg"/></div>
+                </div>
+                <div class="book_row">
+                  <div class="book withHover small"><img class="book_cover" src="/apps/images/book_cover.svg"/><img class="book_interior" src="/apps/images/book_without_cover.svg"/></div>
+                  <div class="book withHover small"><img class="book_cover" src="/apps/images/book_cover.svg"/><img class="book_interior" src="/apps/images/book_without_cover.svg"/></div>
+                  <div class="book withHover small"><img class="book_cover" src="/apps/images/book_cover.svg"/><img class="book_interior" src="/apps/images/book_without_cover.svg"/></div>
+                  <div class="book withHover small"><img class="book_cover" src="/apps/images/book_cover.svg"/><img class="book_interior" src="/apps/images/book_without_cover.svg"/></div>
+                  <div class="book withHover small"><img class="book_cover" src="/apps/images/book_cover.svg"/><img class="book_interior" src="/apps/images/book_without_cover.svg"/></div>
+                  <div class="book withHover small"><img class="book_cover" src="/apps/images/book_cover.svg"/><img class="book_interior" src="/apps/images/book_without_cover.svg"/></div>
+                  <div class="book withHover small"><img class="book_cover" src="/apps/images/book_cover.svg"/><img class="book_interior" src="/apps/images/book_without_cover.svg"/></div>
+                  <div class="book withHover small"><img class="book_cover" src="/apps/images/book_cover.svg"/><img class="book_interior" src="/apps/images/book_without_cover.svg"/></div>
+                </div>
+              </div>
+              <a id="pricing-bundle-24" href="mailto:info@hederis.com?subject=Purchase a 24-Project Bundle" class="button light">BUY A 24-PROJECT BUNDLE</a>
+              <p><strong>$3,816 total</strong> <span class="text-secondary">($2,284 for Galley/Digital Mode)</span></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row" id="enterprise">
+      <div class="col-md-12">
+        <h3>Enterprise</h3>
+        <p>Have higher volume requirements? Contact <a href="mailto:info@hederis.com">info@hederis.com</a> for a custom package!</p>
+      </div>
+    </div>
+    </div>
+    </div>
+++++

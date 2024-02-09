@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Hederis</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@hederisapp">
+  <meta name="twitter:creator" content="@nelliemckesson">
+  <meta name="twitter:title" content="Hederis: Create Beautiful Books, Quickly">
+  <meta name="twitter:image" content="http://hederis.com/images/twitter-card.png">
+  <meta name="twitter:image:alt" content="A drawing of a bird carrying an olive branch with a print book on one side and an ebook reader on the other side, seemingly bursting out of a purple book emblazoned with the Hederis logo: an H with two leaf hedera appended">
+
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://www.hederis.com/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.hederis.com/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.hederis.com/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.hederis.com/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://www.hederis.com/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://www.hederis.com/apple-touch-icon-152x152.png" />
+  <link rel="icon" type="image/png" href="https://www.hederis.com/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="https://www.hederis.com/favicon-16x16.png" sizes="16x16" />
+  <meta name="application-name" content="Automated publishing for everyone"/>
+  <meta name="msapplication-TileColor" content="#FFFFFF" />
+  <meta name="msapplication-TileImage" content="https://www.hederis.com/mstile-144x144.png" />
+
+  <!-- start social tags -->
+  <meta property="og:url" content="https://www.hederis.com/" />
+  <meta property="og:title" content="Hederis: Intelligent, automated publishing for everyone" />
+  <meta name="og:description" content="Hederis: Intelligent, automated publishing for everyone" />
+  <meta property="og:image" content="https://www.hederis.com/images/squarebook.png" />
+  <meta property="og:image:width" content="300" />
+  <meta property="og:image:height" content="300" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:creator" content="@hederisapp" />
+  <meta name="twitter:title" content="Hederis" />
+  <meta name="twitter:description" content="Hederis: Intelligent, automated publishing for everyone" />
+  <meta name="twitter:image" content="https://www.hederis.com/images/squarebook.png" />
+  <meta property="twitter:image:width" content="300" />
+  <meta property="twitter:image:height" content="300" />
+  <!-- end social tags -->
+
+  <link rel="stylesheet" type="text/css" href="/assets/typefaces.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/home.css" />
+
+  <style>
+  </style>
+</head>
+
+<body>
+
+<div id="banner page">
+
+  <div class="bg">&nbsp;</div>
+
+  {% include slim_nav.html %}
+
+</div>
+
+<div id="main">
+
+  {{content}}
+
+  {% include footer.html %}
+
+</div>
+<script>
+  function addClassJS(element, myclass) {
+    var classes = element.className;
+    if (classes) {
+      classes = classes.split(" ");
+    } else {
+      classes = [];
+    }
+    var i = classes.indexOf(myclass);
+    if (i < 0) {
+      classes.push(myclass);
+    }
+    element.className = classes.join(" ");
+  }
+
+  function removeClassJS(element, myclass) {
+    var classes = element.className;
+    if (classes) {
+      classes = classes.split(" ");
+    } else {
+      classes = [];
+    }
+    var i = classes.indexOf(myclass);
+    if (i >= 0) {
+      classes.splice(i, 1);
+    }
+    element.className = classes.join(" ");
+  }
+
+  let mobilenavbutton = document.querySelector("div.hamburger");
+  let mobilenav = document.querySelector("div.navitems.mobile nav");
+
+  mobilenavbutton.addEventListener("click", (event) => {
+    var classes = mobilenav.className;
+    if (classes) {
+      classes = classes.split(" ");
+    } else {
+      classes = [];
+    }
+    var currentState = classes.indexOf("hidden");
+
+    if (currentState > -1) {
+      removeClassJS(mobilenav, "hidden");
+      addClassJS(mobilenav, "visible");
+    } else {
+      addClassJS(mobilenav, "hidden");
+      removeClassJS(mobilenav, "visible");
+    }
+  });
+</script>
+</body>
+</html>

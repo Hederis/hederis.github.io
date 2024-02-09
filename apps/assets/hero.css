@@ -1,0 +1,72 @@
+@media only screen and (min-width:769px) {
+
+  #home .bookframe, #home_mask .bookframe {
+    height: 80vh;
+    min-height: 500px;
+    overflow: hidden;
+    border: 1px solid #585162;
+    border-radius: 0px 4px 4px 0px;
+  }
+
+  #bookopener {
+  }
+
+}
+
+
+#bookopener {
+  height:80vh;
+  padding:30px 15% 30px 15%;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+
+#bookopener img, #bookcloser img {
+  max-width: 50%;
+  max-height: 40%;
+}
+
+#bookopener h2 {
+  font-weight: 400;
+  font-size: 3em;
+  line-height: 1em;
+  margin-bottom: 1em;
+}
+
+#bookopener h3 {
+  font-family: "Spinoza";
+  font-weight: 400;
+  font-size: 2em;
+  line-height: 1.5em;
+  margin-bottom: 0;
+}
+
+@media all and (max-width: 767px) {
+
+  #home .bookframe, #home_mask .bookframe {
+    box-sizing:border-box;
+    height: auto;
+    margin-top: 4.5rem;
+    margin-bottom: 10px;
+    overflow: hidden;
+/*    display:flex;
+    flex-direction:column;
+    align-items:center;*/
+  }
+
+  #bookopener {
+    height: auto;
+    min-height:0;
+    padding:30px;
+  }
+
+  #bookopener h2 {
+/*    font-size:2.4em;
+*/  }
+
+  #bookopener h3 {
+    font-size:1.7em;
+  }
+
+}

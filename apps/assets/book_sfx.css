@@ -1,0 +1,191 @@
+#book_wrapper {
+	height:35vh;
+	min-height: 132px;
+	display:flex;
+	align-items:center;
+}
+
+.book {
+	width:195px;
+	height:266px;
+}
+
+.book_cover {
+	width:182px;
+	height:256px;
+}
+
+.book {
+	position:relative;
+	width:calc(0.73 * 30vh);
+	height:30vh;
+	min-height: 127px;
+
+	background-image:url('../images/book_without_cover.svg');
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:left bottom;
+}
+
+.book.gray {
+	opacity: 0.7;
+}
+
+.book_cover {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:calc(0.70 * 30vh);
+	height:calc(0.96 * 30vh);
+	min-height: 127px;
+
+	background-image:url('../images/book_cover.svg');
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:left bottom;
+
+	will-change: transform;
+	transform-origin: 0% 200%;
+	transform: perspective(1600px) rotateY(0deg);
+}
+
+.book_cover.gray {
+	background-image:url('../images/book_cover_gray.svg');
+}
+
+#bookcloser #book_wrapper {
+	height: 35vh;
+}
+
+/*#bookcloser #book_wrapper {
+	height: 40%;
+}
+
+#bottom_book {
+	position: relative;
+	background-image: none;
+	width: auto;
+	height: 100%;
+	margin-right:1%;
+}
+
+#bottom_book img.book_interior {
+	height: 100%;
+}
+
+#bottom_book img.book_cover {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-image: none;
+	z-index: 10;
+	width: 93%;
+	height: auto;
+}*/
+
+.book.withHover .book_cover {
+	transition:transform 0.2s ease-in-out;
+}
+
+.book.withHover:hover .book_cover {
+	transform:perspective(1600px) rotateY(-50deg);
+}
+
+.book.withHover.medium {
+	width:100px;
+	height:136px;
+}
+
+.book.withHover.medium .book_cover {
+	width:93px;
+	height: 131px;
+}
+
+.book.withHover.small {
+	display:inline-block;
+	margin-right:1%;
+	margin-bottom:0px;
+	height: 100%;
+	background-image: none;
+	min-height: auto;
+/*	width:50px;
+	height:68px;*/
+}
+
+.book.withHover.small .book_cover {
+	width: 93%;
+	height: 100%;
+/*	width:46px;
+	height: 65px;*/
+}
+
+.book_row {
+	margin-top: 0;
+	margin-bottom: 5px;
+	height: auto;
+}
+
+.book_row .book.withHover.small {
+	height: auto;
+}
+
+.book_row .book.withHover.small img {
+	width: 100%;
+	height: auto;
+}
+
+.book_row .book.withHover.small img.book_cover {
+	position: absolute;
+	top: 0;
+	background-image: none;
+	z-index: 10;
+	width: 93%;
+	min-height: auto;
+}
+
+#six .book_row {
+	width: 75%;
+}
+
+#six .book.withHover.small {
+	width: 30%;
+}
+
+#twelve .book_row, #twentyfour .book_row {
+	width: 100%;
+}
+
+#twelve .book.withHover.small {
+	width: 22%;
+}
+
+#twentyfour .book.withHover.small {
+	width: 10%;
+}
+
+/*$cover.css('transform', `perspective(1600px) rotateY(${c}deg)`);*/
+
+@media only screen and (max-width:767px) {
+
+/*	#book_wrapper {
+		height:auto;
+	}
+
+	.book {
+		background-image:url('../images/hederisbook@2x.png');
+		background-size: auto 30vh;
+		background-repeat:no-repeat;
+		background-position:left bottom;
+		position: relative;
+		margin-top: 0;
+		margin-bottom: 1em;
+		height: 30vh;
+		width: 100%;
+	}
+
+	.book_cover {
+		display: none;
+		position: relative;
+	}*/
+
+}

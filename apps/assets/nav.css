@@ -1,0 +1,320 @@
+a.nav-link {
+  font-weight: 400;
+}
+
+li.heddropdown {
+  height: auto;
+}
+
+li.heddropdown.collapsed {
+  height: calc(0.5rem + 1.5em);
+}
+
+li.heddropdown > ul {
+  visibility: visible;
+}
+
+li.heddropdown.collapsed > ul {
+  visibility: hidden;
+}
+
+li.heddropdown > a::before {
+  content: "\25BC\2002";
+  font-size: 0.5em;
+  color: #00ff00;
+}
+
+li.heddropdown.collapsed > a::before {
+  content: "\25B6\2002";
+}
+
+li.heddropdown > a:hover {
+  cursor: pointer;
+}
+
+li.nav-item li {
+  font-size: 1em !important;
+}
+
+div.nav.blue.primary a.nav-link  {
+  color: #CECAD1;
+}
+
+div.nav.white.primary a.nav-link {
+  color: #21172E;
+}
+
+#pricing li.nav-item {
+    font-size: 1.5em;
+}
+
+div.nav.primary a.nav-link:hover {
+  font-weight: 300;
+  color: #00FF00;
+}
+
+div.nav {
+  top:40px;
+  left:53px;
+  display:flex;
+  flex-direction:column;
+  padding:0px 15px;
+}
+
+div.nav.primary {
+	position:absolute;
+}
+
+div.nav.secondary {
+  position: fixed;
+}
+
+div.nav.relative {
+  position: relative;
+}
+
+div.nav.blue h1 a {
+  background-image: url("../images/Hederiswordmark_green@2x.png");
+  background-size: auto 45px;
+  background-repeat: no-repeat;
+  height: 45px;
+  width: 154px;
+  display: inline-block;
+}
+
+div.nav.blue h1 a:hover {
+  background-image: url("../images/green_logo_animation@4x.gif");
+}
+
+div.nav.white h1 a {
+  background-image: url("../images/Hederiswordmark_purple@2x.png");
+  background-size: auto 45px;
+  background-repeat: no-repeat;
+  height: 45px;
+  width: 154px;
+  display: inline-block;
+}
+
+div.nav.white h1 a:hover {
+  background-image: url("../images/purple_logo_animation@4x.gif");
+}
+
+nav.navbar {
+  padding: 0;
+}
+
+.navbar-toggler {display:none;}
+
+li.nav-item {
+  font-family: "Robinson Web";
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+a.nav-link.highlight,
+#home a.nav-link.highlight {
+  color: #00FF00;
+}
+
+.app-gateway p {
+  width: 100px;
+  text-align: center;
+}
+
+.app-gateway a.button {
+  font-size: 18px;
+  color: #21172E;
+  width: 100px;
+}
+
+.app-gateway a#signin-top,
+.app-gateway a#signin {
+  color: #21172E;
+  font-size: 15px;
+}
+
+.app-gateway a#signin-top,
+.app-gateway a#signin {
+  color: #21172E;
+}
+
+#home .app-gateway a#signin-top,
+#learnmore_container .app-gateway a#signin {
+  color: #00ff00;
+}
+
+.mobile_nav_btn { display:none; }
+
+@media all and (max-width: 1024px) {
+
+  .app-gateway {
+    display: none;
+  }
+
+  #whyswitch div.nav {
+
+  }
+
+  #pricing_nav {
+    z-index: 10;
+  }
+
+  #pricing_nav h1 {
+    background-color: white;
+  }
+
+  div.nav,
+  div.nav.primary,
+  div.nav.secondary,
+  div.nav.relative {
+    position:fixed;
+    z-index:100;
+    left:0; 
+    top:0;
+    width:100%;
+    height: 60px;
+    box-sizing:border-box;
+    padding:0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:#21172E;
+  }
+
+  div.nav.nav-pills {
+    position: relative;
+  }
+
+  div.nav h1 {
+    position:relative;
+    box-sizing:border-box;
+    padding:10px 15px;
+    background-color:#21172E;
+    margin:0;
+    height: 60px;
+    max-width: 49%;
+  }
+
+  div.nav h1 img {
+    height: 30px;
+  }
+
+  div.nav.white, div.nav.white h1 {
+    background-color:white;
+  }
+
+  div.nav nav.navbar,
+  div.nav.primary nav.navbar,
+  div.nav.secondary nav.navbar {
+    box-sizing: border-box;
+    height: 60px;
+    width: 60px;
+    -moz-transition: height 1s ease;
+    -webkit-transition: height 1s ease;
+    -o-transition: height 1s ease;
+    transition: height 1s ease;
+    padding:10px 15px;
+    background-color:#21172E;
+    overflow: hidden;
+    display: block;
+  }
+
+  div.nav.white nav.navbar {
+    background-color:white;
+    border-bottom: 0px solid #21172E;
+  }
+
+  div.nav.active nav.navbar,
+  div.nav.primary.active nav.navbar,
+  div.nav.secondary.active nav.navbar {
+    height: auto;
+    border: 1px solid #ffffff;
+    width: auto;
+    max-width: 49%;
+  }
+
+  div.nav.white.active nav.navbar {
+    border: 1px solid #21172E;
+  }
+
+  button.navbar-toggler {
+    display:block;
+    background-image: url("images/menu-icon.png");
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+  }
+  
+  #pricing ul.navbar-nav {
+    margin-left: 0;
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("/images/menu-icon.png");
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+  }
+
+
+  .mobile_nav_btn {
+      display:block;
+      z-index:99999;
+      width:30px;
+      height:60px;
+      overflow:hidden;
+      cursor: pointer;
+      position: relative;
+      margin-left: auto;
+  }
+
+    .mobile_nav_btn span {
+        display:block;
+        position:absolute;
+        width:20px;
+        height:1px;
+        -webkit-transition:border 0.25s linear;
+        border-bottom:2px solid #07ff00;
+    }
+
+    div.nav.white .mobile_nav_btn span {
+      border-color:#21172E;
+    }
+
+    #learnmore_container div.nav {
+      display: none;
+    }
+}
+
+.mobile_nav_btn #stripe_1 {
+    top:18px;
+    -webkit-transform-origin: left center;
+            transform-origin: left center;
+    -webkit-transform:rotateZ(0deg);
+            transform:rotateZ(0deg);
+    -webkit-transition:-webkit-transform 0.3s ease-out;
+            transition:transform 0.3s ease-out;
+}
+.mobile_nav_btn #stripe_2 {
+    top:25px;
+    -webkit-transition:opacity 0.3s ease-out;
+            transition:opacity 0.3s ease-out;
+}
+.mobile_nav_btn #stripe_3 {
+    top:32px;
+    -webkit-transform-origin: left center;
+            transform-origin: left center;
+    -webkit-transform:rotateZ(0deg);
+            transform:rotateZ(0deg);
+    -webkit-transition:-webkit-transform 0.3s ease-out;
+            transition:transform 0.3s ease-out;
+}
+.mobile_nav_btn.active #stripe_1 {
+    -webkit-transform:rotateZ(45deg);
+            transform:rotateZ(45deg);
+}
+.mobile_nav_btn.active #stripe_2 {
+    opacity:0;
+}
+.mobile_nav_btn.active #stripe_3 {
+    -webkit-transform:rotateZ(-45deg);
+            transform:rotateZ(-45deg);
+}
