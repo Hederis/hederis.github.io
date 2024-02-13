@@ -72,7 +72,7 @@ Hederis developed an automated conversion workflow to transform PDFs into fixed-
 Approx. $200,000 +
 per year
 
-Approx. 23,000 man-hours per year
+Approx. 2,300 man-hours per year
 
 Release ebooks +
 2 weeks faster
