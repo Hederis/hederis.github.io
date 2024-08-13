@@ -161,6 +161,53 @@ div#main > * {
 	margin-right: auto;
 }
 
+div.blogouter {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.blognav {
+	padding: 10px;
+	min-width: 300px;
+	max-width: 400px;
+}
+
+.blognav h1 {
+	text-align: left;
+	font-size: 1.1em;
+}
+
+.blognav ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+.blognav li {
+	margin-top: 15px;
+}
+
+.blognav li a {
+	text-decoration: none;
+	color: #07c896;
+}
+
+div#blogcontent {
+	text-align: left;
+	max-width: 800px;
+	min-width: 600px;
+}
+
+div#blogcontent img {
+	max-width: 100%;
+}
+
+div#blogcontent div.imageblock .title {
+	font-style: italic;
+}
+
 ul {
 	margin-left: auto;
 	margin-right: auto;
@@ -719,6 +766,22 @@ strong.icon {
 
 	div.recognition.minipoints div.cards div.paragraph {
 		margin-right: 0px;
+	}
+
+	div.blogouter {
+		flex-direction: column;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.blognav {
+		min-width: auto;
+		max-width: auto;
+	}
+
+	div#blogcontent {
+		min-width: auto;
+		max-width: auto;
 	}
 }
 
