@@ -8,8 +8,6 @@ permalink: /posts/one_person_publishing_tool/
 
 == Empowering a 1-person publishing team with an automated production toolchain
 
-We worked together to build a solution that they could start using quickly and dramatically cut down their conversion costs and time
-
 A fairly well-established tech company approached me to help them build a workflow for their book publishing department, where they publish content related to their products and the larger tech ecosystem within which they belong. Their book division was undergoing a re-launch, and the initial plan was that it would be run by a single employee with the occasional help of other editors depending on the book topic. The challenge was to create a production workflow that could be run by one person and could scale as needed if their book business grew.
 
 .(This is a Photoshop-AI-generated image with some clumsy editing — art gods, forgive me!)
