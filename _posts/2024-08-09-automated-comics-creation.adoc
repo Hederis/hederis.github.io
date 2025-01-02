@@ -31,8 +31,6 @@ image::/images/kod-requirements.png[alt="A flowchart with sections for the input
 
 == Step 2: Develop the Technical Approach
 
-[IMAGE: chart of the basic process/requirements]
-
 Once we had the requirements nailed down, I did a focussed round of file analysis. The publisher sent me samples of some of their past ebook files (created by a conversion vendor), the accompanying print PDF for each book, as well as the original InDesign files used to create that print PDF. I opened up the EPUB files and took a look at the code, with some specific questions in mind: What kind of syntax were they using in the HTML?, What metadata tags were they using?, How was the spine set up (the part of an EPUB file that dictates the flow of the book)?, etc. This created our baseline for the output from the new scripts – the minimum level of quality that we needed to meet (because the files from the scripts needed to be at least as good as the files they were getting from vendors).
 
 Based on the file analysis and deliverable requirements, I put together a technical approach. I needed to take into account 2 important variables: 
@@ -54,7 +52,7 @@ Now that I had my technical approach, I put together the full project plan. I wa
 * Phase 1: Get the core functionality working to convert EPUB and Web PDF files.
 * Phase 2: Create the wrapper scripts that the publisher’s team can run, and upload the core functionality to the serverless function; simultaneously, the publisher’s team will review and test the initial batch of converted files created during phase 1.
 * Phase 3: With the feedback from phase 2, generate polished files and functionality, ending with final script handoff and training.
-* Phase 4: Build a user interface (future deliverable), so that the publisher’s team doesn’t need to use the command line. Building the backend functionality first and getting their technical team to use it gives us a chance to debug and build handling for edge cases before we build the frontend. This saves time and money, since by the time we build the frontend, we’ll have the backend (aka our “bundle of scripts”) working solidly and will know exactly what features need to be supported.
+* Phase 4: https://www.hederis.com/posts/automation_ui/[Build a user interface] (future deliverable), so that the publisher’s team doesn’t need to use the command line. Building the backend functionality first and getting their technical team to use it gives us a chance to debug and build handling for edge cases before we build the frontend. This saves time and money, since by the time we build the frontend, we’ll have the backend (aka our “bundle of scripts”) working solidly and will know exactly what features need to be supported.
 
 image::/images/kod-phases.png[alt="A flowchart with sections for each phase of work"]
 
