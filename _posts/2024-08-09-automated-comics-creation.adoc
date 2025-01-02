@@ -31,8 +31,6 @@ image::/images/kod-requirements.png[alt="A flowchart with sections for the input
 
 == Step 2: Develop the Technical Approach
 
-[IMAGE: chart of the basic process/requirements]
-
 Once we had the requirements nailed down, I did a focussed round of file analysis. The publisher sent me samples of some of their past ebook files (created by a conversion vendor), the accompanying print PDF for each book, as well as the original InDesign files used to create that print PDF. I opened up the EPUB files and took a look at the code, with some specific questions in mind: What kind of syntax were they using in the HTML?, What metadata tags were they using?, How was the spine set up (the part of an EPUB file that dictates the flow of the book)?, etc. This created our baseline for the output from the new scripts – the minimum level of quality that we needed to meet (because the files from the scripts needed to be at least as good as the files they were getting from vendors).
 
 Based on the file analysis and deliverable requirements, I put together a technical approach. I needed to take into account 2 important variables: 
