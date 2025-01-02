@@ -52,7 +52,7 @@ Now that I had my technical approach, I put together the full project plan. I wa
 * Phase 1: Get the core functionality working to convert EPUB and Web PDF files.
 * Phase 2: Create the wrapper scripts that the publisher’s team can run, and upload the core functionality to the serverless function; simultaneously, the publisher’s team will review and test the initial batch of converted files created during phase 1.
 * Phase 3: With the feedback from phase 2, generate polished files and functionality, ending with final script handoff and training.
-* Phase 4: Build a user interface (future deliverable), so that the publisher’s team doesn’t need to use the command line. Building the backend functionality first and getting their technical team to use it gives us a chance to debug and build handling for edge cases before we build the frontend. This saves time and money, since by the time we build the frontend, we’ll have the backend (aka our “bundle of scripts”) working solidly and will know exactly what features need to be supported.
+* Phase 4: https://www.hederis.com/posts/automation_ui/[Build a user interface] (future deliverable), so that the publisher’s team doesn’t need to use the command line. Building the backend functionality first and getting their technical team to use it gives us a chance to debug and build handling for edge cases before we build the frontend. This saves time and money, since by the time we build the frontend, we’ll have the backend (aka our “bundle of scripts”) working solidly and will know exactly what features need to be supported.
 
 image::/images/kod-phases.png[alt="A flowchart with sections for each phase of work"]
 

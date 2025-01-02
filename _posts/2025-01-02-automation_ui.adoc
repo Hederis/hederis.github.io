@@ -8,7 +8,7 @@ permalink: /posts/automation_ui/
 
 == Removing Bottlenecks by Creating a User Interface for High Tech Processes
 
-Introducing automation into your publishing processes can be a powerful way to reduce costs and increase speed, but when those automation tools can only be used by technical staff, you lose some of those efficiency benefits. When I worked with a publisher last year to automate some expensive processes, we controlled costs by creating the scripts first and launching those scripts with their technical team to work out any kinks before expanding to their full staff. Now it was time to build a user interface (UI) and expand the automation tools rollout to the rest of the publisher's team.
+Introducing automation into your publishing processes can be a powerful way to reduce costs and increase speed, but when those automation tools can only be used by technical staff, you lose some of those efficiency benefits. When I worked with a publisher last year to https://www.hederis.com/posts/automated_comics_creation/[automate some expensive processes], we controlled costs by creating the scripts first and launching those scripts with the publisher's technical team to work out any kinks before expanding to their full staff. Now it was time to build a user interface (UI) and expand the automation tools rollout to the rest of the publisher's team.
 
 My task was to work with the publisher to determine how the UI should work, how it should interact with the existing automation scripts, and then build the app!
 
@@ -60,7 +60,7 @@ Originally I had planned to use AWS to host the final app and database; however,
 
 Additionally, while I had originally planned to use a PostgreSQL database, I learned that they were already using MySQL (a similar type of database) for some of their existing websites, that they already had MySQL database management plugins installed on their server, and that their management staff was already trained on how to use these plugins. It was therefore a no-brainer to use MySQL in this new app as well, and the versatility of the chosen tech stack made it easy to pivot to this new database setup.
 
-Now that I had a clear plan for the tech stack and deployment, I used the mockups to put together a develppment plan. I went through and made a spreadsheet of each feature, broken down into individual components, identified components that could be reused in multiple features, and estimated the amount of time required to develop each feature. I then used those time estimates to split the work into 2-week sprints. This gave me a clear plan of attack, and gave the client clear expectations for what completion would look like at any stage.
+Now that I had a clear plan for the tech stack and deployment, I used the mockups to put together a development plan. I went through and made a spreadsheet of each feature, broken down into individual components, identified components that could be reused in multiple features, and estimated the amount of time required to develop each feature. I then used those time estimates to split the work into 2-week sprints. This gave me a clear plan of attack, and gave the client clear expectations for what completion would look like at any stage.
 
 .A basic snippet of the development plan spreadsheet
 image::/images/kod-ui-plan.png[alt="A screenshot of a spreadsheet showing the names of different features and a corresponding time estimate"]
